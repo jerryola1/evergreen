@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+.ag-theme-quartz {
+  --ag-foreground-color: #2c3e50;
+  --ag-background-color: #ffffff;
+  --ag-header-background-color: #f8f9fa;
+  --ag-odd-row-background-color: #fdfdfd;
+  --ag-font-family: 'Roboto', 'Segoe UI', sans-serif;
+  --ag-font-size: 14px;
+  --ag-header-font-weight: 600;
+  --ag-row-height: 42px;
+  --ag-header-height: 48px;
+}
+
+.ag-theme-quartz .ag-header {
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.ag-theme-quartz .ag-row-hover {
+  background-color: #e3f2fd !important;
+}
+
+.ag-theme-quartz .ag-cell {
+  display: flex;
+  align-items: center;
+}
+
+/* Leaflet map styling */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+
+.leaflet-popup-content {
+  margin: 8px 12px;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 1200px) {
+  .ag-theme-quartz {
+    --ag-font-size: 13px;
+    --ag-row-height: 38px;
+    --ag-header-height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ag-theme-quartz {
+    --ag-font-size: 12px;
+    --ag-row-height: 36px;
+    --ag-header-height: 40px;
+  }
+  
+  /* Hide less important columns on mobile */
+  .ag-theme-quartz .ag-header-cell[aria-colindex="5"], /* Address */
+  .ag-theme-quartz .ag-cell[aria-colindex="5"] {
+    display: none !important;
+  }
+  
+  .ag-theme-quartz .ag-header-cell[aria-colindex="7"], /* Phone */
+  .ag-theme-quartz .ag-cell[aria-colindex="7"] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Hide even more columns on very small screens */
+  .ag-theme-quartz .ag-header-cell[aria-colindex="4"], /* Borough */
+  .ag-theme-quartz .ag-cell[aria-colindex="4"] {
+    display: none !important;
+  }
+  
+  .ag-theme-quartz .ag-header-cell[aria-colindex="6"], /* Postcode */
+  .ag-theme-quartz .ag-cell[aria-colindex="6"] {
+    display: none !important;
+  }
+}
+
+/* Custom scrollbar for the grid */
+.ag-theme-quartz .ag-body-viewport::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.ag-theme-quartz .ag-body-viewport::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.ag-theme-quartz .ag-body-viewport::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.ag-theme-quartz .ag-body-viewport::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Chart container responsiveness */
+.recharts-responsive-container {
+  min-height: 250px;
+}
+
+/* Ensure cards are responsive */
+@media (max-width: 600px) {
+  .MuiCard-root {
+    margin-bottom: 16px !important;
+  }
+  
+  .MuiGrid-item {
+    padding: 8px !important;
+  }
+  
+  /* Stack metrics vertically on mobile */
+  .MuiContainer-root {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+/* Autocomplete dropdown styling */
+.MuiAutocomplete-popper {
+  z-index: 1300;
+}
+
+.MuiAutocomplete-listbox {
+  max-height: 300px;
+}
+
+/* Dialog responsiveness */
+@media (max-width: 768px) {
+  .MuiDialog-paper {
+    margin: 16px;
+    width: calc(100% - 32px);
+    max-height: calc(100% - 64px);
+  }
+  
+  .MuiDialogContent-root {
+    padding: 16px;
+  }
+}
+
+/* Improve button spacing in grid cells */
+.ag-theme-quartz .ag-cell .MuiButton-root {
+  min-width: auto;
+  padding: 4px 8px;
+}
+
+/* Large screen optimizations */
+@media (min-width: 1920px) {
+  .MuiContainer-maxWidthXl {
+    max-width: 1600px;
+  }
+  
+  .ag-theme-quartz {
+    --ag-font-size: 15px;
+    --ag-row-height: 46px;
+    --ag-header-height: 52px;
+  }
+}
+
+/* Ensure proper spacing for metric cards */
+.MuiCard-root .MuiCardContent-root {
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  .MuiCard-root .MuiCardContent-root {
+    padding: 12px;
+  }
+}
+
+.error-message {
+  color: #c0392b;
+  background-color: #fbeae5;
+  border: 1px solid #e74c3c;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 50px;
+}

@@ -2,30 +2,75 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Virtual Environment
+# Virtual environments
 venv/
-.venv/
-ENV/
 env/
-venv.bak/
+ENV/
 env.bak/
+venv.bak/
 
 # Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Logs
 *.log
-data/**/*.log
+logs/
 
-# IDE / Editor specific
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build
+web/frontend/dist/
+web/frontend/build/
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Data files
+# OS
+.DS_Store
+Thumbs.db
+
+# Data extraction outputs (keep structure, ignore content)
 *.csv
+!data/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+
+# Data files
+# *.csv # Allow CSVs to be committed for Streamlit Cloud deployment
 *.json
 *.md
 

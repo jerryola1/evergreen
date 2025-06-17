@@ -1,0 +1,41 @@
+services:
+  # Backend API Service
+  - type: web
+    name: evergreen-api
+    runtime: python
+    buildCommand: "cd web/backend && pip install -r requirements.txt"
+    startCommand: "cd web/backend && uvicorn main:app --host $BACKEND_HOST --port $PORT"
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: False
+      - key: BACKEND_HOST
+        value: 0.0.0.0
+      - key: PRODUCTION_BACKEND_URL
+        value: https://evergreen-api.onrender.com
+      - key: PRODUCTION_FRONTEND_URL
+        value: https://evergreen-dashboard.onrender.com
+      - key: ALLOWED_ORIGINS
+        value: https://evergreen-dashboard.onrender.com,http://localhost:3000,http://localhost:5173
+      # Add your API keys as environment variables in Render dashboard
+      # - key: GOOGLE_PLACES_API_KEY
+      #   value: your_key_here
+      # - key: YELP_API_KEY
+      #   value: your_key_here
+
+  # Frontend Static Site
+  - type: web
+    name: evergreen-dashboard
+    runtime: static
+    buildCommand: "cd web/frontend && npm install && npm run build"
+    staticPublishPath: web/frontend/dist
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: BACKEND_URL
+        value: http://localhost:8000
+      - key: PRODUCTION_BACKEND_URL
+        value: https://evergreen-api.onrender.com
+      - key: FRONTEND_PORT
+        value: 5173 
