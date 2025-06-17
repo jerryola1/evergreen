@@ -31,3 +31,6 @@ data/**/*.log
 *.txt
 
 docs/
+
+DEPLOYMENT_GUIDE.md
+api_instructions.md
