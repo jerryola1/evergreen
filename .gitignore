@@ -28,7 +28,6 @@ data/**/*.log
 *.csv
 *.json
 *.md
-*.txt
 
 docs/
 
