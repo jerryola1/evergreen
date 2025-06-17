@@ -13,11 +13,11 @@ services:
       - key: BACKEND_HOST
         value: 0.0.0.0
       - key: PRODUCTION_BACKEND_URL
-        value: https://evergreen-api.onrender.com
+        value: https://evergreen-backend-szai.onrender.com
       - key: PRODUCTION_FRONTEND_URL
-        value: https://evergreen-dashboard.onrender.com
+        value: https://evergreen-frontend-henna.vercel.app
       - key: ALLOWED_ORIGINS
-        value: https://evergreen-dashboard.onrender.com,http://localhost:3000,http://localhost:5173
+        value: https://evergreen-frontend-henna.vercel.app,http://localhost:3000,http://localhost:5173
       # Add your API keys as environment variables in Render dashboard
       # - key: GOOGLE_PLACES_API_KEY
       #   value: your_key_here
@@ -36,6 +36,6 @@ services:
       - key: BACKEND_URL
         value: http://localhost:8000
       - key: PRODUCTION_BACKEND_URL
-        value: https://evergreen-api.onrender.com
+        value: https://evergreen-backend-szai.onrender.com
       - key: FRONTEND_PORT
         value: 5173 
