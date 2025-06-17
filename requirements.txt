@@ -6,7 +6,7 @@ python-dotenv==1.0.0
 beautifulsoup4==4.12.2
 selenium==4.15.2
 webdriver-manager==4.0.1
-lxml==5.2.2 
+lxml==5.2.2
 
 # Dashboard Libraries
 streamlit==1.35.0
@@ -16,4 +16,4 @@ streamlit-folium==0.19.0
 altair==5.3.0
 openpyxl==3.1.2
 
-# Other Libraries
+# Others
