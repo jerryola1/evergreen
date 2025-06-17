@@ -1,0 +1,56 @@
+Spice Priority,Business Name,Cuisine Type,Address,Postcode,Phone,Website,Email,Rating,Price Level,Reviews Count,Latitude,Longitude,Source
+HIGH,Ambala Foods,indian,"61, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5894089,-0.1070496,OpenStreetMap
+HIGH,Antepliler Doner,kebab,"43, Grand Parade, London, N4 4, London",N4 4,,https://antepliler.com/antepliler-doner,,,,,51.579559,-0.0989749,OpenStreetMap
+HIGH,Antepliler Restaurant,turkish,"45-46, Grand Parade, London, N4 4, London",N4 4,,,,,,,51.5793454,-0.0989408,OpenStreetMap
+HIGH,Barbers Bazaar,indian,"37, Tottenham Lane, London, N2 8, London",N2 8,+44 2083 414 425,https://barbersbazaar.com/,,,,,51.5849498,-0.1150846,OpenStreetMap
+HIGH,Bengal,indian,"153, Tottenham Lane, N4 0, London",N4 0,,,,,,,51.5821531,-0.1194417,OpenStreetMap
+HIGH,Biryani House,indian,"69, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5893648,-0.1073547,OpenStreetMap
+HIGH,Chaiiwala,indian,"N2 8, Haringey, London",N2 8,,,,,,,51.5940536,-0.1083673,OpenStreetMap
+HIGH,Cigkoftem,turkish,"417, Green Lanes, London, N4 4, London",N4 4,+44 20 8347 9203,https://cigkoftem.com,,,,,51.5784727,-0.0991429,OpenStreetMap
+HIGH,Crouch End Best Kebab,kebab,"131, Tottenham Lane, N4 0, London",N4 0,,,,,,,51.582553,-0.1184096,OpenStreetMap
+HIGH,Diamond Kebab,fast_food,"318, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5712913,-0.0960579,OpenStreetMap
+HIGH,Dinner Box,indian,"N4 0, Haringey, London",N4 0,+44 20 7281 1955,,,,,,51.5714339,-0.118161,OpenStreetMap
+HIGH,Diyarbakir,turkish,"52-53, Green Lanes, London, N4 4, London",N4 4,+44 20 8802 5498,,,,,,51.5789531,-0.0988629,OpenStreetMap
+HIGH,Diyarbakir,kebab,"69, Grand Parade, London, N4 4, London",N4 4,+44 20 8809 2777,https://diyarbakirrestaurant.co.uk,,,,,51.577881,-0.0986642,OpenStreetMap
+HIGH,Doner Daddy,kebab,"N2 8, Haringey, London",N2 8,,,,,,,51.5970586,-0.1101234,OpenStreetMap
+HIGH,Ezra's Kitchen,turkish,"N2 8, Haringey, London",N2 8,,,,,,,51.5952125,-0.1092491,OpenStreetMap
+HIGH,Galata,turkish,"361, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5765546,-0.098816,OpenStreetMap
+HIGH,Giggling Squid,thai,"107, Muswell Hill Road, London, N2 0, London",N2 0,+44 20 8194 0091,https://www.gigglingsquid.com/restaurant/muswell-hill,,,,,51.5892796,-0.146125,OpenStreetMap
+HIGH,Gozleme House,turkish,"465, Green Lanes, London, N4 4, London",N4 4,+44 20 8340 6305,,,,,,51.5799678,-0.0994342,OpenStreetMap
+HIGH,Granary Thai Cafe,thai,"169, Stroud Green Road, N4 0, London",N4 0,,,,,,,51.5702682,-0.1145975,OpenStreetMap
+HIGH,Gökyüzü,turkish,"26-28, Grand Parade, London, N4 4, London",N4 4,,https://gokyuzurestaurant.co.uk/harringay/,,,,,51.5805637,-0.0991467,OpenStreetMap
+HIGH,Hala,turkish,"29-30, Grand Parade, London, N4 4, London",N4 4,+44 20 8802 4883,https://halarestaurant.co.uk,,,,,51.5803647,-0.0991139,OpenStreetMap
+HIGH,Haringey Corbacisi,turkish,"6-7, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5828587,-0.0995871,OpenStreetMap
+HIGH,Hing Takeaway,chinese,"N2 0, Haringey, London",N2 0,,,,,,,51.5908507,-0.1553298,OpenStreetMap
+HIGH,Indian Rasoi,indian,"Fortis Green, London, N2 0, London",N2 0,+44 20 8883 9093,https://www.indian-rasoi.co.uk,,,,,51.5907922,-0.15579,OpenStreetMap
+HIGH,Jai Krishna,indian,"N4 0, Haringey, London",N4 0,,,,,,,51.5700857,-0.114262,OpenStreetMap
+HIGH,Jashan,indian,"19, Turnpike Lane, London, N2 8, London",N2 8,+44 2083 409 880,https://www.jashan.co.uk/,,,,,51.589722,-0.1052821,OpenStreetMap
+HIGH,King Kebab,kebab,"413, Green Lanes, London, N4 4, London",N4 4,+44 20 8127 6870,,,,,,51.5783826,-0.0991306,OpenStreetMap
+HIGH,Kofteci Metin,turkish,"553, Green Lanes, London, N4 4, London",N4 4,+44 7399 897233,https://koftecimetin.co.uk/,,,,,51.5826365,-0.0999153,OpenStreetMap
+HIGH,Konnichiwa,japanese,"10, High Street, London, N2 8, London",N2 8,,https://www.konnichiwa.uk/,,,,,51.5870919,-0.1211112,OpenStreetMap
+HIGH,Little Dragons,chinese,"Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5822168,-0.0994359,OpenStreetMap
+HIGH,Little Good Earth,chinese,"39, Crouch Hill, N4 0, London",N4 0,+44 20 7263 1177,http://www.littlegoodearth.co.uk,,,,,51.5714054,-0.1181061,OpenStreetMap
+HIGH,Manor Kebab,kebab,"N4 4, Haringey, London",N4 4,,,,,,,51.5710483,-0.0956479,OpenStreetMap
+HIGH,Momo's,japanese,"N2 8, Haringey, London",N2 8,,,,,,,51.5943569,-0.1080193,OpenStreetMap
+HIGH,New Capital Kebab,kebab,"2, Wellington Terrace, London, N2 8, London",N2 8,,,,,,,51.590328,-0.1040197,OpenStreetMap
+HIGH,Oita,japanese,"13-27, Station Road, London, N2 8, London",N2 8,,,,,,,51.5969824,-0.1108074,OpenStreetMap
+HIGH,Pachara Asian Grocery,chinese,"184, Stroud Green Road, London, N4 0, London",N4 0,+44 20 8347 8051,https://pachara.co.uk/,,,,,51.5704016,-0.1142302,OpenStreetMap
+HIGH,Paradise Kitchen,kebab,"15a, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5897645,-0.1051359,OpenStreetMap
+HIGH,Paramount,indian,"N2 8, Haringey, London",N2 8,,,,,,,51.598082,-0.1103695,OpenStreetMap
+HIGH,Praan Sweets,indian,"77-79, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5893196,-0.1077117,OpenStreetMap
+HIGH,Puraan,indian,"10, Turnpike Lane, London, N2 8, London",N2 8,+44 2083 747 612,https://puraan.co.uk/,,,,,51.5901557,-0.1042977,OpenStreetMap
+HIGH,Salim Spice,kebab,"15, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5897942,-0.1050074,OpenStreetMap
+HIGH,Salims Restaurant,kebab,"125, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5889132,-0.109395,OpenStreetMap
+HIGH,Sumak,turkish,"141, Tottenham Lane, London, N4 0, London",N4 0,+44 20 8341 6261,https://sumakrestaurants.com,,,,,51.582402,-0.1187674,OpenStreetMap
+HIGH,Tarshish,turkish,"High Road, London, N2 8, London",N2 8,,,,,,,51.5912806,-0.1038844,OpenStreetMap
+HIGH,Terry's Kebab House,kebab,"86, High Street, London, N2 8, London",N2 8,+44 2083 414 119,,,,,,51.5876135,-0.1171447,OpenStreetMap
+HIGH,The Thali Thal,indian,"111, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5890395,-0.1088986,OpenStreetMap
+HIGH,The Tiffin Tin,indian,"28, High Street, N2 8, London",N2 8,,,,,,,51.5873059,-0.1201819,OpenStreetMap
+HIGH,The Turkish Kebab,turkish,"N2 8, Haringey, London",N2 8,,,,,,,51.5907599,-0.1032235,OpenStreetMap
+HIGH,Umut 2000,turkish,"551, Green Lanes, London, N4 4, London",N4 4,+44 20 8340 9691,,,,,,51.582584,-0.0999076,OpenStreetMap
+HIGH,Viet Ngon,vietnamese,"145, Stroud Green Road, N4 0, London",N4 0,+44 20 7281 5095,,,,,,51.5697731,-0.1135191,OpenStreetMap
+HIGH,Weston Park Cafe,french;moroccan;pastry,"85, Weston Park, London, N4 0, London",N4 0,,,,,,,51.5804472,-0.1156454,OpenStreetMap
+HIGH,Yak & Yeti,indian,"143, Stroud Green Road, N4 0, London",N4 0,,https://finsburypark.yakandyeti.co.uk/,,,,,51.5697304,-0.1134359,OpenStreetMap
+HIGH,ZappZaa Thai Cafe,thai,"82, High Street, London, N2 8, London",N2 8,+44 2083 410 506,https://www.zappzaa.com,,,,,51.5876101,-0.117296,OpenStreetMap
+HIGH,Zeera Indian Takeaway,indian,"123, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5889317,-0.1093222,OpenStreetMap
+HIGH,bund,asian,"Fortis Green, London, N2 0, London",N2 0,+44 20 8365 2643,https://bundrestaurant.co.uk,,,,,51.5908797,-0.1537565,OpenStreetMap
