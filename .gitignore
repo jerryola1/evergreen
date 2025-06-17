@@ -1,0 +1,11 @@
+# Data files
+*.csv
+*.json
+*.log
+*.md
+*.txt
+
+venv/
+docs/
+
+.env
