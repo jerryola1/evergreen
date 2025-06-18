@@ -144,6 +144,10 @@ function App() {
       try {
         // Use environment-specific API URL
         const apiUrl = __ENVIRONMENT__ === 'production' ? __PRODUCTION_BACKEND_URL__ : __BACKEND_URL__;
+        console.log('Environment:', __ENVIRONMENT__);
+        console.log('Backend URL:', __BACKEND_URL__);
+        console.log('Production Backend URL:', __PRODUCTION_BACKEND_URL__);
+        console.log('Using API URL:', apiUrl);
         const response = await axios.get(`${apiUrl}/api/businesses`);
         setAllData(response.data);
         setFilteredData(response.data);
