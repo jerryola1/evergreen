@@ -1,12 +1,13 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
+from pydantic import BaseModel
 import logging
 import os
 from dotenv import load_dotenv
 from pathlib import Path
 
-from data_loader import load_and_clean_data
+from data_loader import load_and_clean_data, update_contact_status
 
 # Load environment variables from root directory
 env_path = Path(__file__).parent.parent.parent / '.env'
@@ -21,6 +22,11 @@ app = FastAPI(
     description="Provides access to cleaned and deduplicated business leads.",
     version="1.0.0",
 )
+
+# Pydantic models
+class ContactUpdate(BaseModel):
+    contacted: bool
+    contact_notes: Optional[str] = None
 
 # CORS (Cross-Origin Resource Sharing) - get from environment
 allowed_origins_str = os.getenv('ALLOWED_ORIGINS', 'http://localhost:3000,http://localhost:5173,http://127.0.0.1:5173')
@@ -109,4 +115,37 @@ def health_check():
         "data_loaded": len(business_data_cache) > 0,
         "business_count": len(business_data_cache),
         "allowed_origins": allowed_origins
-    } 
+    }
+
+@app.put("/api/businesses/{business_name}/contact",
+         summary="Update Contact Status",
+         description="Updates the contact status for a specific business.",
+         tags=["Businesses"])
+def update_business_contact(business_name: str, contact_update: ContactUpdate):
+    """
+    Update contact information for a specific business.
+    """
+    try:
+        success = update_contact_status(
+            business_name=business_name,
+            contacted=contact_update.contacted,
+            contact_notes=contact_update.contact_notes
+        )
+        
+        if not success:
+            raise HTTPException(status_code=404, detail="Business not found")
+        
+        # Reload cache after update
+        global business_data_cache
+        business_data_cache = load_and_clean_data()
+        logger.info(f"Cache reloaded: {len(business_data_cache)} businesses")
+        
+        return {
+            "status": "success",
+            "message": f"Contact status updated for {business_name}",
+            "contacted": contact_update.contacted,
+            "contact_notes": contact_update.contact_notes
+        }
+    except Exception as e:
+        logger.error(f"Error updating contact status: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Failed to update contact status: {str(e)}") 

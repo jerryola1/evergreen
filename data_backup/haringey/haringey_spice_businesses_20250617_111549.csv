@@ -1,0 +1,313 @@
+Spice Priority,Business Name,Cuisine Type,Address,Postcode,Phone,Website,Email,Rating,Price Level,Reviews Count,Latitude,Longitude,Source
+HIGH,Ambala Foods,indian,"61, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5894089,-0.1070496,OpenStreetMap
+HIGH,Antepliler Doner,kebab,"43, Grand Parade, London, N4 4, London",N4 4,,https://antepliler.com/antepliler-doner,,,,,51.579559,-0.0989749,OpenStreetMap
+HIGH,Antepliler Restaurant,turkish,"45-46, Grand Parade, London, N4 4, London",N4 4,,,,,,,51.5793454,-0.0989408,OpenStreetMap
+HIGH,Barbers Bazaar,indian,"37, Tottenham Lane, London, N2 8, London",N2 8,+44 2083 414 425,https://barbersbazaar.com/,,,,,51.5849498,-0.1150846,OpenStreetMap
+HIGH,Bengal,indian,"153, Tottenham Lane, N4 0, London",N4 0,,,,,,,51.5821531,-0.1194417,OpenStreetMap
+HIGH,Biryani House,indian,"69, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5893648,-0.1073547,OpenStreetMap
+HIGH,Chaiiwala,indian,"N2 8, Haringey, London",N2 8,,,,,,,51.5940536,-0.1083673,OpenStreetMap
+HIGH,Cigkoftem,turkish,"417, Green Lanes, London, N4 4, London",N4 4,+44 20 8347 9203,https://cigkoftem.com,,,,,51.5784727,-0.0991429,OpenStreetMap
+HIGH,Crouch End Best Kebab,kebab,"131, Tottenham Lane, N4 0, London",N4 0,,,,,,,51.582553,-0.1184096,OpenStreetMap
+HIGH,Diamond Kebab,fast_food,"318, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5712913,-0.0960579,OpenStreetMap
+HIGH,Dinner Box,indian,"N4 0, Haringey, London",N4 0,+44 20 7281 1955,,,,,,51.5714339,-0.118161,OpenStreetMap
+HIGH,Diyarbakir,turkish,"52-53, Green Lanes, London, N4 4, London",N4 4,+44 20 8802 5498,,,,,,51.5789531,-0.0988629,OpenStreetMap
+HIGH,Diyarbakir,kebab,"69, Grand Parade, London, N4 4, London",N4 4,+44 20 8809 2777,https://diyarbakirrestaurant.co.uk,,,,,51.577881,-0.0986642,OpenStreetMap
+HIGH,Doner Daddy,kebab,"N2 8, Haringey, London",N2 8,,,,,,,51.5970586,-0.1101234,OpenStreetMap
+HIGH,Ezra's Kitchen,turkish,"N2 8, Haringey, London",N2 8,,,,,,,51.5952125,-0.1092491,OpenStreetMap
+HIGH,Galata,turkish,"361, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5765546,-0.098816,OpenStreetMap
+HIGH,Giggling Squid,thai,"107, Muswell Hill Road, London, N2 0, London",N2 0,+44 20 8194 0091,https://www.gigglingsquid.com/restaurant/muswell-hill,,,,,51.5892796,-0.146125,OpenStreetMap
+HIGH,Gozleme House,turkish,"465, Green Lanes, London, N4 4, London",N4 4,+44 20 8340 6305,,,,,,51.5799678,-0.0994342,OpenStreetMap
+HIGH,Granary Thai Cafe,thai,"169, Stroud Green Road, N4 0, London",N4 0,,,,,,,51.5702682,-0.1145975,OpenStreetMap
+HIGH,Gökyüzü,turkish,"26-28, Grand Parade, London, N4 4, London",N4 4,,https://gokyuzurestaurant.co.uk/harringay/,,,,,51.5805637,-0.0991467,OpenStreetMap
+HIGH,Hala,turkish,"29-30, Grand Parade, London, N4 4, London",N4 4,+44 20 8802 4883,https://halarestaurant.co.uk,,,,,51.5803647,-0.0991139,OpenStreetMap
+HIGH,Haringey Corbacisi,turkish,"6-7, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5828587,-0.0995871,OpenStreetMap
+HIGH,Hing Takeaway,chinese,"N2 0, Haringey, London",N2 0,,,,,,,51.5908507,-0.1553298,OpenStreetMap
+HIGH,Indian Rasoi,indian,"Fortis Green, London, N2 0, London",N2 0,+44 20 8883 9093,https://www.indian-rasoi.co.uk,,,,,51.5907922,-0.15579,OpenStreetMap
+HIGH,Jai Krishna,indian,"N4 0, Haringey, London",N4 0,,,,,,,51.5700857,-0.114262,OpenStreetMap
+HIGH,Jashan,indian,"19, Turnpike Lane, London, N2 8, London",N2 8,+44 2083 409 880,https://www.jashan.co.uk/,,,,,51.589722,-0.1052821,OpenStreetMap
+HIGH,King Kebab,kebab,"413, Green Lanes, London, N4 4, London",N4 4,+44 20 8127 6870,,,,,,51.5783826,-0.0991306,OpenStreetMap
+HIGH,Kofteci Metin,turkish,"553, Green Lanes, London, N4 4, London",N4 4,+44 7399 897233,https://koftecimetin.co.uk/,,,,,51.5826365,-0.0999153,OpenStreetMap
+HIGH,Konnichiwa,japanese,"10, High Street, London, N2 8, London",N2 8,,https://www.konnichiwa.uk/,,,,,51.5870919,-0.1211112,OpenStreetMap
+HIGH,Little Dragons,chinese,"Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5822168,-0.0994359,OpenStreetMap
+HIGH,Little Good Earth,chinese,"39, Crouch Hill, N4 0, London",N4 0,+44 20 7263 1177,http://www.littlegoodearth.co.uk,,,,,51.5714054,-0.1181061,OpenStreetMap
+HIGH,Manor Kebab,kebab,"N4 4, Haringey, London",N4 4,,,,,,,51.5710483,-0.0956479,OpenStreetMap
+HIGH,Momo's,japanese,"N2 8, Haringey, London",N2 8,,,,,,,51.5943569,-0.1080193,OpenStreetMap
+HIGH,New Capital Kebab,kebab,"2, Wellington Terrace, London, N2 8, London",N2 8,,,,,,,51.590328,-0.1040197,OpenStreetMap
+HIGH,Oita,japanese,"13-27, Station Road, London, N2 8, London",N2 8,,,,,,,51.5969824,-0.1108074,OpenStreetMap
+HIGH,Pachara Asian Grocery,chinese,"184, Stroud Green Road, London, N4 0, London",N4 0,+44 20 8347 8051,https://pachara.co.uk/,,,,,51.5704016,-0.1142302,OpenStreetMap
+HIGH,Paradise Kitchen,kebab,"15a, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5897645,-0.1051359,OpenStreetMap
+HIGH,Paramount,indian,"N2 8, Haringey, London",N2 8,,,,,,,51.598082,-0.1103695,OpenStreetMap
+HIGH,Praan Sweets,indian,"77-79, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5893196,-0.1077117,OpenStreetMap
+HIGH,Puraan,indian,"10, Turnpike Lane, London, N2 8, London",N2 8,+44 2083 747 612,https://puraan.co.uk/,,,,,51.5901557,-0.1042977,OpenStreetMap
+HIGH,Salim Spice,kebab,"15, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5897942,-0.1050074,OpenStreetMap
+HIGH,Salims Restaurant,kebab,"125, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5889132,-0.109395,OpenStreetMap
+HIGH,Sumak,turkish,"141, Tottenham Lane, London, N4 0, London",N4 0,+44 20 8341 6261,https://sumakrestaurants.com,,,,,51.582402,-0.1187674,OpenStreetMap
+HIGH,Tarshish,turkish,"High Road, London, N2 8, London",N2 8,,,,,,,51.5912806,-0.1038844,OpenStreetMap
+HIGH,Terry's Kebab House,kebab,"86, High Street, London, N2 8, London",N2 8,+44 2083 414 119,,,,,,51.5876135,-0.1171447,OpenStreetMap
+HIGH,The Thali Thal,indian,"111, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5890395,-0.1088986,OpenStreetMap
+HIGH,The Tiffin Tin,indian,"28, High Street, N2 8, London",N2 8,,,,,,,51.5873059,-0.1201819,OpenStreetMap
+HIGH,The Turkish Kebab,turkish,"N2 8, Haringey, London",N2 8,,,,,,,51.5907599,-0.1032235,OpenStreetMap
+HIGH,Umut 2000,turkish,"551, Green Lanes, London, N4 4, London",N4 4,+44 20 8340 9691,,,,,,51.582584,-0.0999076,OpenStreetMap
+HIGH,Viet Ngon,vietnamese,"145, Stroud Green Road, N4 0, London",N4 0,+44 20 7281 5095,,,,,,51.5697731,-0.1135191,OpenStreetMap
+HIGH,Weston Park Cafe,french;moroccan;pastry,"85, Weston Park, London, N4 0, London",N4 0,,,,,,,51.5804472,-0.1156454,OpenStreetMap
+HIGH,Yak & Yeti,indian,"143, Stroud Green Road, N4 0, London",N4 0,,https://finsburypark.yakandyeti.co.uk/,,,,,51.5697304,-0.1134359,OpenStreetMap
+HIGH,ZappZaa Thai Cafe,thai,"82, High Street, London, N2 8, London",N2 8,+44 2083 410 506,https://www.zappzaa.com,,,,,51.5876101,-0.117296,OpenStreetMap
+HIGH,Zeera Indian Takeaway,indian,"123, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5889317,-0.1093222,OpenStreetMap
+HIGH,bund,asian,"Fortis Green, London, N2 0, London",N2 0,+44 20 8365 2643,https://bundrestaurant.co.uk,,,,,51.5908797,-0.1537565,OpenStreetMap
+MEDIUM,1to3,coffee_shop,"1-3, Tottenham Lane, London, N2 8, London",N2 8,,,,,,,51.5865841,-0.1120948,OpenStreetMap
+MEDIUM,Abraco,cafe,"60-61, Grand Parade, London, N4 4, London",N4 4,,https://www.abracocafe.co.uk/,,,,,51.578544,-0.0987808,OpenStreetMap
+MEDIUM,All Star Food & Wine,convenience,"459, Green Lanes, London, N4 4, London",N4 4,+44 20 8374 3940,,,,,,51.5798022,-0.0994026,OpenStreetMap
+MEDIUM,Amici Miei2Go,pizza,"7, Fortis Green Road, London, N2 0, London",N2 0,+44 20 8883 8755,https://amicimiei2go.co.uk,,,,,51.5898815,-0.1462625,OpenStreetMap
+MEDIUM,Asi Bistro,restaurant,"71, Grand Parade, London, N4 4, London",N4 4,+44 20 8809 2777,https://asibistrocafe.co.uk/,,,,,51.5777775,-0.0986475,OpenStreetMap
+MEDIUM,Avenue 97,pizza,"1, Wellington Terrace, London, N2 8, London",N2 8,,,,,,,51.5903456,-0.1039671,OpenStreetMap
+MEDIUM,Awesome Chips,chips,"N2 8, Haringey, London",N2 8,,,,,,,51.594681,-0.109037,OpenStreetMap
+MEDIUM,Best 2,fast_food,"N4 0, Haringey, London",N4 0,,,,,,,51.5825927,-0.1182826,OpenStreetMap
+MEDIUM,Bianca Pizzeria,italian;pizza,"419, Green Lanes, London, N4 4, London",N4 4,+44 20 8340 5296,,,,,,51.5785222,-0.0991526,OpenStreetMap
+MEDIUM,Brabant Food Express,convenience,"N2 8, Haringey, London",N2 8,,,,,,,51.5973463,-0.1091514,OpenStreetMap
+MEDIUM,Brasserie Transylvania,restaurant,"353, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5761853,-0.0987283,OpenStreetMap
+MEDIUM,Brekky & Brunch,cafe,"157, Tottenham Lane, N4 0, London",N4 0,,,,,,,51.5820973,-0.119602,OpenStreetMap
+MEDIUM,Brown Eagle,caribbean,"N2 8, Haringey, London",N2 8,,,,,,,51.5986555,-0.110668,OpenStreetMap
+MEDIUM,But First Coffee,coffee_shop,"43, Quernmore Road, London, N4 0, London",N4 0,,,,,,,51.5775516,-0.10623,OpenStreetMap
+MEDIUM,Cafe Corso,sandwich,"1, Ringslade Road, London, N2 8, London",N2 8,,,,,,,51.5975298,-0.1136692,OpenStreetMap
+MEDIUM,Caffeinate,cafe,"140, Crouch Hill, N4 0, London",N4 0,,,,,,,51.5779843,-0.1235183,OpenStreetMap
+MEDIUM,Capital Restaurants,restaurant,"N2 8, Haringey, London",N2 8,,,,,,,51.5956336,-0.1092311,OpenStreetMap
+MEDIUM,Charlie's,cafe,"N2 8, Haringey, London",N2 8,,,,,,,51.5947473,-0.1091144,OpenStreetMap
+MEDIUM,Chef's Delight,cafe,"High Road, London, N2 8, London",N2 8,,,,,,,51.5909601,-0.1042052,OpenStreetMap
+MEDIUM,Chicken & Pizza,pizza;chicken,"13, High Street, London, N2 8, London",N2 8,,,,,,,51.5877672,-0.1186629,OpenStreetMap
+MEDIUM,Chickenways Peri Peri,chicken,"527C, Green Lanes, London, N4 4, London",N4 4,+44 20 8351 4908,,,,,,51.5819924,-0.0998103,OpenStreetMap
+MEDIUM,Chicos,chicken,"679, Green Lanes, London, N2 8, London",N2 8,,,,,,,51.5903664,-0.1038877,OpenStreetMap
+MEDIUM,Chopstix,noodle,"High Road, London, N2 8, London",N2 8,,,,,,,51.5933938,-0.1074332,OpenStreetMap
+MEDIUM,Chriskitch,cafe,"7A, Tetherdown, London, N2 0, London",N2 0,,,,,,,51.592165,-0.1496825,OpenStreetMap
+MEDIUM,Ciabo Food,coffee_shop,"40, Quernmore Road, London, N4 0, London",N4 0,+44 2083 401708,https://ciabofood.co.uk/,,,,,51.5773419,-0.1061693,OpenStreetMap
+MEDIUM,Cleopatra Shisha Lounge,cafe,"21, Turnpike Lane, London, N2 8, London",N2 8,,https://cleopatra-shisha-lounge.business.site/,,,,,51.5897101,-0.1053423,OpenStreetMap
+MEDIUM,Cloud7,coffee_shop,"40a, Tottenham Lane, London, N2 8, London",N2 8,,,,,,,51.5865912,-0.1124163,OpenStreetMap
+MEDIUM,Co-op Food,supermarket,"Green Lanes, London, N4 4, London",N4 4,+44 20 8802 8774,https://www.coop.co.uk/store-finder/N4-2LX/green-lanes,,,,,51.5702582,-0.095911,OpenStreetMap
+MEDIUM,Cobbs Bakery,sandwich,"3, High Street, London, N2 8, London",N2 8,,,,,,,51.5877097,-0.1189855,OpenStreetMap
+MEDIUM,Coffee Circus,coffee_shop,"136, Crouch Hill, N4 0, London",N4 0,,http://www.coffeecircus.co.uk/,,,,,51.5779032,-0.1234697,OpenStreetMap
+MEDIUM,Cornelius Restaurant,romanian,"N2 8, Haringey, London",N2 8,,,,,,,51.5883919,-0.1148581,OpenStreetMap
+MEDIUM,Costa,coffee_shop,"679, Green Lanes, London, N2 8, London",N2 8,,,,,,,51.590466,-0.1037287,OpenStreetMap
+MEDIUM,Costa,coffee_shop,"High Road, London, N2 8, London",N2 8,,,,,,,51.5937504,-0.1081908,OpenStreetMap
+MEDIUM,Costa,coffee_shop,"N4 4, Haringey, London",N4 4,,,,,,,51.5765301,-0.0976654,OpenStreetMap
+MEDIUM,Costa,coffee_shop,"421, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5785697,-0.09916,OpenStreetMap
+MEDIUM,Crepe Station,fast_food,"N2 8, Haringey, London",N2 8,,,,,,,51.5906974,-0.1032356,OpenStreetMap
+MEDIUM,Devran Kitchen,restaurant,"485-487, Green Lanes, Harringay, London, N4 4, London",N4 4,+44 20 8347 7249,https://devrankitchen.co.uk,,,,,51.5806191,-0.0995653,OpenStreetMap
+MEDIUM,Dilekkaya Food Market,convenience,"382, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.574922,-0.0980098,OpenStreetMap
+MEDIUM,Dixy,chicken,"N2 8, Haringey, London",N2 8,,,,,,,51.5975416,-0.1100237,OpenStreetMap
+MEDIUM,Dobar,cafe,"324, Green Lanes, London, N4 4, London",N4 4,+44 20 7686 3257,https://dobar.co.uk,,,,,51.5714342,-0.0961337,OpenStreetMap
+MEDIUM,Domino's,pizza,"N2 0, Haringey, London",N2 0,,,,,,,51.589609,-0.1637662,OpenStreetMap
+MEDIUM,Domino's,pizza,"151, Tottenham Lane, London, N4 0, London",N4 0,,,,,,,51.5821737,-0.1193747,OpenStreetMap
+MEDIUM,Doppio Coffee,coffee_shop,"56, Fortis Green Road, London, N2 0, London",N2 0,,,,,,,51.5901341,-0.1459821,OpenStreetMap
+MEDIUM,Double Apple Kitchen,cafe,"37, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.589589,-0.1059578,OpenStreetMap
+MEDIUM,Dusty Knuckle Bakery,restaurant,"429, Green Lanes, London, N4 4, London",N4 4,+44 7759 840150,https://www.thedustyknuckle.com/harringay,,,,,51.5788729,-0.0992191,OpenStreetMap
+MEDIUM,El's Olive Cafe,cafe,"12, High Street, London, N2 8, London",N2 8,,,,,,,51.58711,-0.121031,OpenStreetMap
+MEDIUM,Emba Soira,eritrean,"10, Crouch Hill, London, N4 0, London",N4 0,,,,,,,51.5708365,-0.1157242,OpenStreetMap
+MEDIUM,Emy's Kitchen,cafe,"21, Crouch Hill, London, N4 0, London",N4 0,,,,,,,51.5706971,-0.1165449,OpenStreetMap
+MEDIUM,Fasil Meyhan,tapas;bolivian;peruvian;cuban;spanish,"14, High Street, London, N2 8, London",N2 8,,,,,,,51.587127,-0.120958,OpenStreetMap
+MEDIUM,Fasta,pasta,"82, Fortis Green Road, London, N2 0, London",N2 0,+44 20 8154 5593,https://www.fasta.co.uk,,,,,51.5902684,-0.1462781,OpenStreetMap
+MEDIUM,Finsbury Breakfast,cafe,"194, Stroud Green Road, N4 0, London",N4 0,,,,,,,51.5705589,-0.1145325,OpenStreetMap
+MEDIUM,Finsbury Park Cafe,coffee_shop,"Endymion Road, London, N4 4, London",N4 4,,https://www.finsburyparkcafe.co.uk/,,,,,51.570018,-0.1034404,OpenStreetMap
+MEDIUM,Finsbury Park Cafe,coffee_shop,"Endymion Road, London, N4 4, London",N4 4,,,,,,,51.5701492,-0.1036468,OpenStreetMap
+MEDIUM,Firezza,pizza,"10, Ferme Park Road, London, N4 0, London",N4 0,+44 20 8341 0099,https://www.firezza.com/,,,,,51.5740924,-0.112427,OpenStreetMap
+MEDIUM,Five Guys,burger,"N2 8, Haringey, London",N2 8,,https://restaurants.fiveguys.co.uk/greater-london/unit-12,,,,,51.5946692,-0.1085206,OpenStreetMap
+MEDIUM,Flame n Taste,fast_food,"N4 0, Haringey, London",N4 0,,,,,,,51.5706432,-0.116114,OpenStreetMap
+MEDIUM,Food Hall,convenience,"22-24, Turnpike Lane, London, N2 8, London",N2 8,+44 2088 892 264,,,,,,51.5900614,-0.1049941,OpenStreetMap
+MEDIUM,Froth & Mallow,coffee_shop,"2A, Mary Neuner Road, London, N2 8, London",N2 8,,https://frothandmallow.co.uk/,,,,,51.5921005,-0.1130437,OpenStreetMap
+MEDIUM,Fryer's Delight,fish_and_chips,"N2 8, Haringey, London",N2 8,,,,,,,51.5973377,-0.1092322,OpenStreetMap
+MEDIUM,GAIL's,cafe,"70, Fortis Green Road, London, N2 0, London",N2 0,,https://gails.com/pages/muswell-hill,,,,,51.5902012,-0.1461301,OpenStreetMap
+MEDIUM,George's Fish Bar,fish_and_chips,"444, St Ann's Road, London, N4 4, London",N4 4,+44 20 8802 1792,,,,,,51.582468,-0.0988336,OpenStreetMap
+MEDIUM,Get In Food Market,convenience,"N2 8, Haringey, London",N2 8,,,,,,,51.5907493,-0.1026412,OpenStreetMap
+MEDIUM,Gogan Burgers,burger,"2, Campsbourne Parade, London, N2 8, London",N2 8,,,,,,,51.587624,-0.1196058,OpenStreetMap
+MEDIUM,GoodsOffice,restaurant,"N4 0, Haringey, London",N4 0,,,,,,,51.5736243,-0.1124945,OpenStreetMap
+MEDIUM,Green Garden Cafe,cafe,"36, High Street, London, N2 8, London",N2 8,+44 2083 401 918,https://green-garden-cafe.edan.io,,,,,51.5873568,-0.1198847,OpenStreetMap
+MEDIUM,Greens Food,convenience,"74-75, Grand Parade, London, N4 4, London",N4 4,,,,,,,51.5775669,-0.0986056,OpenStreetMap
+MEDIUM,Greggs,sandwich;bakery,"High Road, London, N2 8, London",N2 8,,,,,,,51.5913349,-0.104577,OpenStreetMap
+MEDIUM,Greggs,sandwich;bakery,"N4 4, Haringey, London",N4 4,,https://www.greggs.com/shops/harringay/u4a-arena-shopping-park/5733,,,,,51.5762291,-0.0976289,OpenStreetMap
+MEDIUM,Grill 51,burger,"51, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5895053,-0.1064889,OpenStreetMap
+MEDIUM,Hanedan,restaurant,"5-6, Grand Parade, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5818758,-0.0994241,OpenStreetMap
+MEDIUM,Harringay Food Centre,supermarket,"450, St Ann's Road, London, N4 4, London",N4 4,,,,,,,51.5825092,-0.099084,OpenStreetMap
+MEDIUM,Harvest Cafe,cafe,"N2 8, Haringey, London",N2 8,,,,,,,51.5908128,-0.1024554,OpenStreetMap
+MEDIUM,Il Bibo's,italian,"High Road, London, N2 8, London",N2 8,,,,,,,51.5929189,-0.1061893,OpenStreetMap
+MEDIUM,Il Picolo Diavolo,italian,"147, Stroud Green Road, N4 0, London",N4 0,,https://www.ilpiccolodiavolo.co.uk/,,,,,51.5698146,-0.1136177,OpenStreetMap
+MEDIUM,Islands,sandwich;british,"104, High Street, London, N2 8, London",N2 8,+44 7931 038 003,,,,,,51.5876487,-0.116173,OpenStreetMap
+MEDIUM,Ivie & Co.,restaurant,"125, Tottenham Lane, N4 0, London",N4 0,,,,,,,51.5826259,-0.1182159,OpenStreetMap
+MEDIUM,JI,chicken,"High Road, London, N2 8, London",N2 8,,,,,,,51.5931518,-0.1065568,OpenStreetMap
+MEDIUM,KFC,chicken,"208, High Road, London, N2 8, London",N2 8,,,,,,,51.5978974,-0.1102464,OpenStreetMap
+MEDIUM,KFC,chicken,"399, Green Lanes, London, N4 4, London",N4 4,+44 20 3601 9488,https://kfc.co.uk,,,,,51.577857,-0.0990383,OpenStreetMap
+MEDIUM,Kabana,afghan,"17, High Street, London, N2 8, London",N2 8,,,,,,,51.587838,-0.118205,OpenStreetMap
+MEDIUM,Karamel,mediterranean;international,"4, Coburg Road, N2 8, London",N2 8,,,,,,,51.5944758,-0.1124687,OpenStreetMap
+MEDIUM,Kervan,restaurant,"N2 8, Haringey, London",N2 8,,,,,,,51.5950892,-0.1091686,OpenStreetMap
+MEDIUM,Kofteci Metin @ Oasis,restaurant,"388, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5750738,-0.0980796,OpenStreetMap
+MEDIUM,La Cucina,pizza,"22, High Street, London, N2 8, London",N2 8,,,,,,,51.5872014,-0.1206337,OpenStreetMap
+MEDIUM,La Dinette,cafe,"3-5, Fortis Green Road, London, N2 0, London",N2 0,,https://www.ladinette.co.uk,,,,,51.5898689,-0.1461746,OpenStreetMap
+MEDIUM,La Gioconda,italian,"59, High Street, London, N2 8, London",N2 8,+44 2083 475 777,https://www.lagioconda.co.uk,,,,,51.5879569,-0.1166271,OpenStreetMap
+MEDIUM,La Roata,romanian,"30, High Street, London, N2 8, London",N2 8,,,,,,,51.587322,-0.1201095,OpenStreetMap
+MEDIUM,La Viña,spanish,"3, Wightman Road, London, N4 0, London",N4 0,+44 20 8340 5400,,,,,,51.5778051,-0.1043561,OpenStreetMap
+MEDIUM,Le Chamarel,mauritian,"27, Turnpike Lane, London, N2 8, London",N2 8,,https://www.lechamarel.co.uk/,,,,,51.5896604,-0.105547,OpenStreetMap
+MEDIUM,Le Petit Cafe N8,cafe,"278A, Wightman Road, London, N2 8, London",N2 8,,,,,,,51.5868851,-0.1083323,OpenStreetMap
+MEDIUM,Les 2 Garcons,french,"N4 0, Haringey, London",N4 0,,,,,,,51.5772998,-0.1233899,OpenStreetMap
+MEDIUM,Lucia,cafe,"N2 8, Haringey, London",N2 8,,,,,,,51.5960627,-0.1088857,OpenStreetMap
+MEDIUM,Luka Caffe,cafe,"1, High Street, London, N2 8, London",N2 8,,https://www.caffeluka.co.uk,,,,,51.5876972,-0.1190559,OpenStreetMap
+MEDIUM,Lunablu,pizza,"176-178, Fortis Green Road, London, N2 0, London",N2 0,,https://www.lunablupizzeria.co.uk/muswellhill,,,,,51.5910213,-0.1479236,OpenStreetMap
+MEDIUM,Lydia Brasserie,cafe,"N4 0, Haringey, London",N4 0,,,,,,,51.5776144,-0.1231437,OpenStreetMap
+MEDIUM,Manor Chicken,chicken,"277a, Seven Sisters Road, London, N4 4, London",N4 4,,,,,,,51.5711,-0.0954777,OpenStreetMap
+MEDIUM,Manor Food,convenience,"320, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.571338,-0.0960849,OpenStreetMap
+MEDIUM,Max's Sandwhich Shop,sandwich,"19, Crouch Hill, London, N4 0, London",N4 0,0207 263 8759,,,,,,51.5706886,-0.1164631,OpenStreetMap
+MEDIUM,McDonald's,burger,"High Road, London, N2 8, London",N2 8,+44 20 8888 1120,,,,,,51.5929728,-0.1068298,OpenStreetMap
+MEDIUM,McDonald's,burger,"180, High Road, London, N2 8, London",N2 8,+44 20 8881 2138,https://www.mcdonalds.com/gb/en-gb/location/wood-green/wood-green---spouters-corner/unit-3-hollywood-green/8261067.html,,,,,51.5968262,-0.1089379,OpenStreetMap
+MEDIUM,McDonald's,burger,"Williamson Road, London, N4 4, London",N4 4,+44 20 8880 2665,,,,,,51.5768647,-0.09806,OpenStreetMap
+MEDIUM,Metros Chicken,fried_chicken,"102, High Street, London, N2 8, London",N2 8,,,,,,,51.5876465,-0.1162521,OpenStreetMap
+MEDIUM,Mitchelle’s Goodies & More,crepe,"21, High Street, London, N2 8, London",N2 8,,,,,,,51.5878525,-0.1180259,OpenStreetMap
+MEDIUM,Moonlounge,mediterranean;burger;pasta,"34, High Street, London, N2 8, London",N2 8,+44 7467 542 057,https://moonlounge.uk,,,,,51.5873437,-0.1199754,OpenStreetMap
+MEDIUM,Morrisons Cafe,coffee_shop,"High Road, London, N2 8, London",N2 8,,https://my.morrisons.com/storefinder/313/wood-green,,,,,51.5966593,-0.1098393,OpenStreetMap
+MEDIUM,Mum's Whole Food,convenience,"435, Green Lanes, London, N4 4, London",N4 4,+44 7542 144 606,https://www.mumswholefood.co.uk/,,,,,51.5790578,-0.0992627,OpenStreetMap
+MEDIUM,Music & Beans,cafe,"461, Green Lanes, London, N4 4, London",N4 4,+44 20 8352 2087,https://haringey.musicandbeans.co.uk,,,,,51.5798571,-0.0994161,OpenStreetMap
+MEDIUM,Mykonos Gyros,restaurant,"559, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5829074,-0.0999686,OpenStreetMap
+MEDIUM,N4 Cafe,fast_food,"351, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5761356,-0.0987205,OpenStreetMap
+MEDIUM,Nando's,chicken;portuguese,"180, High Road, London, N2 8, London",N2 8,+44208 889 2936,https://www.nandos.co.uk/restaurants/wood-green,,,,,51.5970124,-0.1087706,OpenStreetMap
+MEDIUM,Napoli,pizza,"12, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5901398,-0.1043694,OpenStreetMap
+MEDIUM,Nest Café,cafe,"N2 8, Haringey, London",N2 8,,,,,,,51.5979425,-0.1102767,OpenStreetMap
+MEDIUM,Oak and Bean,coffee_shop,"25, High Street, London, N2 8, London",N2 8,,,,,,,51.5878767,-0.1177741,OpenStreetMap
+MEDIUM,Olive Brunch,cafe,"1, Turnpike Parade, London, N2 8, London",N2 8,,,,,,,51.5902247,-0.1028303,OpenStreetMap
+MEDIUM,One Love Kitchen,caribbean,"9, Crouch Hill, London, N4 0, London",N4 0,,https://www.onelove-kitchen.co.uk,,,,,51.570631,-0.1160314,OpenStreetMap
+MEDIUM,Orange Coffee Shop,coffee_shop,"82-84, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5895083,-0.1079876,OpenStreetMap
+MEDIUM,Ousia,greek,"162, Fortis Green Road, London, N2 0, London",N2 0,,,,,,,51.5909226,-0.1477102,OpenStreetMap
+MEDIUM,PLANB,cafe,"38, Crouch Hill, London, N4 0, London",N4 0,+44 20 7916 7007,https://planb.london/,,,,,51.5711679,-0.116883,OpenStreetMap
+MEDIUM,Pappagone,italian,"131, Stroud Green Road, N4 0, London",N4 0,+44 20 7263 2114,http://www.pizzeriapappagone.co.uk,,,,,51.5694564,-0.1128017,OpenStreetMap
+MEDIUM,Park View Cafe,cafe,"327A, N4 4, London",N4 4,,,,,,,51.5709057,-0.0964555,OpenStreetMap
+MEDIUM,Penang Express,malaysian,"11, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5898294,-0.1048617,OpenStreetMap
+MEDIUM,Penang Satay House,malaysian,"9, Turnpike Lane, London, N2 8, London",N2 8,+44 2083 408 707,,,,,,51.5898478,-0.1047821,OpenStreetMap
+MEDIUM,Pezzo Cafe,cafe,"14, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5901227,-0.1044399,OpenStreetMap
+MEDIUM,Pizza Galaxy,pizza,"38, Wightman Road, London, N4 0, London",N4 0,,,,,,,51.576836,-0.1039807,OpenStreetMap
+MEDIUM,Pizza Hut Delivery,pizza,"42, Grand Parade, London, N4 4, London",N4 4,+44 20 8802 9626,https://www.pizzahut.co.uk/huts/uk-1/7541-harringey/,,,,,51.5796136,-0.098993,OpenStreetMap
+MEDIUM,Presto,pizza,"Unit A, Seven Sisters Road, London, N4 4, London",N4 4,+44 20 8888 8844,https://presto.pizza,,,,,51.5731124,-0.0896669,OpenStreetMap
+MEDIUM,Pret A Manger,sandwich,"N2 8, Haringey, London",N2 8,,,,,,,51.5939357,-0.1082555,OpenStreetMap
+MEDIUM,Rajco Food And Wine,convenience,"41, Tottenham Lane, London, N2 8, London",N2 8,,,,,,,51.5848007,-0.1153377,OpenStreetMap
+MEDIUM,Rakkas,restaurant,"365-369, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.576709,-0.098813,OpenStreetMap
+MEDIUM,Rolling Pin,sandwich,"15A, High Street, London, N2 8, London",N2 8,,,,,,,51.5877926,-0.1185577,OpenStreetMap
+MEDIUM,Rooster's Piri Piri,chicken,"N2 8, Haringey, London",N2 8,,,,,,,51.5907874,-0.1035039,OpenStreetMap
+MEDIUM,Rosey Restaurant,kurdish,"423, Green Lanes, London, N4 4, London",N4 4,+44 20 8348 1936,,,,,,51.5786163,-0.0991714,OpenStreetMap
+MEDIUM,Rosten,cafe,"High Road, London, N2 8, London",N2 8,,,,,,,51.5912398,-0.1039766,OpenStreetMap
+MEDIUM,Sainsbury's Café,coffee_shop,"N4 4, Haringey, London",N4 4,,,,,,,51.5769999,-0.0951923,OpenStreetMap
+MEDIUM,Samuki Kitchen,restaurant,"Burgoyne Road, London, N4 0, London",N4 0,,,,,,,51.5776766,-0.103992,OpenStreetMap
+MEDIUM,Sark Kosesi,cafe,"N2 8, Haringey, London",N2 8,,,,,,,51.5910081,-0.1028677,OpenStreetMap
+MEDIUM,Selale,restaurant,"1-3, Salisbury Promenade, London, N4 4, London",N4 4,+44 20 8800 1636,https://selale.co.uk,,,,,51.5831423,-0.0996457,OpenStreetMap
+MEDIUM,Selekt Chicken,chicken,"16, Turnpike Lane, London, N2 8, London",N2 8,,https://www.selektchicken.com/,,,,,51.590111,-0.1045227,OpenStreetMap
+MEDIUM,Serhat Food and Wine,convenience,"84, High Street, London, N2 8, London",N2 8,+44 20 3441 6434,,,,,,51.5876116,-0.1172231,OpenStreetMap
+MEDIUM,Slim Chickens,chicken,"High Road, London, N2 8, London",N2 8,,,,,,,51.5934696,-0.1076652,OpenStreetMap
+MEDIUM,Smart Buns,burger,"83, Turnpike Lane, London, N2 8, London",N2 8,,https://smartbuns.co.uk/,,,,,51.5892844,-0.1079201,OpenStreetMap
+MEDIUM,Spinzers,fast_food,"High Road, London, N2 8, London",N2 8,,,,,,,51.592007,-0.105439,OpenStreetMap
+MEDIUM,St Ann's Food & Wine,convenience,"301, St Ann's Road, London, N4 4, London",N4 4,,,,,,,51.5813869,-0.0943993,OpenStreetMap
+MEDIUM,Stamp Brasserie,cafe,"509, Green Lanes, London, N4 4, London",N4 4,+44 20 8245 2520,https://stampbrasserie.com,,,,,51.5815003,-0.0997122,OpenStreetMap
+MEDIUM,Stationers Park Cafe,coffee_shop,"Denton Road, London, N4 0, London",N4 0,,,,,,,51.5799255,-0.1126244,OpenStreetMap
+MEDIUM,Stella's Room,cafe,"46, Fortis Green Road, London, N2 0, London",N2 0,,,,,,,51.5901005,-0.1459082,OpenStreetMap
+MEDIUM,Subway,sandwich,"High Road, London, N2 8, London",N2 8,,,,,,,51.5909992,-0.1042479,OpenStreetMap
+MEDIUM,Subway,sandwich,"N4 4, Haringey, London",N4 4,,,,,,,51.5763195,-0.0976405,OpenStreetMap
+MEDIUM,Sulaymaniyah Intl Food Centre,sandwich,"2A, Lymington Avenue, London, N2 8, London",N2 8,,,,,,,51.5935979,-0.1065807,OpenStreetMap
+MEDIUM,Sunny Beach,bulgarian,"N2 8, Haringey, London",N2 8,,,,,,,51.5909852,-0.1022481,OpenStreetMap
+MEDIUM,Sushi Gourmet,sushi,"4, Williamson Road, London, N4 4, London",N4 4,,,,,,,51.5772065,-0.0952514,OpenStreetMap
+MEDIUM,Taco Bell,tex-mex,"N2 8, Haringey, London",N2 8,,,,,,,51.5963617,-0.108833,OpenStreetMap
+MEDIUM,Taste of Algeria,algerian,"74, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5895822,-0.1074191,OpenStreetMap
+MEDIUM,Tennessee Express,chicken,"N2 8, Haringey, London",N2 8,,,,,,,51.5906889,-0.102793,OpenStreetMap
+MEDIUM,The Blue Owl,cafe,"155, Stroud Green Road, N4 0, London",N4 0,,https://theblueowl.cafe/,,,,,51.5699774,-0.1139742,OpenStreetMap
+MEDIUM,The Chick House,chicken,"395, Green Lanes, London, N4 4, London",N4 4,+44 20 8348 4848,,,,,,51.5777643,-0.0990236,OpenStreetMap
+MEDIUM,The Taco House,french;algerian,"547, Green Lanes, London, N4 4, London",N4 4,,https://www.thetacohouse.co.uk/,,,,,51.5824781,-0.0998883,OpenStreetMap
+MEDIUM,Tomo Pizzeria,italian,"88, High Street, London, N2 8, London",N2 8,+44 2083 480 099,http://www.tomopizzeria.com,,,,,51.5876154,-0.1170621,OpenStreetMap
+MEDIUM,Toto Lounge,cafe,"520, Green Lanes, London, N4 4, London",N4 4,+44 7771 111 870,,,,,,51.5769739,-0.0982793,OpenStreetMap
+MEDIUM,Turnpike Lane Food Store,convenience,"6, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5901936,-0.1041502,OpenStreetMap
+MEDIUM,Venus Cafe,cafe,"Vale Road, London, N4 4, London",N4 4,,,,,,,51.5762923,-0.088699,OpenStreetMap
+MEDIUM,Yellow Food & Wine,convenience,"129, Tottenham Lane, N4 0, London",N4 0,,,,,,,51.5825772,-0.1183452,OpenStreetMap
+MEDIUM,Zamm's Chicken and Ribs,fast_food,"63, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5893901,-0.1071309,OpenStreetMap
+MEDIUM,Zera,cafe,"471, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5802394,-0.0994817,OpenStreetMap
+MEDIUM,bangkok lounge,restaurant,"N2 0, Haringey, London",N2 0,,,,,,,51.5910621,-0.1648203,OpenStreetMap
+LOW,90 Degree,convenience,"2, Alexandra Road, London, N2 8, London",N2 8,,,,,,,51.5895587,-0.1080139,OpenStreetMap
+LOW,Aldi,supermarket,"Unit 6, Williamson Road, London, N4 4, London",N4 4,+44 800 042 0800,,,,,,51.5765714,-0.0966034,OpenStreetMap
+LOW,Brouhaha,bar,"501, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5811659,-0.0996478,OpenStreetMap
+LOW,Brouhaha Bar,pub,"499-501, Green Lanes, London, N4 4, London",N4 4,+4402083488553,https://www.brouhahabar.com,,,,,51.5811385,-0.0997163,OpenStreetMap
+LOW,Budgens,supermarket,"N2 0, Haringey, London",N2 0,,https://www.budgens.co.uk/our-stores/east-finchley,,,,,51.5897389,-0.1643484,OpenStreetMap
+LOW,Budget Supermarket,convenience,"18-20, Crouch Hill, London, N4 0, London",N4 0,,,,,,,51.570862,-0.1160892,OpenStreetMap
+LOW,Butler's Deli,deli,"Stroud Green Road, N4 0, London",N4 0,,https://www.butlersdeli.co.uk,,,,,51.5704442,-0.1142673,OpenStreetMap
+LOW,Buy 2 Save Intenational Supermarket,convenience,"41-45, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5895546,-0.1061709,OpenStreetMap
+LOW,Centro Convenience Store,convenience,"N2 0, Haringey, London",N2 0,,,,,,,51.5871378,-0.1644263,OpenStreetMap
+LOW,Chung Hwa Hong Supermarket,supermarket,"N2 8, Haringey, London",N2 8,,,,,,,51.5908184,-0.1030974,OpenStreetMap
+LOW,Clissold Arms,pub,"105, Fortis Green, London, N2 0, London",N2 0,,https://clissoldarms.co.uk,,,,,51.5905494,-0.1552815,OpenStreetMap
+LOW,Costcutter,supermarket,"N2 8, Haringey, London",N2 8,,,,,,,51.5987065,-0.1106833,OpenStreetMap
+LOW,Crouch Hill Supermarket,convenience,"N4 0, Haringey, London",N4 0,,,,,,,51.5735817,-0.1205894,OpenStreetMap
+LOW,Delicate Gastrobar,bar,"30, Crouch Hill, N4 0, London",N4 0,,,,,,,51.571039,-0.1166139,OpenStreetMap
+LOW,Dostlar,convenience,"425-427, Green Lanes, London, N4 4, London",N4 4,+44 20 8347 8070,,,,,,51.5786866,-0.0991824,OpenStreetMap
+LOW,Duke of Edinburgh,pub,"N2 8, Haringey, London",N2 8,,,,,,,51.5948058,-0.112239,OpenStreetMap
+LOW,Euro Market Kubus,convenience,"N2 8, Haringey, London",N2 8,,,,,,,51.5938868,-0.1059018,OpenStreetMap
+LOW,Evergreen Stores,convenience,"316, Green Lanes, London, N4 4, London",N4 4,+44 20 8800 4668,,,,,,51.5711223,-0.0958934,OpenStreetMap
+LOW,Evmolpia,supermarket,"570, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.583208,-0.0996298,OpenStreetMap
+LOW,Floral Hall,bar,"N4 0, Haringey, London",N4 0,,https://www.floralhall-london.com/,,,,,51.5777698,-0.1233676,OpenStreetMap
+LOW,Fortis Green Mini Market,convenience,"Fortis Green, London, N2 0, London",N2 0,,,,,,,51.5908788,-0.1522595,OpenStreetMap
+LOW,Fresco,convenience,"N4 0, Haringey, London",N4 0,,,,,,,51.5822556,-0.1191648,OpenStreetMap
+LOW,Fresh Fields International Supermarket,convenience,"4-5, Campsbourne Parade, London, N2 8, London",N2 8,,,,,,,51.5876477,-0.1194361,OpenStreetMap
+LOW,Fridge Of Plenty,supermarket,"132, Crouch Hill, London, N4 0, London",N4 0,+447787237248,,,,,,51.5778186,-0.1234189,OpenStreetMap
+LOW,Gazi,convenience,"385-387, Green Lanes, London, N4 4, London",N4 4,+44 20 8340 4547,,,,,,51.5775499,-0.0990939,OpenStreetMap
+LOW,Green Apple,convenience,"4, Salisbury Promenade, London, N4 4, London",N4 4,,,,,,,51.583049,-0.099593,OpenStreetMap
+LOW,Harringay Arms,pub,"153, Crouch Hill, London, N4 0, London",N4 0,,,,,,,51.5780068,-0.1237718,OpenStreetMap
+LOW,Harvest International N8,supermarket,"N4 0, Haringey, London",N4 0,,,,,,,51.5819925,-0.1198501,OpenStreetMap
+LOW,Hello Haringey,convenience,"473-475, Green Lanes, N4 4, London",N4 4,,,,,,,51.5803194,-0.0994971,OpenStreetMap
+LOW,Hornsey Mini Market,convenience,"304, Wightman Road, London, N2 8, London",N2 8,,,,,,,51.5885918,-0.1095024,OpenStreetMap
+LOW,Iceland,supermarket,"N2 0, Haringey, London",N2 0,,,,,,,51.5901355,-0.1644503,OpenStreetMap
+LOW,Inci Off License,convenience,"2C, Woodberry Down, London, N4 4, London",N4 4,,,,,,,51.5707,-0.0951795,OpenStreetMap
+LOW,Izo,convenience,"24, Hermitage Road, London, N4 4, London",N4 4,,,,,,,51.574964,-0.0959163,OpenStreetMap
+LOW,Jiahe Supermarket,supermarket,"Whymark Avenue, London, N2 8, London",N2 8,,,,,,,51.5913373,-0.103058,OpenStreetMap
+LOW,K&A Mini Mart,convenience,"89, Weston Park, London, N4 0, London",N4 0,+44 20 8341 6466,,,,,,51.580473,-0.1155008,OpenStreetMap
+LOW,Kofali Hot Nuts,deli,"443, Green Lanes, London, N4 4, London",N4 4,+44 20 3638 7872,,,,,,51.5792699,-0.0993049,OpenStreetMap
+LOW,Latin Stop Mini Market,supermarket,"N2 8, Haringey, London",N2 8,,,,,,,51.590895,-0.1030868,OpenStreetMap
+LOW,Lidl,supermarket,"88-96, High Road, London, N2 8, London",N2 8,,https://www.lidl.co.uk/s/en-GB/store-finder/london/wood-green/high-road-units-7-8-88-96/,,,,,51.5938278,-0.106645,OpenStreetMap
+LOW,Little Shop,convenience,"Middle Lane, London, N2 8, London",N2 8,,,,,,,51.5870035,-0.1215434,OpenStreetMap
+LOW,Londis,convenience,"9-11, Ferme Park Road, London, N4 0, London",N4 0,,,,,,,51.573801,-0.1126495,OpenStreetMap
+LOW,Londis,convenience,"96, Weston Park, London, N4 0, London",N4 0,,,,,,,51.5807019,-0.1158291,OpenStreetMap
+LOW,Ludo's,bar,"5, River Park Road, London, N2 8, London",N2 8,,https://ludoslondon.co.uk/,,,,,51.5971479,-0.1115089,OpenStreetMap
+LOW,Misam Ali,convenience,"51, Mayes Road, London, N2 8, London",N2 8,+44 790 280 0375,,,,,,51.594051,-0.1107703,OpenStreetMap
+LOW,Mleczko,supermarket,"33, Station Road, London, N2 8, London",N2 8,+44 (20) 8889 0321,https://mleczkodelikatesy.com/en/mleczko-wood-green/,,,,,51.5968249,-0.111614,OpenStreetMap
+LOW,Morrisons,supermarket,"Parkland Road, London, N2 8, London",N2 8,,https://my.morrisons.com/storefinder/313/wood-green,,,,,51.596318,-0.1106971,OpenStreetMap
+LOW,NJ Enterprise,convenience,"N2 8, Haringey, London",N2 8,,,,,,,51.5974777,-0.1099958,OpenStreetMap
+LOW,New Istanbul Supermarket,supermarket,"45, Quernmore Road, London, N4 0, London",N4 0,,,,,,,51.5775721,-0.1061531,OpenStreetMap
+LOW,Nicholas Nickleby,pub,"6, Ferme Park Road, London, N4 0, London",N4 0,,https://www.nicholasnickleby.co.uk/,,,,,51.5739989,-0.1123627,OpenStreetMap
+LOW,No5 Dining and Lounge,bar,"5, Tottenham Lane, London, N2 8, London",N2 8,+4420 8341 2112,https://no5dining.co.uk,,,,,51.5858565,-0.1121009,OpenStreetMap
+LOW,North Eight,pub,"26, High Street, London, N2 8, London",N2 8,+44 7958 688 191,,,,,,51.5872319,-0.1204597,OpenStreetMap
+LOW,P.J. O'Connor's,pub,"239, High Road, N2 8, London",N2 8,,,,,,,51.5982203,-0.1109739,OpenStreetMap
+LOW,Paprika Store,convenience,"50, Green Lanes, London, N4 4, London",N4 4,,https://www.paprikastore.co.uk/our-shops/,,,,,51.5790634,-0.0988797,OpenStreetMap
+LOW,Poziomka,convenience,"51, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5790065,-0.0988758,OpenStreetMap
+LOW,Rattle & Hum,pub,"232-4, High Road, London, N2 8, London",N2 8,,,,,,,51.5985861,-0.1105071,OpenStreetMap
+LOW,S&D Express,convenience,"174, Fortis Green Road, London, N2 0, London",N2 0,,,,,,,51.5909884,-0.1478524,OpenStreetMap
+LOW,Sainsbury's,supermarket,"High Street, London, N2 8, London",N2 8,,https://stores.sainsburys.co.uk/2332/hornsey,,,,,51.5887683,-0.1172394,OpenStreetMap
+LOW,Sainsbury's,supermarket,"54-58, High Road, London, N2 8, London",N2 8,,https://stores.sainsburys.co.uk/2118/wood-green,,,,,51.5925624,-0.105032,OpenStreetMap
+LOW,Sainsbury's,supermarket,"N4 4, Haringey, London",N4 4,,https://stores.sainsburys.co.uk/0406/harringay,,,,,51.577196,-0.0955445,OpenStreetMap
+LOW,Sainsbury's Local,convenience,"132, High Road, London, N2 0, London",N2 0,,,,,,,51.5908387,-0.1643725,OpenStreetMap
+LOW,Sainsbury's Local,convenience,"London, N2 8, London",N2 8,,,,,,,51.5967518,-0.1089531,OpenStreetMap
+LOW,Sainsbury's Local,convenience,"N4 0, Haringey, London",N4 0,,https://stores.sainsburys.co.uk/4977/london-crouch-hill-local,,,,,51.5703523,-0.114998,OpenStreetMap
+LOW,Sainsbury's Local,convenience,"147, Woodberry Grove, London, N4 4, London",N4 4,,https://stores.sainsburys.co.uk/4310/hackney-woodberry-down-local,,,,,51.5717801,-0.0897774,OpenStreetMap
+LOW,Sanko Market,convenience,"109, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5890575,-0.1088277,OpenStreetMap
+LOW,Simply Organique,convenience,"316, Green Lanes, London, N4 4, London",N4 4,+44 20 8800 4668,http://simplyorganique.co.uk,,,,,51.5709993,-0.0958311,OpenStreetMap
+LOW,Spouter's Corner,pub,"180, High Road, London, N2 8, London",N2 8,,https://www.jdwetherspoon.com/pubs/all-pubs/england/london/spouters-corner-wood-green,,,,,51.5966282,-0.1088608,OpenStreetMap
+LOW,Stapleton Tavern,pub,"2, Crouch Hill, London, N4 0, London",N4 0,02072725395,https://stapletontavern.com/,,,,,51.570875,-0.1153523,OpenStreetMap
+LOW,Tesco Express,convenience,"1-3, High Road, London, N2 8, London",N2 8,,,,,,,51.590682,-0.103922,OpenStreetMap
+LOW,Tesco Express,convenience,"46-50, High Street, London, N2 8, London",N2 8,,,,,,,51.5874233,-0.1193267,OpenStreetMap
+LOW,Tesco Express,convenience,"8-9, Salisbury Promenade, London, N4 4, London",N4 4,,,,,,,51.58276,-0.0994263,OpenStreetMap
+LOW,The Bald Faced Stag,pub,"69, High Road, London, N2 0, London",N2 0,,https://www.thebaldfacedstagn2.co.uk/,,,,,51.589297,-0.1642311,OpenStreetMap
+LOW,The Beaconsfield,pub,"359, Green Lanes, London, N4 4, London",N4 4,,,,,,,51.5763654,-0.0987786,OpenStreetMap
+LOW,The Finsbury,pub,"336, Green Lanes, London, N4 4, London",N4 4,,https://thefinsbury.co.uk,,,,,51.5719486,-0.0962475,OpenStreetMap
+LOW,The Goodness Brewing Company,pub,"N2 8, Haringey, London",N2 8,,https://www.thegoodnessbrew.co/,,,,,51.5932825,-0.1140951,OpenStreetMap
+LOW,The Great Northern Railway Tavern,pub,"67, High Street, London, N2 8, London",N2 8,+44 2081 276 632,https://www.thegreatnorthernrailway.co.uk/,,,,,51.5881059,-0.1162549,OpenStreetMap
+LOW,The Nag's Head,pub,"203, High Road, London, N2 8, London",N2 8,+44 208 890 376,,,,,,51.596888,-0.1099902,OpenStreetMap
+LOW,The Naturalist,pub,"14, London, N4 4, London",N4 4,+44 20 3437 0770,https://www.thenaturalistpub.co.uk/,,,,,51.5709833,-0.092781,OpenStreetMap
+LOW,The Old Ale Emporium,pub,"405, Green Lanes, London, N4 4, London",N4 4,+44 20 8348 6200,https://the-old-ale-emporium.edan.io/,,,,,51.5780132,-0.0990941,OpenStreetMap
+LOW,The Old Dairy,pub,"N4 0, Haringey, London",N4 0,,https://www.greeneking.co.uk/pubs/greater-london/old-dairy,,,,,51.5705452,-0.1156184,OpenStreetMap
+LOW,The Old White Lion,pub,"121, Great North Road, London, N2 0, London",N2 0,,,,,,,51.5866302,-0.1644607,OpenStreetMap
+LOW,The Robin Ale & Cider House,pub,"29, Crouch Hill, London, N4 0, London",N4 0,020 7018 3830,https://www.therobinlondon.com/,,,,,51.5709411,-0.1170332,OpenStreetMap
+LOW,The Salisbury,burger;sunday_dinner,"1, Green Lanes, London, N4 4, London",N4 4,+44 20 8800 9617,https://thesalisburyhotelpub.co.uk,,,,,51.5822373,-0.09929,OpenStreetMap
+LOW,The Shop,convenience,"N4 0, Haringey, London",N4 0,,,,,,,51.5709155,-0.1163534,OpenStreetMap
+LOW,The Tav,bar,"18, High Street, London, N2 8, London",N2 8,+44 2083 406 517,,,,,,51.5871606,-0.120808,OpenStreetMap
+LOW,The Toll Gate,pub,"26-30, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5899928,-0.1052284,OpenStreetMap
+LOW,The Village Green,pub,"122, Fortis Green Road, London, N2 0, London",N2 0,,,,,,,51.5905089,-0.1469011,OpenStreetMap
+LOW,Three Compasses,pub,"62, High Street, London, N2 8, London",N2 8,+44 20 3154 4646,https://www.threecompasseshornsey.com/,,,,,51.5874988,-0.1186871,OpenStreetMap
+LOW,Top G Vapes,convenience,"8, Turnpike Lane, London, N2 8, London",N2 8,,,,,,,51.5901768,-0.1042259,OpenStreetMap
+LOW,Wood Green Mini Market,convenience,"110, Alexandra Road, London, N2 8, London",N2 8,,,,,,,51.5931948,-0.1077962,OpenStreetMap
+LOW,Wood Green News,convenience,"N2 8, Haringey, London",N2 8,,,,,,,51.597332,-0.1093112,OpenStreetMap
+LOW,Woodberry Down Mini Market,convenience,"N4 4, Haringey, London",N4 4,,,,,,,51.5729698,-0.090017,OpenStreetMap
+LOW,Yasar Halim,supermarket,"495, Green Lanes, London, N4 4, London",N4 4,,https://yasarhalim.com/,,,,,51.5809754,-0.0996795,OpenStreetMap
+LOW,minutego,convenience,"63-64, Grand Parade, London, N4 4, London",N4 4,+44 20 8800 8996,,,,,,51.5783755,-0.0986777,OpenStreetMap

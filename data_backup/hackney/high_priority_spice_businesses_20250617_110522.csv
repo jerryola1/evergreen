@@ -1,0 +1,35 @@
+Spice Priority,Business Name,Cuisine Type,Address,Postcode,Phone,Website,Email,Rating,Price Level,Reviews Count,Latitude,Longitude,Source
+HIGH,Baba Doner,kebab,"303, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5459776,-0.0554818,OpenStreetMap
+HIGH,Beijing Palace,chinese,"E5 1, Hackney, London",E5 1,,,,,,,51.5397487,-0.0564598,OpenStreetMap
+HIGH,Best Kebab,kebab;pizza;chicken;burger,"166, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5380706,-0.0442907,OpenStreetMap
+HIGH,Best Mangal,kebab,"13, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.552107,-0.0443134,OpenStreetMap
+HIGH,Black Cardamom,indian,"269, Well Street, London, E5 0, London",E5 0,+44 20 3632 2502,https://www.blackcardamom.co.uk/,info@blackcardamom.co.uk,,,,51.5450089,-0.0464545,OpenStreetMap
+HIGH,Black Cat Cafe,burger;sandwich;curry;breakfast,"76a, Clarence Road, London, E5 0, London",E5 0,+44 20 8985 7091,http://www.blackcatcafe.co.uk/,info@blackcatcafe.co.uk,,,,51.5513745,-0.0555368,OpenStreetMap
+HIGH,Britannia,kebab,"299, Mare Street, London, E5 1, London",E5 1,,,,,,,51.545879,-0.0555032,OpenStreetMap
+HIGH,Chickin Lickin',chicken;burger;kebab;pizza,"74, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8985 8702,,,,,,51.5539585,-0.0447424,OpenStreetMap
+HIGH,Facing Heaven,chinese,"1A, Bayford Street, London, E5 1, London",E5 1,,https://www.facing-heaven.com/,info@facing-heaven.com,,,,51.5397723,-0.0565498,OpenStreetMap
+HIGH,Fu Hwa,asian,"55, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.551024,-0.0518856,OpenStreetMap
+HIGH,Golden States,chinese,"67, Lower Clapton Road, E5 0, London",E5 0,+44 20 8985 7971,https://golden-states.co.uk/,info@golden-states.co.uk,,,,51.5512755,-0.051821,OpenStreetMap
+HIGH,Hackney Church Brew Co,indian,"16-17, Bohemia Place, London, E5 0, London",E5 0,+44 20 3795 8295,https://www.hackneychurchbrew.co/,info@hackneychurchbrew.co,,,,51.5473604,-0.0524334,OpenStreetMap
+HIGH,Karamay,asian,"151, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5488337,-0.0405332,OpenStreetMap
+HIGH,Lavang Spice,indian,"231, Victoria Park Road, London, E5 1, London",E5 1,+44 20 8985 9077,,,,,,51.5384076,-0.0440646,OpenStreetMap
+HIGH,Lucky & Joy,asian,"95, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8617 8100,https://luckyandjoy.co.uk/,info@luckyandjoy.co.uk,,,,51.5518416,-0.0523048,OpenStreetMap
+HIGH,My Neighbour the Dumplings,asian,"165, Lower Clapton Road, London, E5 0, London",E5 0,,https://myneighboursthedumplings.com/,info@myneighboursthedumplings.com,,,,51.5543066,-0.0542951,OpenStreetMap
+HIGH,My Neighbours The Dumplings,asian,"178, Victoria Park Road, London, E5 1, London",E5 1,,https://www.myneighboursthedumplings.com/,info@myneighboursthedumplings.com,,,,51.5382218,-0.0439038,OpenStreetMap
+HIGH,Nazar Take Away,kebab,"228, Well Street, London, E5 1, London",E5 1,+44 20 8986 1037,,,,,,51.5447046,-0.0462638,OpenStreetMap
+HIGH,New City Kebab House,kebab,"157B, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5395588,-0.0564754,OpenStreetMap
+HIGH,New Taste,chinese,"183, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5403436,-0.0558476,OpenStreetMap
+HIGH,Rosa's Thai Cafe,thai,"381, Mentmore Terrace, London, E5 1, London",E5 1,,https://www.rosasthaicafe.com/,info@rosasthaicafe.com,,,,51.5403021,-0.0578197,OpenStreetMap
+HIGH,Rose Garden,chinese,"37, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.5496827,-0.0361444,OpenStreetMap
+HIGH,Sang Kee,chinese,"169, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5469697,-0.0483666,OpenStreetMap
+HIGH,Sawasdee,thai,"239-243, Mare Street, London, E5 1, London",E5 1,+44 20 8986 0072,,,,,,51.5423334,-0.0554852,OpenStreetMap
+HIGH,Seaweed,japanese;korean;chinese,"358, Mare Street, London, E5 1, London",E5 1,+44 20 3062 8704,https://seaweed-food.co.uk,info@seaweed-food.co.uk,,,,51.5480714,-0.0548374,OpenStreetMap
+HIGH,Shankey's,indian,"221, Well Street, London, E5 1, London",E5 1,,,,,,,51.5439055,-0.0472247,OpenStreetMap
+HIGH,Star Kebab & Pizza,kebab;pizza,"169, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5489588,-0.0396424,OpenStreetMap
+HIGH,Sultan Grill,kebab;burger;pizza,"133, Homerton High Street, E5 0, London",E5 0,+44 20 8374 6874,http://www.sultansgrill.co.uk/,info@sultansgrill.co.uk,,,,51.5488651,-0.0414079,OpenStreetMap
+HIGH,Sun On,chinese,"222, Well Street, London, E5 1, London",E5 1,,,,,,,51.544573,-0.0463522,OpenStreetMap
+HIGH,The Adam & Eve,thai,"155, Homerton High Street, London, E5 0, London",E5 0,+44 20 8985 1494,https://www.adamandevepub.com/,info@adamandevepub.com,,,,51.5488932,-0.0404234,OpenStreetMap
+HIGH,The Gun,asian,"235, Well Street, London, E5 1, London",E5 1,+44 20 8985 6296,https://www.thegunwellstreet.com/,info@thegunwellstreet.com,,,,51.5441967,-0.0471116,OpenStreetMap
+HIGH,The Takeaway,chicken;kebab;burger;pizza,"33, Barnabas Road, London, E5 0, London",E5 0,+44 20 8986 8818; +44 7444 314966,,,,,,51.5469053,-0.0417879,OpenStreetMap
+HIGH,Three Bowls,asian,"68, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.5526763,-0.052636,OpenStreetMap
+HIGH,Too Sweet,west indian,"63, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8525 8168,,,,,,51.5535023,-0.0451035,OpenStreetMap

@@ -1,286 +1,286 @@
-Spice Priority,Business Name,Cuisine Type,Address,Postcode,Phone,Website,Email,Rating,Price Level,Reviews Count,Latitude,Longitude,Source
-HIGH,Baba Doner,kebab,"303, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5459776,-0.0554818,OpenStreetMap
-HIGH,Beijing Palace,chinese,"E5 1, Hackney, London",E5 1,,,,,,,51.5397487,-0.0564598,OpenStreetMap
-HIGH,Best Kebab,kebab;pizza;chicken;burger,"166, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5380706,-0.0442907,OpenStreetMap
-HIGH,Best Mangal,kebab,"13, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.552107,-0.0443134,OpenStreetMap
-HIGH,Black Cardamom,indian,"269, Well Street, London, E5 0, London",E5 0,+44 20 3632 2502,https://www.blackcardamom.co.uk/,info@blackcardamom.co.uk,,,,51.5450089,-0.0464545,OpenStreetMap
-HIGH,Black Cat Cafe,burger;sandwich;curry;breakfast,"76a, Clarence Road, London, E5 0, London",E5 0,+44 20 8985 7091,http://www.blackcatcafe.co.uk/,info@blackcatcafe.co.uk,,,,51.5513745,-0.0555368,OpenStreetMap
-HIGH,Britannia,kebab,"299, Mare Street, London, E5 1, London",E5 1,,,,,,,51.545879,-0.0555032,OpenStreetMap
-HIGH,Chickin Lickin',chicken;burger;kebab;pizza,"74, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8985 8702,,,,,,51.5539585,-0.0447424,OpenStreetMap
-HIGH,Facing Heaven,chinese,"1A, Bayford Street, London, E5 1, London",E5 1,,https://www.facing-heaven.com/,info@facing-heaven.com,,,,51.5397723,-0.0565498,OpenStreetMap
-HIGH,Fu Hwa,asian,"55, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.551024,-0.0518856,OpenStreetMap
-HIGH,Golden States,chinese,"67, Lower Clapton Road, E5 0, London",E5 0,+44 20 8985 7971,https://golden-states.co.uk/,info@golden-states.co.uk,,,,51.5512755,-0.051821,OpenStreetMap
-HIGH,Hackney Church Brew Co,indian,"16-17, Bohemia Place, London, E5 0, London",E5 0,+44 20 3795 8295,https://www.hackneychurchbrew.co/,info@hackneychurchbrew.co,,,,51.5473604,-0.0524334,OpenStreetMap
-HIGH,Karamay,asian,"151, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5488337,-0.0405332,OpenStreetMap
-HIGH,Lavang Spice,indian,"231, Victoria Park Road, London, E5 1, London",E5 1,+44 20 8985 9077,,,,,,51.5384076,-0.0440646,OpenStreetMap
-HIGH,Lucky & Joy,asian,"95, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8617 8100,https://luckyandjoy.co.uk/,info@luckyandjoy.co.uk,,,,51.5518416,-0.0523048,OpenStreetMap
-HIGH,My Neighbour the Dumplings,asian,"165, Lower Clapton Road, London, E5 0, London",E5 0,,https://myneighboursthedumplings.com/,info@myneighboursthedumplings.com,,,,51.5543066,-0.0542951,OpenStreetMap
-HIGH,My Neighbours The Dumplings,asian,"178, Victoria Park Road, London, E5 1, London",E5 1,,https://www.myneighboursthedumplings.com/,info@myneighboursthedumplings.com,,,,51.5382218,-0.0439038,OpenStreetMap
-HIGH,Nazar Take Away,kebab,"228, Well Street, London, E5 1, London",E5 1,+44 20 8986 1037,,,,,,51.5447046,-0.0462638,OpenStreetMap
-HIGH,New City Kebab House,kebab,"157B, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5395588,-0.0564754,OpenStreetMap
-HIGH,New Taste,chinese,"183, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5403436,-0.0558476,OpenStreetMap
-HIGH,Rosa's Thai Cafe,thai,"381, Mentmore Terrace, London, E5 1, London",E5 1,,https://www.rosasthaicafe.com/,info@rosasthaicafe.com,,,,51.5403021,-0.0578197,OpenStreetMap
-HIGH,Rose Garden,chinese,"37, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.5496827,-0.0361444,OpenStreetMap
-HIGH,Sang Kee,chinese,"169, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5469697,-0.0483666,OpenStreetMap
-HIGH,Sawasdee,thai,"239-243, Mare Street, London, E5 1, London",E5 1,+44 20 8986 0072,,,,,,51.5423334,-0.0554852,OpenStreetMap
-HIGH,Seaweed,japanese;korean;chinese,"358, Mare Street, London, E5 1, London",E5 1,+44 20 3062 8704,https://seaweed-food.co.uk,info@seaweed-food.co.uk,,,,51.5480714,-0.0548374,OpenStreetMap
-HIGH,Shankey's,indian,"221, Well Street, London, E5 1, London",E5 1,,,,,,,51.5439055,-0.0472247,OpenStreetMap
-HIGH,Star Kebab & Pizza,kebab;pizza,"169, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5489588,-0.0396424,OpenStreetMap
-HIGH,Sultan Grill,kebab;burger;pizza,"133, Homerton High Street, E5 0, London",E5 0,+44 20 8374 6874,http://www.sultansgrill.co.uk/,info@sultansgrill.co.uk,,,,51.5488651,-0.0414079,OpenStreetMap
-HIGH,Sun On,chinese,"222, Well Street, London, E5 1, London",E5 1,,,,,,,51.544573,-0.0463522,OpenStreetMap
-HIGH,The Adam & Eve,thai,"155, Homerton High Street, London, E5 0, London",E5 0,+44 20 8985 1494,https://www.adamandevepub.com/,info@adamandevepub.com,,,,51.5488932,-0.0404234,OpenStreetMap
-HIGH,The Gun,asian,"235, Well Street, London, E5 1, London",E5 1,+44 20 8985 6296,https://www.thegunwellstreet.com/,info@thegunwellstreet.com,,,,51.5441967,-0.0471116,OpenStreetMap
-HIGH,The Takeaway,chicken;kebab;burger;pizza,"33, Barnabas Road, London, E5 0, London",E5 0,+44 20 8986 8818; +44 7444 314966,,,,,,51.5469053,-0.0417879,OpenStreetMap
-HIGH,Three Bowls,asian,"68, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.5526763,-0.052636,OpenStreetMap
-HIGH,Too Sweet,west indian,"63, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8525 8168,,,,,,51.5535023,-0.0451035,OpenStreetMap
-MEDIUM,21 Sid,italian,"21, Sidworth Street, E5 1, London",E5 1,,,,,,,51.5393301,-0.0573429,OpenStreetMap
-MEDIUM,46b Espresso Hut,coffee_shop,"46b, Brooksby's Walk, London, E5 0, London",E5 0,,https://46b-espressohut.tumblr.com/,info@46b-espressohut.tumblr.com,,,,51.5502924,-0.042828,OpenStreetMap
-MEDIUM,Agbo Saba Cash & Carry Food,convenience,"12, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.551983,-0.0437177,OpenStreetMap
-MEDIUM,Anatolia,restaurant,"253, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5427474,-0.0555577,OpenStreetMap
-MEDIUM,Backyard Grill,caribbean,"Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8986 8201,,,,,,51.5539931,-0.0535296,OpenStreetMap
-MEDIUM,Banh Mi Hoi-an,restaurant,"242, Graham Road, London, E5 1, London",E5 1,,,,,,,51.5465773,-0.055621,OpenStreetMap
-MEDIUM,Beans & Bites,mediterranean;pancake,"244, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5452111,-0.0463059,OpenStreetMap
-MEDIUM,Big Night,barbecue,"177, Morning Lane, E5 0, London",E5 0,,https://bignight.info/,info@bignight.info,,,,51.5468983,-0.0480504,OpenStreetMap
-MEDIUM,Blend Cafe Ltd,coffee_shop,"Barnabas Road, London, E5 0, London",E5 0,,https://blendcafe.london/,info@blendcafe.london,,,,51.5459211,-0.0420127,OpenStreetMap
-MEDIUM,Bone'ma Kitchen,cafe,"83, Lauriston Road, London, E5 1, London",E5 1,+44 20 4531 8397,,,,,,51.5379294,-0.0445624,OpenStreetMap
-MEDIUM,Boulangerie Jade,coffee_shop,"79, Lauriston Road, London, E5 1, London",E5 1,+44 20 8986 0777,,,,,,51.5380138,-0.044648,OpenStreetMap
-MEDIUM,Bread & Truffle,sandwich,"E5 1, Hackney, London",E5 1,,https://breadandtruffle.com/,info@breadandtruffle.com,,,,51.5396936,-0.0579857,OpenStreetMap
-MEDIUM,Bronson's Burgers,burger,"169, Mare Street, E5 1, London",E5 1,,https://bronsonsburgers.co.uk/,info@bronsonsburgers.co.uk,,,,51.5400145,-0.0561235,OpenStreetMap
-MEDIUM,Bun & Sum,burger,"224, Graham Road, London, E5 1, London",E5 1,,https://www.bunandsum.com/,info@bunandsum.com,,,,51.546559,-0.0561305,OpenStreetMap
-MEDIUM,Bungalows Cafe,cafe,"80, Mare Street, London, E5 1, London",E5 1,+44 20 3609 4668,,,,,,51.5381882,-0.0567146,OpenStreetMap
-MEDIUM,Buns & Puns,burger,"6, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.551829,-0.0436486,OpenStreetMap
-MEDIUM,Bunster,burger;american,"108, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8533 0404,https://www.bunster.co/,info@bunster.co,,,,51.5535221,-0.0531549,OpenStreetMap
-MEDIUM,Burgrill,fast_food,"33, Lower Clapton Road, E5 0, London",E5 0,,https://www.burgrill.co.uk/,info@burgrill.co.uk,,,,51.5509245,-0.0526921,OpenStreetMap
-MEDIUM,Burnt Mill,pizza,"257, Mare Street, E5 1, London",E5 1,+44 20 8510 3453,,,,,,51.5429101,-0.0557674,OpenStreetMap
-MEDIUM,Cafe Mosaic,cafe,"E5 1, Hackney, London",E5 1,,,,,,,51.5415628,-0.0520373,OpenStreetMap
-MEDIUM,Caloroso,pizza,"71, Lower Clapton Road, E5 0, London",E5 0,+44 20 8985 5577,https://www.caloroso.co.uk/,info@caloroso.co.uk,,,,51.5513653,-0.0518741,OpenStreetMap
-MEDIUM,Carolina Pizza,pizza,"173, Mare Street, London, E5 1, London",E5 1,+44 20 8525 5588,,,,,,51.5400687,-0.0559738,OpenStreetMap
-MEDIUM,Chambers,mediterranean,"132, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5368487,-0.0448767,OpenStreetMap
-MEDIUM,Chan's Noodle Bar,noodle,"181, Mare Street, London, E5 1, London",E5 1,+44 20 8985 5969,,,,,,51.5403001,-0.0558716,OpenStreetMap
-MEDIUM,Change Please,coffee_shop,"E5 0, Hackney, London",E5 0,,,,,,,51.550103,-0.0462629,OpenStreetMap
-MEDIUM,Chatters Restaurant,fast_food,"E5 0, Hackney, London",E5 0,,,,,,,51.5500168,-0.0461389,OpenStreetMap
-MEDIUM,Clapton Table,mediterranean,"159, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 3754 7182,http://claptontable.com,info@claptontable.com,,,,51.554056,-0.0541505,OpenStreetMap
-MEDIUM,Climpson's Arch,restaurant,"Helmsley Place, London, E5 1, London",E5 1,,,,,,,51.539638,-0.0584354,OpenStreetMap
-MEDIUM,Co-op Food,convenience,"21-23, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8986 1264,https://www.coop.co.uk/store-finder/E5-0LH/21-23-chatsworth-road,info@coop.co.uk,,,,51.5523103,-0.0445009,OpenStreetMap
-MEDIUM,Co-op Food,convenience,"112, Homerton High Street, London, E5 0, London",E5 0,+44 20 8985 8260,https://www.coop.co.uk/store-finder/E9-6JF/112-homerton-high-street,info@coop.co.uk,,,,51.5478772,-0.0457425,OpenStreetMap
-MEDIUM,Cod & Co,fish_and_chips,"8, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8985 4226,http://codandco.com/,info@codandco.com,,,,51.5518677,-0.0436776,OpenStreetMap
-MEDIUM,Coopersale Coffee House,coffee_shop,"143-145, Homerton High Street, E5 0, London",E5 0,,,,,,,51.548823,-0.0409948,OpenStreetMap
-MEDIUM,Costa,coffee_shop,"Homerton Row, London, E5 0, London",E5 0,,,,,,,51.550228,-0.0457275,OpenStreetMap
-MEDIUM,Costa,coffee_shop,"7-19, Amhurst Road, London, E5 1, London",E5 1,,,,,,,51.5475284,-0.0561955,OpenStreetMap
-MEDIUM,Crystal Cafe,cafe,"48b, Brooksby's Walk, London, E5 0, London",E5 0,,,,,,,51.5503765,-0.0428696,OpenStreetMap
-MEDIUM,Cuppa Pug,cafe,"Nursery Road, London, E5 0, London",E5 0,,https://www.cuppapug.com/locations/london,info@cuppapug.com,,,,51.5472533,-0.0515118,OpenStreetMap
-MEDIUM,Dalla,italian,"120, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5469704,-0.0494656,OpenStreetMap
-MEDIUM,Dilara's Cafe,cafe,"8, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5458955,-0.0542598,OpenStreetMap
-MEDIUM,Dolphin Wine Bar & Restaurant,bar,"Mare Street, London, E5 1, London",E5 1,,,,,,,51.5398076,-0.0562633,OpenStreetMap
-MEDIUM,Domino's,pizza,"113, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5522175,-0.0526531,OpenStreetMap
-MEDIUM,Domino's,pizza,"222, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5437877,-0.0551473,OpenStreetMap
-MEDIUM,Doree & Co,cafe,"26, Chatsworth Road, E5 0, London",E5 0,,,,,,,51.5524245,-0.04398,OpenStreetMap
-MEDIUM,Dribble Tea,bubble_tea,"19, Well Street, London, E5 1, London",E5 1,,,,,,,51.5401434,-0.0546338,OpenStreetMap
-MEDIUM,E5 Square Cafe,cafe,"193, Rushmore Road, London, E5 0, London",E5 0,,,,,,,51.5557574,-0.0394263,OpenStreetMap
-MEDIUM,E9 Cafe,cafe,"267, Well Street, London, E5 1, London",E5 1,+44 20 8525 9538,,,,,,51.5449784,-0.0464839,OpenStreetMap
-MEDIUM,EDIT,restaurant,"217, Mare Street, London, E5 1, London",E5 1,,https://www.edit.london/,info@edit.london,,,,51.5415851,-0.0554281,OpenStreetMap
-MEDIUM,Eastgate Food & Wine,convenience,"180, Chatsworth Road, E5 0, London",E5 0,,,,,,,51.5568784,-0.0461922,OpenStreetMap
-MEDIUM,Elephant,pizza,"43, Lower Clapton Road, E5 0, London",E5 0,,https://www.elephanthackney.com/,info@elephanthackney.com,,,,51.550972,-0.0522937,OpenStreetMap
-MEDIUM,Elsewhere Coffee,coffee_shop,"E5 1, Hackney, London",E5 1,,https://elsewherecoffee.com/,info@elsewherecoffee.com,,,,51.5471557,-0.0552553,OpenStreetMap
-MEDIUM,Emir African Cuisine and Lounge,african,"16, Chatsworth Road, London, E5 0, London",E5 0,+44 20 3632 1172,,,,,,51.552192,-0.043893,OpenStreetMap
-MEDIUM,Fayre Share,cafe,"180, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5382093,-0.0438155,OpenStreetMap
-MEDIUM,Felice,italian,"90, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8510 0298,,,,,,51.5532269,-0.0529384,OpenStreetMap
-MEDIUM,Fika,coffee_shop,"36, Chatsworth Road, E5 0, London",E5 0,,,,,,,51.5527902,-0.0442027,OpenStreetMap
-MEDIUM,Finch Cafe,cafe,"12, Sidworth Street, London, E5 1, London",E5 1,,,,,,,51.5396788,-0.0575595,OpenStreetMap
-MEDIUM,Fink's Chats,coffee_shop,"62, Chatsworth Road, London, E5 0, London",E5 0,,https://www.finks.co.uk/chatsworth,info@finks.co.uk,,,,51.5535486,-0.0446066,OpenStreetMap
-MEDIUM,Frampton Food,convenience,"E5 1, Hackney, London",E5 1,,,,,,,51.5430537,-0.0523299,OpenStreetMap
-MEDIUM,Franzè & Evans Café,cafe,"E5 1, Hackney, London",E5 1,+44 20 3874 7201,https://www.franzeevans.com/marest,info@franzeevans.com,,,,51.5411573,-0.0554312,OpenStreetMap
-MEDIUM,Fulljoy,seafood,"80, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5529078,-0.0527584,OpenStreetMap
-MEDIUM,Gaia Pulses,greek,"E5 0, Hackney, London",E5 0,,https://www.gaiapulses.com/,info@gaiapulses.com,,,,51.5471565,-0.0469228,OpenStreetMap
-MEDIUM,Green Papaya,vietnamese,"191, Mare Street, London, E5 1, London",E5 1,+44 20 8985 5486,http://www.green-papaya.com/,info@green-papaya.com,,,,51.5405002,-0.0557099,OpenStreetMap
-MEDIUM,Greggs,sandwich;bakery,"387b, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5486329,-0.0553296,OpenStreetMap
-MEDIUM,Hackney Whole Food,convenience,"45-47, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.550973,-0.0521755,OpenStreetMap
-MEDIUM,Hash E8,cafe,"103, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5373623,-0.0442867,OpenStreetMap
-MEDIUM,Huong,vietnamese,"190, Well Street, London, E5 1, London",E5 1,,,,,,,51.5438154,-0.0468947,OpenStreetMap
-MEDIUM,Imperial Flavors (East),restaurant,"35, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.549665,-0.0362167,OpenStreetMap
-MEDIUM,Incoming Coffee,coffee_shop,"393, Mare Street, London, E5 1, London",E5 1,,,,,,,51.548755,-0.055342,OpenStreetMap
-MEDIUM,Jijigo,korean,"1, Well Street, E5 1, London",E5 1,+44 20 8617 9191,https://www.jijigo.net/,info@jijigo.net,,,,51.5400783,-0.0553451,OpenStreetMap
-MEDIUM,KFC,chicken,"311, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5461755,-0.0554102,OpenStreetMap
-MEDIUM,King Edward's Food Store,convenience,"30B, King Edward's Road, London, E5 1, London",E5 1,,,,,,,51.537734,-0.0545592,OpenStreetMap
-MEDIUM,Kingfisher,fish_and_chips,"147, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.548839,-0.0407022,OpenStreetMap
-MEDIUM,Kome Express,japanese;korean,"222, Graham Road, London, E5 1, London",E5 1,,https://www.komeuk.com/,info@komeuk.com,,,,51.5465458,-0.0562487,OpenStreetMap
-MEDIUM,La Mela,mediterranean,"25-27, Marsh Hill, London, E5 0, London",E5 0,+44 20 8510 0801,https://lamelabistro.com/,info@lamelabistro.com,,,,51.5496728,-0.036599,OpenStreetMap
-MEDIUM,Lardo,pizza,"205, Richmond Road, London, E5 1, London",E5 1,,,,,,,51.5435388,-0.0573167,OpenStreetMap
-MEDIUM,Leo's,restaurant,"59, Chatsworth Road, London, E5 0, London",E5 0,+44 20 4559 8598,,,,,,51.5534076,-0.0450663,OpenStreetMap
-MEDIUM,M&S Food,supermarket,"351, Mare Street, London, E5 1, London",E5 1,+44 20 8986 3821,,,,,,51.5475842,-0.055482,OpenStreetMap
-MEDIUM,Mad Cat Coffee Bar,cafe,"E5 0, Hackney, London",E5 0,,,,,,,51.546952,-0.0421042,OpenStreetMap
-MEDIUM,Malavenda Cafè,coffee_shop;italian,"1e, Mentmore Terrace, E5 1, London",E5 1,,https://www.malavendacafe.com/,info@malavendacafe.com,,,,51.5394467,-0.0578153,OpenStreetMap
-MEDIUM,Mambow,malaysian,"78, Lower Clapton Road, London, E5 0, London",E5 0,,https://www.mambow.co.uk/,info@mambow.co.uk,,,,51.5528617,-0.0527576,OpenStreetMap
-MEDIUM,Marina Cafe,cafe,"422, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5495408,-0.0543163,OpenStreetMap
-MEDIUM,Marinara Pizza,pizza,"228, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5455137,-0.0464167,OpenStreetMap
-MEDIUM,Market Fish Bar,fish_and_chips,"195, Well Street, London, E5 1, London",E5 1,,,,,,,51.5434185,-0.0478183,OpenStreetMap
-MEDIUM,McDonald's,burger,"359-363, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5477459,-0.0553401,OpenStreetMap
-MEDIUM,Mega Food Centre,convenience,"96, Well Street, E5 1, London",E5 1,,,,,,,51.5408108,-0.0497412,OpenStreetMap
-MEDIUM,Men,japanese,"51, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8616 1370,http://www.menhackney.com/,info@menhackney.com,,,,51.5531136,-0.0448042,OpenStreetMap
-MEDIUM,Mess Cafe,cafe,"38, Amhurst Road, London, E5 1, London",E5 1,,,,,,,51.5481917,-0.0568145,OpenStreetMap
-MEDIUM,Milk,coffee_shop,"Brooksby's Walk, E5 0, London",E5 0,,,,,,,51.5512093,-0.043441,OpenStreetMap
-MEDIUM,Millfields Coffee,coffee_shop,"145, Chatsworth Road, London, E5 0, London",E5 0,,https://www.millfieldscoffee.co.uk/,info@millfieldscoffee.co.uk,,,,51.5570753,-0.0466788,OpenStreetMap
-MEDIUM,Narrow Kitchen,sandwich;pasta,"396, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5489961,-0.0548539,OpenStreetMap
-MEDIUM,Nazar Restaurant,restaurant,"230, Well Street, London, E5 1, London",E5 1,,,,,,,51.5447572,-0.0462595,OpenStreetMap
-MEDIUM,New Noodle Bar,noodle,"9, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5461365,-0.0545912,OpenStreetMap
-MEDIUM,Nicky's Cafe & Sandwich Bar,cafe,"8-20, Well Street, London, E5 1, London",E5 1,,,,,,,51.5398476,-0.0552335,OpenStreetMap
-MEDIUM,Number One Cafe,cafe,"36-38, Well Street, London, E5 1, London",E5 1,,,,,,,51.5399775,-0.0542137,OpenStreetMap
-MEDIUM,Ohba Leaf,japanese,"E5 0, Hackney, London",E5 0,+44 20 3515 0456,https://ohbaleaf.co.uk/,info@ohbaleaf.co.uk,,,,51.5512959,-0.0434172,OpenStreetMap
-MEDIUM,Olive & Lime,restaurant,"50, Lower Clapton Road, London, E5 0, London",E5 0,+44 7473 198598,https://oliveandlime.co.uk/,info@oliveandlime.co.uk,,,,51.5516662,-0.0516146,OpenStreetMap
-MEDIUM,Only The Brave,cafe,"E5 1, Hackney, London",E5 1,,https://onlythebravelondon.co.uk/,info@onlythebravelondon.co.uk,,,,51.5467907,-0.056151,OpenStreetMap
-MEDIUM,Original PFC,chicken,"305, Mare Street, London, E5 1, London",E5 1,+44 20 3887 1762,http://www.originalpfc.uk/,info@originalpfc.uk,,,,51.5460241,-0.0554699,OpenStreetMap
-MEDIUM,Palaette,restaurant,"415, Mare Street, London, E5 1, London",E5 1,+44 7395 327 754,https://www.palaette.co.uk/,info@palaette.co.uk,,,,51.5493191,-0.0552885,OpenStreetMap
-MEDIUM,Papi,restaurant,"E5 1, Hackney, London",E5 1,,https://papirestaurant.com/,info@papirestaurant.com,,,,51.5395274,-0.0577942,OpenStreetMap
-MEDIUM,Patty & Bun,burger,"205, Richmond Road, London, E5 1, London",E5 1,+44 20 8525 8250,https://www.pattyandbun.co.uk/,info@pattyandbun.co.uk,,,,51.5435252,-0.057447,OpenStreetMap
-MEDIUM,Paulie's,bagel,"192, Well Street, London, E5 1, London",E5 1,,https://www.pauliesbagels.co.uk/,info@pauliesbagels.co.uk,,,,51.5438524,-0.0468678,OpenStreetMap
-MEDIUM,Peck! Peck!,chicken,"320, Mare Street, E5 1, London",E5 1,,http://peckpeck.co.uk/,info@peckpeck.co.uk,,,,51.5464894,-0.0548516,OpenStreetMap
-MEDIUM,People's Choice,caribbean,"51C, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.553088,-0.0449892,OpenStreetMap
-MEDIUM,Perfect Chicken,chicken,"350, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5472835,-0.0546547,OpenStreetMap
-MEDIUM,Perfect Fried Chicken,chicken;burger,"13, Well Street, London, E5 1, London",E5 1,,,,,,,51.5401199,-0.0549673,OpenStreetMap
-MEDIUM,Perfect Fried Chicken,chicken,"197, Well Street, London, E5 1, London",E5 1,,,,,,,51.5434481,-0.0477821,OpenStreetMap
-MEDIUM,Pierrette,cafe,"285, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5444835,-0.055733,OpenStreetMap
-MEDIUM,Pittagoras,greek,"18, Sidworth Street, E5 1, London",E5 1,,,,,,,51.5392368,-0.0576929,OpenStreetMap
-MEDIUM,Pivaz,turkish,"34, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8985 2599,https://pivaz.co.uk/,info@pivaz.co.uk,,,,51.5526247,-0.0440704,OpenStreetMap
-MEDIUM,Pizza GoGo,pizza,"18, Morning Lane, London, E5 1, London",E5 1,+44 20 8533 1377,https://www.pizzagogo.co.uk/stores/hackney,info@pizzagogo.co.uk,,,,51.5459439,-0.0539178,OpenStreetMap
-MEDIUM,PizzaExpress,pizza,"298, Mare Street, E5 1, London",E5 1,+44 20 8104 0470,https://www.pizzaexpress.com/hackney-mare-street,info@pizzaexpress.com,,,,51.5455202,-0.0550055,OpenStreetMap
-MEDIUM,Pockets,falafel,"Mentmore Terrace, London, E5 1, London",E5 1,,,,,,,51.5388453,-0.0581571,OpenStreetMap
-MEDIUM,Pret A Manger,sandwich,"1-3, Amhurst Road, London, E5 1, London",E5 1,,,,,,,51.5472727,-0.0555285,OpenStreetMap
-MEDIUM,R & B,caribbean,"10, Clarence Road, E5 0, London",E5 0,,,,,,,51.5499645,-0.0548662,OpenStreetMap
-MEDIUM,Rainboww Cook Out,fast_food,"E5 1, Hackney, London",E5 1,,,,,,,51.5476564,-0.0544871,OpenStreetMap
-MEDIUM,Romeo's,pizza;burger;sushi,"209, Well Street, E5 1, London",E5 1,+44 20 4501 3613,,,,,,51.5436026,-0.047523,OpenStreetMap
-MEDIUM,Rumbles Fish Bar,fish_and_chips,"30, Well Street, London, E5 1, London",E5 1,+44 20 8985 0440,,,,,,51.5399197,-0.0545719,OpenStreetMap
-MEDIUM,Running Late,coffee_shop,"E5 1, Hackney, London",E5 1,,,,,,,51.5425713,-0.0554601,OpenStreetMap
-MEDIUM,Sea Salt Food & Wine,convenience,"214, Graham Road, London, E5 1, London",E5 1,,,,,,,51.5465311,-0.0566048,OpenStreetMap
-MEDIUM,Selen Cafe,cafe,"161, Homerton High Street, E5 0, London",E5 0,+44 20 8986 9175,,,,,,51.5489006,-0.0401222,OpenStreetMap
-MEDIUM,Sons,coffee_shop,"Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5483635,-0.0535333,OpenStreetMap
-MEDIUM,Souvlakiland,greek,"199A, Homerton High Street, London, E5 0, London",E5 0,+44 20 3581 8240,,,,,,51.5491794,-0.0384826,OpenStreetMap
-MEDIUM,Stone Bros Cafe,cafe,"73, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5538856,-0.0451346,OpenStreetMap
-MEDIUM,Sunfood Supermarket,convenience,"403, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5489768,-0.0552877,OpenStreetMap
-MEDIUM,Sunlight Caribbean,caribbean,"259, Well Street, London, E5 1, London",E5 1,+44 20 8985 5848,https://sunlightcaribbean.co.uk,info@sunlightcaribbean.co.uk,,,,51.5448369,-0.0465989,OpenStreetMap
-MEDIUM,Sutton and Sons Fish & Chips,fish_and_chips,"218, Graham Road, London, E5 1, London",E5 1,,https://www.suttonandsons.co.uk/,info@suttonandsons.co.uk,,,,51.5465397,-0.0563957,OpenStreetMap
-MEDIUM,Swift Caribbean Delights,caribbean,"27, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5482001,-0.0476846,OpenStreetMap
-MEDIUM,Sylvie’s Kitchen,caribbean,"216, Graham Road, London, E5 1, London",E5 1,,,,,,,51.5465367,-0.0564693,OpenStreetMap
-MEDIUM,T4 Tea For U,bubble_tea,"412, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5494018,-0.0547245,OpenStreetMap
-MEDIUM,Tad,turkish,"261, Mare Street, London, E5 1, London",E5 1,+44 20 8986 2612,,,,,,51.5432505,-0.0556601,OpenStreetMap
-MEDIUM,Temple of Seitan,burger;chicken;seitan,"10, Morning Lane, London, E5 1, London",E5 1,,https://www.templeofseitan.co.uk/,info@templeofseitan.co.uk,,,,51.5459134,-0.0541747,OpenStreetMap
-MEDIUM,The Bagel Bar,cafe,"120B, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5540257,-0.0535585,OpenStreetMap
-MEDIUM,The Barrel Boulangerie,cafe,"1, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5516527,-0.0440137,OpenStreetMap
-MEDIUM,The Barrel Boulangerie,cafe,"316, Mare Street, E5 1, London",E5 1,+44 20 8985 3619,,,,,,51.5463802,-0.0548857,OpenStreetMap
-MEDIUM,The Cafe,cafe,"35, Barnabas Road, London, E5 0, London",E5 0,,,,,,,51.546863,-0.0417954,OpenStreetMap
-MEDIUM,The Chicken Hatch,chicken,"E5 0, Hackney, London",E5 0,,https://www.thechickenhatch.com/,info@thechickenhatch.com,,,,51.5512856,-0.0434787,OpenStreetMap
-MEDIUM,The Full English,cafe,"96, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5533448,-0.0530103,OpenStreetMap
-MEDIUM,The MokaPot House,cafe,"48, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5516221,-0.0515888,OpenStreetMap
-MEDIUM,Today Bread,cafe,"119, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5523719,-0.05287,OpenStreetMap
-MEDIUM,Tomi's Kitchen,restaurant,"6, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5458622,-0.0543221,OpenStreetMap
-MEDIUM,Tonkotsu,ramen,"382, Mare Street, London, E5 1, London",E5 1,+44 20 8533 1840,https://tonkotsu.co.uk/,info@tonkotsu.co.uk,,,,51.5486975,-0.0547824,OpenStreetMap
-MEDIUM,Tre Viêt,vietnamese,"245, Mare Street, London, E5 1, London",E5 1,+44 20 8986 8885;+44 20 8533 7390,https://www.treviet.co.uk/,info@treviet.co.uk,,,,51.5424759,-0.0554921,OpenStreetMap
-MEDIUM,Urban Social Coffee,cafe,"334, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5468551,-0.0548168,OpenStreetMap
-MEDIUM,Venerdi,italian,"9, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8533 1902,https://venerdi.co.uk/,info@venerdi.co.uk,,,,51.5518667,-0.044185,OpenStreetMap
-MEDIUM,Venetia's Coffee Shop,cafe,"55, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5533189,-0.0450288,OpenStreetMap
-MEDIUM,Waffle & more,waffle,"101, Lower Clapton Road, London, E5 0, London",E5 0,,https://waffleandmore.com/,info@waffleandmore.com,,,,51.5519412,-0.0524688,OpenStreetMap
-MEDIUM,We Are Vegan Everything,cake;coffee_shop,"11, Dispensary Lane, London, E5 0, London",E5 0,+44 7734 253401,https://weareveganeverything.com/,info@weareveganeverything.com,,,,51.5488801,-0.0544447,OpenStreetMap
-MEDIUM,Well Street Fish & Chips,fish_and_chips;burger;chicken,"218, Well Street, London, E5 1, London",E5 1,+44 20 8985 4044,,,,,,51.5444752,-0.0463834,OpenStreetMap
-MEDIUM,Well Street Kitchen,coffee_shop;salad;burger,"203, Well Street, London, E5 1, London",E5 1,+44 20 8533 6275,https://www.wellstreetkitchen.com/,info@wellstreetkitchen.com,,,,51.5435297,-0.0476498,OpenStreetMap
-MEDIUM,Well Street Pizza,pizza,"184, Well Street, London, E5 1, London",E5 1,,https://www.wellstreetpizza.com/,info@wellstreetpizza.com,,,,51.5436564,-0.0470341,OpenStreetMap
-MEDIUM,Yard Sale Pizza,pizza,"105, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 3602 9090,https://yardsalepizza.com/,info@yardsalepizza.com,,,,51.5520142,-0.0525601,OpenStreetMap
-MEDIUM,You Me Sushi,sushi,"368, Mare Street, E5 1, London",E5 1,,https://youmesushi.com/branches/hackney/,info@youmesushi.com,,,,51.5483475,-0.0549099,OpenStreetMap
-MEDIUM,Yume Ramen,ramen,"E5 1, Hackney, London",E5 1,,,,,,,51.5392703,-0.057006,OpenStreetMap
-MEDIUM,hai ha,vietnamese,"206, Mare Street, London, E5 1, London",E5 1,,https://haihaonline.co.uk/,info@haihaonline.co.uk,,,,51.5432586,-0.0550835,OpenStreetMap
-LOW,AJ's Lounge,pub,"E5 0, Hackney, London",E5 0,,,,,,,51.5557472,-0.0385911,OpenStreetMap
-LOW,Adonis Supermarket,supermarket,"31-33, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5481652,-0.0475062,OpenStreetMap
-LOW,Akdeniz International Supermarket,convenience,"245-251, Well Street, London, E5 1, London",E5 1,,,,,,,51.5445445,-0.0468435,OpenStreetMap
-LOW,Back To Eden Centre,convenience,"E5 0, Hackney, London",E5 0,+44 20 8525 0895,,,,,,51.5541054,-0.053615,OpenStreetMap
-LOW,Bar 161,bar,"161, Mare Street, London, E5 1, London",E5 1,,https://www.bar161.co.uk/,info@bar161.co.uk,,,,51.5397414,-0.0562876,OpenStreetMap
-LOW,Bar Bruno,bar,"211a, Victoria Park Road, London, E5 1, London",E5 1,,https://www.bruno-london.com/,info@bruno-london.com,,,,51.5383027,-0.0452739,OpenStreetMap
-LOW,Baxter's Court,pub,"282, Mare Street, London, E5 1, London",E5 1,+44 20 8525 9010,,,,,,51.5453097,-0.0549162,OpenStreetMap
-LOW,Behind This Wall,bar,"411, Mare Street, E5 1, London",E5 1,+44 20 8985 3927,https://www.behindthiswall.com/,info@behindthiswall.com,,,,51.54922,-0.0552143,OpenStreetMap
-LOW,Best Off Licence,convenience,"157A, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5395183,-0.0565068,OpenStreetMap
-LOW,Biddle Bros.,pub,"88, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5531948,-0.0529057,OpenStreetMap
-LOW,Bobby's Superstore,convenience,"39, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.5496977,-0.0360707,OpenStreetMap
-LOW,Bradstock Supermarket,convenience,"31, Bradstock Road, E5 1, London",E5 1,,,,,,,51.5444067,-0.0423403,OpenStreetMap
-LOW,Brazilian Centre,convenience,"223, Mare Street, London, E5 1, London",E5 1,,https://www.braziliancentre.co.uk/,info@braziliancentre.co.uk,,,,51.5418673,-0.0554811,OpenStreetMap
-LOW,Brew Club,bar,"7-8, Bohemia Place, London, E5 1, London",E5 1,,https://www.brewclub.uk.com/,info@brewclub.uk.com,,,,51.5472058,-0.0537681,OpenStreetMap
-LOW,Caribbean Market,convenience,"27, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5524329,-0.0445069,OpenStreetMap
-LOW,Cass Store,convenience,"142-144, Cassland Road, London, E5 1, London",E5 1,,,,,,,51.5437492,-0.0395877,OpenStreetMap
-LOW,Central Express,convenience,"341-343, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5473832,-0.0550862,OpenStreetMap
-LOW,Charlie's Corner Shop,convenience,"185, Powerscroft Road, E5 0, London",E5 0,,,,,,,51.5568856,-0.0467444,OpenStreetMap
-LOW,Chats Organic,supermarket,"2, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5517374,-0.0435714,OpenStreetMap
-LOW,Chatsworth Supermarket,convenience,"41-43, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8986 3607,,,,,,51.5529199,-0.0447627,OpenStreetMap
-LOW,Chesham Arms,pizza,"15, Mehetabel Road, London, E5 0, London",E5 0,+44 20 8986 6717,https://www.cheshamarms.com/,info@cheshamarms.com,,,,51.5476012,-0.0501093,OpenStreetMap
-LOW,Cock Tavern,pub,"315, Mare Street, London, E5 1, London",E5 1,,https://thecocktavern.co.uk/,info@thecocktavern.co.uk,,,,51.5463204,-0.0553781,OpenStreetMap
-LOW,Costcutter,convenience,"E5 0, Hackney, London",E5 0,,,,,,,51.5556742,-0.0398201,OpenStreetMap
-LOW,Dovetail,bar,"11, Chatsworth Road, London, E5 0, London",E5 0,,https://dovetailbars.co.uk/,info@dovetailbars.co.uk,,,,51.5520575,-0.0443262,OpenStreetMap
-LOW,E9 Fruit & Veg,convenience,"175, Morning Lane, E5 0, London",E5 0,,,,,,,51.546923,-0.0481205,OpenStreetMap
-LOW,Empire Express,convenience,"301, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5459271,-0.0554888,OpenStreetMap
-LOW,Erciyes,convenience,"24-28, Well Street, London, E5 1, London",E5 1,+44 20 8986 4392,,,,,,51.5399061,-0.0547023,OpenStreetMap
-LOW,Expa Local,convenience,"226-228, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5485982,-0.0405896,OpenStreetMap
-LOW,General Browning Club,pub,"83, Valette Street, London, E5 1, London",E5 1,,,,,,,51.5456965,-0.0545009,OpenStreetMap
-LOW,Grains & Green,supermarket,"214, Mare Street, E5 1, London",E5 1,,,,,,,51.5435573,-0.0551301,OpenStreetMap
-LOW,Green Olive & Lemon,convenience,"159, Homerton High Street, E5 0, London",E5 0,,,,,,,51.5488886,-0.0401996,OpenStreetMap
-LOW,Heart of Hackney,bar,"255, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5428481,-0.0557213,OpenStreetMap
-LOW,Helgi's,bar,"177, Mare Street, London, E5 1, London",E5 1,,,,,,,51.540155,-0.0559134,OpenStreetMap
-LOW,Hoxton Fruit,supermarket,"406, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5492408,-0.0547591,OpenStreetMap
-LOW,Huy Minh Supermarket,convenience,"185-187, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5403929,-0.055753,OpenStreetMap
-LOW,Ishi Express,convenience,"96a, Glyn Road, London, E5 0, London",E5 0,,,,,,,51.5513921,-0.0403565,OpenStreetMap
-LOW,Ishi Express,convenience,"15, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5521541,-0.0443351,OpenStreetMap
-LOW,Ivy's Corner Shop,convenience,"53, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.551006,-0.0519531,OpenStreetMap
-LOW,Jeyda's,convenience,"389, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5486754,-0.0553292,OpenStreetMap
-LOW,Kacey's Off Licence,convenience,"29, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5481952,-0.0476195,OpenStreetMap
-LOW,Ken's Convenience Store,convenience,"172, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5381376,-0.0440946,OpenStreetMap
-LOW,Kings Meat & Groceries,supermarket,"410, Mare Street, London, E5 0, London",E5 0,,,,,,,51.549358,-0.0547571,OpenStreetMap
-LOW,L'épicerie,coffee_shop,"56, Chatsworth Road, London, E5 0, London",E5 0,+44 20 7503 8172,https://www.lepicerie56.com/,info@lepicerie56.com,,,,51.5533764,-0.044444,OpenStreetMap
-LOW,La Camionera,coffee_shop,"243, Well Street, E5 1, London",E5 1,+44 7725 443407,https://lacamionera.com,info@lacamionera.com,,,,51.5444565,-0.0469115,OpenStreetMap
-LOW,Lauriston Grocers,convenience,"134-136, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5367926,-0.0448596,OpenStreetMap
-LOW,Lidl,supermarket,"27-37, Well Street, London, E5 1, London",E5 1,,https://www.lidl.co.uk/s/en-GB/store-finder/london/hackney/well-street-27-37/,info@lidl.co.uk,,,,51.5407536,-0.0538609,OpenStreetMap
-LOW,Local Supermarket,convenience,"115, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5522244,-0.0527871,OpenStreetMap
-LOW,Londis,convenience,"112-116, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5377924,-0.0450262,OpenStreetMap
-LOW,London Borough of Jam,deli,"51D, Chatsworth Road, London, E5 0, London",E5 0,,https://www.londonboroughofjam.com/,info@londonboroughofjam.com,,,,51.5530782,-0.0450506,OpenStreetMap
-LOW,London Fields Roof Garden,bar,"E5 1, Hackney, London",E5 1,,,,,,,51.5427207,-0.0578622,OpenStreetMap
-LOW,London Starnight,convenience,"199, Mare Street, E5 1, London",E5 1,+44 20 8985 2949,,,,,,51.540964,-0.0553939,OpenStreetMap
-LOW,Lê-Mi,convenience,"257a, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5430089,-0.0555648,OpenStreetMap
-LOW,Maan Ka Fook,convenience,"14, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5459238,-0.0540651,OpenStreetMap
-LOW,Mace,convenience,"E5 1, Hackney, London",E5 1,,,,,,,51.5388639,-0.0565122,OpenStreetMap
-LOW,Mira Express,convenience,"48, Brooksby's Walk, London, E5 0, London",E5 0,,,,,,,51.5505399,-0.0430264,OpenStreetMap
-LOW,Morning News Supermarket,convenience,"240-242, Morning Lane, E5 0, London",E5 0,,,,,,,51.5452682,-0.0463754,OpenStreetMap
-LOW,News-Cons,convenience,"90, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5543054,-0.0448757,OpenStreetMap
-LOW,Nobody Asked Me,bar,"88, Chatsworth Road, London, E5 0, London",E5 0,,https://www.nobodyaskedme.co.uk/,info@nobodyaskedme.co.uk,,,,51.5542683,-0.0448556,OpenStreetMap
-LOW,Off Licence Platinum,convenience,"Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.5527819,-0.0527042,OpenStreetMap
-LOW,Old Ship,burger,"2, Sylvester Path, London, E5 1, London",E5 1,+44 20 8986 2732,https://www.oldshiphackney.com/,info@oldshiphackney.com,,,,51.5459055,-0.0556389,OpenStreetMap
-LOW,Organico,convenience,"39, Chatsworth Road, London, E5 0, London",E5 0,+44 20 3601 2375,,,,,,51.552842,-0.0447332,OpenStreetMap
-LOW,Oslo,pizza,"1a, Amhurst Road, London, E5 1, London",E5 1,,https://www.oslohackney.com/,info@oslohackney.com,,,,51.5471622,-0.0556,OpenStreetMap
-LOW,Planet E9,convenience,"70, Morning Lane, E5 1, London",E5 1,,,,,,,51.5466342,-0.052087,OpenStreetMap
-LOW,Premier,convenience,"31, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.5496367,-0.0363628,OpenStreetMap
-LOW,Pub on the Park,pub,"19, Martello Street, London, E5 1, London",E5 1,+44 20 7923 3398,https://pubonthepark.com/,info@pubonthepark.com,,,,51.5420771,-0.0582953,OpenStreetMap
-LOW,Rajshree Newsagent,convenience,"7, Terrace Road, E5 1, London",E5 1,,,,,,,51.5432606,-0.0470253,OpenStreetMap
-LOW,Rasputins,hot_dog,"171, Mare Street, E5 1, London",E5 1,,,,,,,51.540047,-0.05608,OpenStreetMap
-LOW,Sainsbury's Local,convenience,"11-13, Lower Clapton Road, London, E5 0, London",E5 0,,https://stores.sainsburys.co.uk/4223/hackney-lower-clapton-road-local,info@stores.sainsburys.co.uk,,,,51.5501251,-0.0544215,OpenStreetMap
-LOW,Sainsbury's Local,convenience,"277, Mare Street, London, E5 1, London",E5 1,,https://stores.sainsburys.co.uk/4279/hackney-town-hall-local,info@stores.sainsburys.co.uk,,,,51.5442483,-0.0557339,OpenStreetMap
-LOW,Saint Monday,barbecue,"Warburton Street, London, E5 1, London",E5 1,,,,,,,51.5386304,-0.058193,OpenStreetMap
-LOW,So Local,convenience,"175, Mare Street, E5 1, London",E5 1,,,,,,,51.5401199,-0.056071,OpenStreetMap
-LOW,Spar,convenience,"64-66, Brooksby's Walk, London, E5 0, London",E5 0,,https://www.spar.co.uk/store-locator/afb15235-spar-hackney/,info@spar.co.uk,,,,51.5512845,-0.0433492,OpenStreetMap
-LOW,Tesco,supermarket,"55, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5469169,-0.0527374,OpenStreetMap
-LOW,Tesco,supermarket,"180, Well Street, London, E5 1, London",E5 1,,,,,,,51.5429708,-0.0477593,OpenStreetMap
-LOW,Tesco Express,convenience,"144-146, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5552994,-0.0544014,OpenStreetMap
-LOW,The Crown,pub,"418, Mare Street, London, E5 0, London",E5 0,,https://www.thecrownhackney.co.uk/,info@thecrownhackney.co.uk,,,,51.5495175,-0.054525,OpenStreetMap
-LOW,The Deli Downstairs,deli,"211, Victoria Park Road, London, E5 1, London",E5 1,,https://www.thedelidownstairs.co.uk/,info@thedelidownstairs.co.uk,,,,51.5382439,-0.0452358,OpenStreetMap
-LOW,The Dolphin,pub,"165, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5398797,-0.0561993,OpenStreetMap
-LOW,The Eagle,pub,"103, Wick Road, London, E5 0, London",E5 0,,,,,,,51.5453942,-0.0414522,OpenStreetMap
-LOW,The Elderfield,pub,"57, Elderfield Road, London, E5 0, London",E5 0,+44 20 8986 1591,https://www.theelderfield.co.uk/,info@theelderfield.co.uk,,,,51.553441,-0.0469891,OpenStreetMap
-LOW,The Empress,gastropub,"130a, Lauriston Road, London, E5 1, London",E5 1,+44 20 8533 5123,https://empresse9.co.uk/,info@empresse9.co.uk,,,,51.5369808,-0.04491,OpenStreetMap
-LOW,The Globe in Morning Lane,pub,"20, Morning Lane, London, E5 1, London",E5 1,,https://www.craftunionpubs.com/globe-inn-hackney,info@craftunionpubs.com,,,,51.5459188,-0.05378,OpenStreetMap
-LOW,The Grocery Store,convenience,"39, Barnabas Road, London, E5 0, London",E5 0,,,,,,,51.5467786,-0.0417698,OpenStreetMap
-LOW,The Half Crown,pub,"416, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5494403,-0.0545803,OpenStreetMap
-LOW,The Hawke,pub,"233-235, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5384155,-0.0439635,OpenStreetMap
-LOW,The Hemingway,pub,"84, Victoria Park Road, London, E5 1, London",E5 1,,http://www.thehemingway.co.uk,info@thehemingway.co.uk,,,,51.5371819,-0.0489246,OpenStreetMap
-LOW,The Kenton,pub,"38, Kenton Road, London, E5 1, London",E5 1,+44 20 8533 9492,https://www.kentonpub.co.uk/,info@kentonpub.co.uk,,,,51.5440895,-0.0444155,OpenStreetMap
-LOW,The Lauriston,pub,"162, Victoria Park Road, London, E5 1, London",E5 1,,https://thelauriston.com/,info@thelauriston.com,,,,51.5378625,-0.0451593,OpenStreetMap
-LOW,The London Fields,pizza,"137, Mare Street, London, E5 1, London",E5 1,+44 20 3889 6173,https://www.urbanpubsandbars.com/venues/the-london-fields,info@urbanpubsandbars.com,,,,51.5386524,-0.0572924,OpenStreetMap
-LOW,The Spread Eagle,pub,"224, Homerton High Street, London, E5 0, London",E5 0,+44 20 8985 0400,https://www.thespreadeaglelondon.co.uk/,info@thespreadeaglelondon.co.uk,,,,51.5485949,-0.0407307,OpenStreetMap
-LOW,The Village Store,convenience,"85, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5378865,-0.0445105,OpenStreetMap
-LOW,Two Palms,pizza;hot_dog;coffee_shop,"E5 1, Hackney, London",E5 1,,https://www.jaguarshoes.com/venues/two-palms/,info@jaguarshoes.com,,,,51.5454758,-0.0554959,OpenStreetMap
-LOW,V Bar,bar,"255, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5428075,-0.0555962,OpenStreetMap
-LOW,Victoria Supermarket,convenience,"239, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5384574,-0.0437563,OpenStreetMap
-LOW,Vietnam Supermarket,vietnamese,"193A, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5406787,-0.0555481,OpenStreetMap
-LOW,You Call The Shots,bar,"13, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5461943,-0.0544903,OpenStreetMap
-LOW,Yuki Bar,bar,"E5 1, Hackney, London",E5 1,,,,,,,51.5444621,-0.0584219,OpenStreetMap
-LOW,eat17,deli,"64-66, Brooksby's Walk, London, E5 0, London",E5 0,,,,,,,51.5512903,-0.0434391,OpenStreetMap
+Spice Priority,Business Name,Cuisine Type,Address,Postcode,Phone,Website,Email,Rating,Price Level,Reviews Count,Latitude,Longitude,Source,Contacted,Contact_Date,Contact_Notes
+HIGH,Baba Doner,kebab,"303, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5459776,-0.0554818,OpenStreetMap,False,,
+HIGH,Beijing Palace,chinese,"E5 1, Hackney, London",E5 1,,,,,,,51.5397487,-0.0564598,OpenStreetMap,False,,
+HIGH,Best Kebab,kebab;pizza;chicken;burger,"166, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5380706,-0.0442907,OpenStreetMap,False,,
+HIGH,Best Mangal,kebab,"13, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.552107,-0.0443134,OpenStreetMap,False,,
+HIGH,Black Cardamom,indian,"269, Well Street, London, E5 0, London",E5 0,+44 20 3632 2502,https://www.blackcardamom.co.uk/,info@blackcardamom.co.uk,,,,51.5450089,-0.0464545,OpenStreetMap,False,,
+HIGH,Black Cat Cafe,burger;sandwich;curry;breakfast,"76a, Clarence Road, London, E5 0, London",E5 0,+44 20 8985 7091,http://www.blackcatcafe.co.uk/,info@blackcatcafe.co.uk,,,,51.5513745,-0.0555368,OpenStreetMap,False,,
+HIGH,Britannia,kebab,"299, Mare Street, London, E5 1, London",E5 1,,,,,,,51.545879,-0.0555032,OpenStreetMap,False,,
+HIGH,Chickin Lickin',chicken;burger;kebab;pizza,"74, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8985 8702,,,,,,51.5539585,-0.0447424,OpenStreetMap,False,,
+HIGH,Facing Heaven,chinese,"1A, Bayford Street, London, E5 1, London",E5 1,,https://www.facing-heaven.com/,info@facing-heaven.com,,,,51.5397723,-0.0565498,OpenStreetMap,False,,
+HIGH,Fu Hwa,asian,"55, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.551024,-0.0518856,OpenStreetMap,False,,
+HIGH,Golden States,chinese,"67, Lower Clapton Road, E5 0, London",E5 0,+44 20 8985 7971,https://golden-states.co.uk/,info@golden-states.co.uk,,,,51.5512755,-0.051821,OpenStreetMap,False,,
+HIGH,Hackney Church Brew Co,indian,"16-17, Bohemia Place, London, E5 0, London",E5 0,+44 20 3795 8295,https://www.hackneychurchbrew.co/,info@hackneychurchbrew.co,,,,51.5473604,-0.0524334,OpenStreetMap,False,,
+HIGH,Karamay,asian,"151, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5488337,-0.0405332,OpenStreetMap,False,,
+HIGH,Lavang Spice,indian,"231, Victoria Park Road, London, E5 1, London",E5 1,+44 20 8985 9077,,,,,,51.5384076,-0.0440646,OpenStreetMap,False,,
+HIGH,Lucky & Joy,asian,"95, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8617 8100,https://luckyandjoy.co.uk/,info@luckyandjoy.co.uk,,,,51.5518416,-0.0523048,OpenStreetMap,False,,
+HIGH,My Neighbour the Dumplings,asian,"165, Lower Clapton Road, London, E5 0, London",E5 0,,https://myneighboursthedumplings.com/,info@myneighboursthedumplings.com,,,,51.5543066,-0.0542951,OpenStreetMap,False,,
+HIGH,My Neighbours The Dumplings,asian,"178, Victoria Park Road, London, E5 1, London",E5 1,,https://www.myneighboursthedumplings.com/,info@myneighboursthedumplings.com,,,,51.5382218,-0.0439038,OpenStreetMap,False,,
+HIGH,Nazar Take Away,kebab,"228, Well Street, London, E5 1, London",E5 1,+44 20 8986 1037,,,,,,51.5447046,-0.0462638,OpenStreetMap,False,,
+HIGH,New City Kebab House,kebab,"157B, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5395588,-0.0564754,OpenStreetMap,False,,
+HIGH,New Taste,chinese,"183, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5403436,-0.0558476,OpenStreetMap,False,,
+HIGH,Rosa's Thai Cafe,thai,"381, Mentmore Terrace, London, E5 1, London",E5 1,,https://www.rosasthaicafe.com/,info@rosasthaicafe.com,,,,51.5403021,-0.0578197,OpenStreetMap,False,,
+HIGH,Rose Garden,chinese,"37, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.5496827,-0.0361444,OpenStreetMap,False,,
+HIGH,Sang Kee,chinese,"169, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5469697,-0.0483666,OpenStreetMap,False,,
+HIGH,Sawasdee,thai,"239-243, Mare Street, London, E5 1, London",E5 1,+44 20 8986 0072,,,,,,51.5423334,-0.0554852,OpenStreetMap,False,,
+HIGH,Seaweed,japanese;korean;chinese,"358, Mare Street, London, E5 1, London",E5 1,+44 20 3062 8704,https://seaweed-food.co.uk,info@seaweed-food.co.uk,,,,51.5480714,-0.0548374,OpenStreetMap,True,2025-06-25,now now
+HIGH,Shankey's,indian,"221, Well Street, London, E5 1, London",E5 1,,,,,,,51.5439055,-0.0472247,OpenStreetMap,False,,
+HIGH,Star Kebab & Pizza,kebab;pizza,"169, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5489588,-0.0396424,OpenStreetMap,False,,
+HIGH,Sultan Grill,kebab;burger;pizza,"133, Homerton High Street, E5 0, London",E5 0,+44 20 8374 6874,http://www.sultansgrill.co.uk/,info@sultansgrill.co.uk,,,,51.5488651,-0.0414079,OpenStreetMap,False,,
+HIGH,Sun On,chinese,"222, Well Street, London, E5 1, London",E5 1,,,,,,,51.544573,-0.0463522,OpenStreetMap,False,,
+HIGH,The Adam & Eve,thai,"155, Homerton High Street, London, E5 0, London",E5 0,+44 20 8985 1494,https://www.adamandevepub.com/,info@adamandevepub.com,,,,51.5488932,-0.0404234,OpenStreetMap,False,,
+HIGH,The Gun,asian,"235, Well Street, London, E5 1, London",E5 1,+44 20 8985 6296,https://www.thegunwellstreet.com/,info@thegunwellstreet.com,,,,51.5441967,-0.0471116,OpenStreetMap,False,,
+HIGH,The Takeaway,chicken;kebab;burger;pizza,"33, Barnabas Road, London, E5 0, London",E5 0,+44 20 8986 8818; +44 7444 314966,,,,,,51.5469053,-0.0417879,OpenStreetMap,False,,
+HIGH,Three Bowls,asian,"68, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.5526763,-0.052636,OpenStreetMap,False,,
+HIGH,Too Sweet,west indian,"63, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8525 8168,,,,,,51.5535023,-0.0451035,OpenStreetMap,False,,
+MEDIUM,21 Sid,italian,"21, Sidworth Street, E5 1, London",E5 1,,,,,,,51.5393301,-0.0573429,OpenStreetMap,False,,
+MEDIUM,46b Espresso Hut,coffee_shop,"46b, Brooksby's Walk, London, E5 0, London",E5 0,,https://46b-espressohut.tumblr.com/,info@46b-espressohut.tumblr.com,,,,51.5502924,-0.042828,OpenStreetMap,False,,
+MEDIUM,Agbo Saba Cash & Carry Food,convenience,"12, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.551983,-0.0437177,OpenStreetMap,False,,
+MEDIUM,Anatolia,restaurant,"253, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5427474,-0.0555577,OpenStreetMap,False,,
+MEDIUM,Backyard Grill,caribbean,"Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8986 8201,,,,,,51.5539931,-0.0535296,OpenStreetMap,False,,
+MEDIUM,Banh Mi Hoi-an,restaurant,"242, Graham Road, London, E5 1, London",E5 1,,,,,,,51.5465773,-0.055621,OpenStreetMap,False,,
+MEDIUM,Beans & Bites,mediterranean;pancake,"244, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5452111,-0.0463059,OpenStreetMap,False,,
+MEDIUM,Big Night,barbecue,"177, Morning Lane, E5 0, London",E5 0,,https://bignight.info/,info@bignight.info,,,,51.5468983,-0.0480504,OpenStreetMap,False,,
+MEDIUM,Blend Cafe Ltd,coffee_shop,"Barnabas Road, London, E5 0, London",E5 0,,https://blendcafe.london/,info@blendcafe.london,,,,51.5459211,-0.0420127,OpenStreetMap,False,,
+MEDIUM,Bone'ma Kitchen,cafe,"83, Lauriston Road, London, E5 1, London",E5 1,+44 20 4531 8397,,,,,,51.5379294,-0.0445624,OpenStreetMap,False,,
+MEDIUM,Boulangerie Jade,coffee_shop,"79, Lauriston Road, London, E5 1, London",E5 1,+44 20 8986 0777,,,,,,51.5380138,-0.044648,OpenStreetMap,False,,
+MEDIUM,Bread & Truffle,sandwich,"E5 1, Hackney, London",E5 1,,https://breadandtruffle.com/,info@breadandtruffle.com,,,,51.5396936,-0.0579857,OpenStreetMap,False,,
+MEDIUM,Bronson's Burgers,burger,"169, Mare Street, E5 1, London",E5 1,,https://bronsonsburgers.co.uk/,info@bronsonsburgers.co.uk,,,,51.5400145,-0.0561235,OpenStreetMap,False,,
+MEDIUM,Bun & Sum,burger,"224, Graham Road, London, E5 1, London",E5 1,,https://www.bunandsum.com/,info@bunandsum.com,,,,51.546559,-0.0561305,OpenStreetMap,False,,
+MEDIUM,Bungalows Cafe,cafe,"80, Mare Street, London, E5 1, London",E5 1,+44 20 3609 4668,,,,,,51.5381882,-0.0567146,OpenStreetMap,False,,
+MEDIUM,Buns & Puns,burger,"6, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.551829,-0.0436486,OpenStreetMap,False,,
+MEDIUM,Bunster,burger;american,"108, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8533 0404,https://www.bunster.co/,info@bunster.co,,,,51.5535221,-0.0531549,OpenStreetMap,False,,
+MEDIUM,Burgrill,fast_food,"33, Lower Clapton Road, E5 0, London",E5 0,,https://www.burgrill.co.uk/,info@burgrill.co.uk,,,,51.5509245,-0.0526921,OpenStreetMap,False,,
+MEDIUM,Burnt Mill,pizza,"257, Mare Street, E5 1, London",E5 1,+44 20 8510 3453,,,,,,51.5429101,-0.0557674,OpenStreetMap,False,,
+MEDIUM,Cafe Mosaic,cafe,"E5 1, Hackney, London",E5 1,,,,,,,51.5415628,-0.0520373,OpenStreetMap,False,,
+MEDIUM,Caloroso,pizza,"71, Lower Clapton Road, E5 0, London",E5 0,+44 20 8985 5577,https://www.caloroso.co.uk/,info@caloroso.co.uk,,,,51.5513653,-0.0518741,OpenStreetMap,False,,
+MEDIUM,Carolina Pizza,pizza,"173, Mare Street, London, E5 1, London",E5 1,+44 20 8525 5588,,,,,,51.5400687,-0.0559738,OpenStreetMap,False,,
+MEDIUM,Chambers,mediterranean,"132, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5368487,-0.0448767,OpenStreetMap,False,,
+MEDIUM,Chan's Noodle Bar,noodle,"181, Mare Street, London, E5 1, London",E5 1,+44 20 8985 5969,,,,,,51.5403001,-0.0558716,OpenStreetMap,False,,
+MEDIUM,Change Please,coffee_shop,"E5 0, Hackney, London",E5 0,,,,,,,51.550103,-0.0462629,OpenStreetMap,False,,
+MEDIUM,Chatters Restaurant,fast_food,"E5 0, Hackney, London",E5 0,,,,,,,51.5500168,-0.0461389,OpenStreetMap,False,,
+MEDIUM,Clapton Table,mediterranean,"159, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 3754 7182,http://claptontable.com,info@claptontable.com,,,,51.554056,-0.0541505,OpenStreetMap,False,,
+MEDIUM,Climpson's Arch,restaurant,"Helmsley Place, London, E5 1, London",E5 1,,,,,,,51.539638,-0.0584354,OpenStreetMap,False,,
+MEDIUM,Co-op Food,convenience,"21-23, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8986 1264,https://www.coop.co.uk/store-finder/E5-0LH/21-23-chatsworth-road,info@coop.co.uk,,,,51.5523103,-0.0445009,OpenStreetMap,False,,
+MEDIUM,Co-op Food,convenience,"112, Homerton High Street, London, E5 0, London",E5 0,+44 20 8985 8260,https://www.coop.co.uk/store-finder/E9-6JF/112-homerton-high-street,info@coop.co.uk,,,,51.5478772,-0.0457425,OpenStreetMap,False,,
+MEDIUM,Cod & Co,fish_and_chips,"8, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8985 4226,http://codandco.com/,info@codandco.com,,,,51.5518677,-0.0436776,OpenStreetMap,False,,
+MEDIUM,Coopersale Coffee House,coffee_shop,"143-145, Homerton High Street, E5 0, London",E5 0,,,,,,,51.548823,-0.0409948,OpenStreetMap,False,,
+MEDIUM,Costa,coffee_shop,"Homerton Row, London, E5 0, London",E5 0,,,,,,,51.550228,-0.0457275,OpenStreetMap,False,,
+MEDIUM,Costa,coffee_shop,"7-19, Amhurst Road, London, E5 1, London",E5 1,,,,,,,51.5475284,-0.0561955,OpenStreetMap,False,,
+MEDIUM,Crystal Cafe,cafe,"48b, Brooksby's Walk, London, E5 0, London",E5 0,,,,,,,51.5503765,-0.0428696,OpenStreetMap,False,,
+MEDIUM,Cuppa Pug,cafe,"Nursery Road, London, E5 0, London",E5 0,,https://www.cuppapug.com/locations/london,info@cuppapug.com,,,,51.5472533,-0.0515118,OpenStreetMap,False,,
+MEDIUM,Dalla,italian,"120, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5469704,-0.0494656,OpenStreetMap,False,,
+MEDIUM,Dilara's Cafe,cafe,"8, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5458955,-0.0542598,OpenStreetMap,False,,
+MEDIUM,Dolphin Wine Bar & Restaurant,bar,"Mare Street, London, E5 1, London",E5 1,,,,,,,51.5398076,-0.0562633,OpenStreetMap,False,,
+MEDIUM,Domino's,pizza,"113, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5522175,-0.0526531,OpenStreetMap,False,,
+MEDIUM,Domino's,pizza,"222, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5437877,-0.0551473,OpenStreetMap,False,,
+MEDIUM,Doree & Co,cafe,"26, Chatsworth Road, E5 0, London",E5 0,,,,,,,51.5524245,-0.04398,OpenStreetMap,False,,
+MEDIUM,Dribble Tea,bubble_tea,"19, Well Street, London, E5 1, London",E5 1,,,,,,,51.5401434,-0.0546338,OpenStreetMap,False,,
+MEDIUM,E5 Square Cafe,cafe,"193, Rushmore Road, London, E5 0, London",E5 0,,,,,,,51.5557574,-0.0394263,OpenStreetMap,False,,
+MEDIUM,E9 Cafe,cafe,"267, Well Street, London, E5 1, London",E5 1,+44 20 8525 9538,,,,,,51.5449784,-0.0464839,OpenStreetMap,False,,
+MEDIUM,EDIT,restaurant,"217, Mare Street, London, E5 1, London",E5 1,,https://www.edit.london/,info@edit.london,,,,51.5415851,-0.0554281,OpenStreetMap,False,,
+MEDIUM,Eastgate Food & Wine,convenience,"180, Chatsworth Road, E5 0, London",E5 0,,,,,,,51.5568784,-0.0461922,OpenStreetMap,False,,
+MEDIUM,Elephant,pizza,"43, Lower Clapton Road, E5 0, London",E5 0,,https://www.elephanthackney.com/,info@elephanthackney.com,,,,51.550972,-0.0522937,OpenStreetMap,False,,
+MEDIUM,Elsewhere Coffee,coffee_shop,"E5 1, Hackney, London",E5 1,,https://elsewherecoffee.com/,info@elsewherecoffee.com,,,,51.5471557,-0.0552553,OpenStreetMap,False,,
+MEDIUM,Emir African Cuisine and Lounge,african,"16, Chatsworth Road, London, E5 0, London",E5 0,+44 20 3632 1172,,,,,,51.552192,-0.043893,OpenStreetMap,False,,
+MEDIUM,Fayre Share,cafe,"180, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5382093,-0.0438155,OpenStreetMap,False,,
+MEDIUM,Felice,italian,"90, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 8510 0298,,,,,,51.5532269,-0.0529384,OpenStreetMap,False,,
+MEDIUM,Fika,coffee_shop,"36, Chatsworth Road, E5 0, London",E5 0,,,,,,,51.5527902,-0.0442027,OpenStreetMap,False,,
+MEDIUM,Finch Cafe,cafe,"12, Sidworth Street, London, E5 1, London",E5 1,,,,,,,51.5396788,-0.0575595,OpenStreetMap,False,,
+MEDIUM,Fink's Chats,coffee_shop,"62, Chatsworth Road, London, E5 0, London",E5 0,,https://www.finks.co.uk/chatsworth,info@finks.co.uk,,,,51.5535486,-0.0446066,OpenStreetMap,False,,
+MEDIUM,Frampton Food,convenience,"E5 1, Hackney, London",E5 1,,,,,,,51.5430537,-0.0523299,OpenStreetMap,False,,
+MEDIUM,Franzè & Evans Café,cafe,"E5 1, Hackney, London",E5 1,+44 20 3874 7201,https://www.franzeevans.com/marest,info@franzeevans.com,,,,51.5411573,-0.0554312,OpenStreetMap,False,,
+MEDIUM,Fulljoy,seafood,"80, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5529078,-0.0527584,OpenStreetMap,False,,
+MEDIUM,Gaia Pulses,greek,"E5 0, Hackney, London",E5 0,,https://www.gaiapulses.com/,info@gaiapulses.com,,,,51.5471565,-0.0469228,OpenStreetMap,False,,
+MEDIUM,Green Papaya,vietnamese,"191, Mare Street, London, E5 1, London",E5 1,+44 20 8985 5486,http://www.green-papaya.com/,info@green-papaya.com,,,,51.5405002,-0.0557099,OpenStreetMap,False,,
+MEDIUM,Greggs,sandwich;bakery,"387b, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5486329,-0.0553296,OpenStreetMap,False,,
+MEDIUM,Hackney Whole Food,convenience,"45-47, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.550973,-0.0521755,OpenStreetMap,False,,
+MEDIUM,Hash E8,cafe,"103, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5373623,-0.0442867,OpenStreetMap,False,,
+MEDIUM,Huong,vietnamese,"190, Well Street, London, E5 1, London",E5 1,,,,,,,51.5438154,-0.0468947,OpenStreetMap,False,,
+MEDIUM,Imperial Flavors (East),restaurant,"35, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.549665,-0.0362167,OpenStreetMap,False,,
+MEDIUM,Incoming Coffee,coffee_shop,"393, Mare Street, London, E5 1, London",E5 1,,,,,,,51.548755,-0.055342,OpenStreetMap,False,,
+MEDIUM,Jijigo,korean,"1, Well Street, E5 1, London",E5 1,+44 20 8617 9191,https://www.jijigo.net/,info@jijigo.net,,,,51.5400783,-0.0553451,OpenStreetMap,False,,
+MEDIUM,KFC,chicken,"311, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5461755,-0.0554102,OpenStreetMap,False,,
+MEDIUM,King Edward's Food Store,convenience,"30B, King Edward's Road, London, E5 1, London",E5 1,,,,,,,51.537734,-0.0545592,OpenStreetMap,False,,
+MEDIUM,Kingfisher,fish_and_chips,"147, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.548839,-0.0407022,OpenStreetMap,False,,
+MEDIUM,Kome Express,japanese;korean,"222, Graham Road, London, E5 1, London",E5 1,,https://www.komeuk.com/,info@komeuk.com,,,,51.5465458,-0.0562487,OpenStreetMap,False,,
+MEDIUM,La Mela,mediterranean,"25-27, Marsh Hill, London, E5 0, London",E5 0,+44 20 8510 0801,https://lamelabistro.com/,info@lamelabistro.com,,,,51.5496728,-0.036599,OpenStreetMap,False,,
+MEDIUM,Lardo,pizza,"205, Richmond Road, London, E5 1, London",E5 1,,,,,,,51.5435388,-0.0573167,OpenStreetMap,False,,
+MEDIUM,Leo's,restaurant,"59, Chatsworth Road, London, E5 0, London",E5 0,+44 20 4559 8598,,,,,,51.5534076,-0.0450663,OpenStreetMap,False,,
+MEDIUM,M&S Food,supermarket,"351, Mare Street, London, E5 1, London",E5 1,+44 20 8986 3821,,,,,,51.5475842,-0.055482,OpenStreetMap,False,,
+MEDIUM,Mad Cat Coffee Bar,cafe,"E5 0, Hackney, London",E5 0,,,,,,,51.546952,-0.0421042,OpenStreetMap,False,,
+MEDIUM,Malavenda Cafè,coffee_shop;italian,"1e, Mentmore Terrace, E5 1, London",E5 1,,https://www.malavendacafe.com/,info@malavendacafe.com,,,,51.5394467,-0.0578153,OpenStreetMap,False,,
+MEDIUM,Mambow,malaysian,"78, Lower Clapton Road, London, E5 0, London",E5 0,,https://www.mambow.co.uk/,info@mambow.co.uk,,,,51.5528617,-0.0527576,OpenStreetMap,False,,
+MEDIUM,Marina Cafe,cafe,"422, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5495408,-0.0543163,OpenStreetMap,False,,
+MEDIUM,Marinara Pizza,pizza,"228, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5455137,-0.0464167,OpenStreetMap,False,,
+MEDIUM,Market Fish Bar,fish_and_chips,"195, Well Street, London, E5 1, London",E5 1,,,,,,,51.5434185,-0.0478183,OpenStreetMap,False,,
+MEDIUM,McDonald's,burger,"359-363, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5477459,-0.0553401,OpenStreetMap,False,,
+MEDIUM,Mega Food Centre,convenience,"96, Well Street, E5 1, London",E5 1,,,,,,,51.5408108,-0.0497412,OpenStreetMap,False,,
+MEDIUM,Men,japanese,"51, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8616 1370,http://www.menhackney.com/,info@menhackney.com,,,,51.5531136,-0.0448042,OpenStreetMap,False,,
+MEDIUM,Mess Cafe,cafe,"38, Amhurst Road, London, E5 1, London",E5 1,,,,,,,51.5481917,-0.0568145,OpenStreetMap,False,,
+MEDIUM,Milk,coffee_shop,"Brooksby's Walk, E5 0, London",E5 0,,,,,,,51.5512093,-0.043441,OpenStreetMap,False,,
+MEDIUM,Millfields Coffee,coffee_shop,"145, Chatsworth Road, London, E5 0, London",E5 0,,https://www.millfieldscoffee.co.uk/,info@millfieldscoffee.co.uk,,,,51.5570753,-0.0466788,OpenStreetMap,False,,
+MEDIUM,Narrow Kitchen,sandwich;pasta,"396, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5489961,-0.0548539,OpenStreetMap,False,,
+MEDIUM,Nazar Restaurant,restaurant,"230, Well Street, London, E5 1, London",E5 1,,,,,,,51.5447572,-0.0462595,OpenStreetMap,False,,
+MEDIUM,New Noodle Bar,noodle,"9, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5461365,-0.0545912,OpenStreetMap,False,,
+MEDIUM,Nicky's Cafe & Sandwich Bar,cafe,"8-20, Well Street, London, E5 1, London",E5 1,,,,,,,51.5398476,-0.0552335,OpenStreetMap,False,,
+MEDIUM,Number One Cafe,cafe,"36-38, Well Street, London, E5 1, London",E5 1,,,,,,,51.5399775,-0.0542137,OpenStreetMap,False,,
+MEDIUM,Ohba Leaf,japanese,"E5 0, Hackney, London",E5 0,+44 20 3515 0456,https://ohbaleaf.co.uk/,info@ohbaleaf.co.uk,,,,51.5512959,-0.0434172,OpenStreetMap,False,,
+MEDIUM,Olive & Lime,restaurant,"50, Lower Clapton Road, London, E5 0, London",E5 0,+44 7473 198598,https://oliveandlime.co.uk/,info@oliveandlime.co.uk,,,,51.5516662,-0.0516146,OpenStreetMap,False,,
+MEDIUM,Only The Brave,cafe,"E5 1, Hackney, London",E5 1,,https://onlythebravelondon.co.uk/,info@onlythebravelondon.co.uk,,,,51.5467907,-0.056151,OpenStreetMap,False,,
+MEDIUM,Original PFC,chicken,"305, Mare Street, London, E5 1, London",E5 1,+44 20 3887 1762,http://www.originalpfc.uk/,info@originalpfc.uk,,,,51.5460241,-0.0554699,OpenStreetMap,False,,
+MEDIUM,Palaette,restaurant,"415, Mare Street, London, E5 1, London",E5 1,+44 7395 327 754,https://www.palaette.co.uk/,info@palaette.co.uk,,,,51.5493191,-0.0552885,OpenStreetMap,False,,
+MEDIUM,Papi,restaurant,"E5 1, Hackney, London",E5 1,,https://papirestaurant.com/,info@papirestaurant.com,,,,51.5395274,-0.0577942,OpenStreetMap,False,,
+MEDIUM,Patty & Bun,burger,"205, Richmond Road, London, E5 1, London",E5 1,+44 20 8525 8250,https://www.pattyandbun.co.uk/,info@pattyandbun.co.uk,,,,51.5435252,-0.057447,OpenStreetMap,False,,
+MEDIUM,Paulie's,bagel,"192, Well Street, London, E5 1, London",E5 1,,https://www.pauliesbagels.co.uk/,info@pauliesbagels.co.uk,,,,51.5438524,-0.0468678,OpenStreetMap,False,,
+MEDIUM,Peck! Peck!,chicken,"320, Mare Street, E5 1, London",E5 1,,http://peckpeck.co.uk/,info@peckpeck.co.uk,,,,51.5464894,-0.0548516,OpenStreetMap,False,,
+MEDIUM,People's Choice,caribbean,"51C, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.553088,-0.0449892,OpenStreetMap,False,,
+MEDIUM,Perfect Chicken,chicken,"350, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5472835,-0.0546547,OpenStreetMap,False,,
+MEDIUM,Perfect Fried Chicken,chicken;burger,"13, Well Street, London, E5 1, London",E5 1,,,,,,,51.5401199,-0.0549673,OpenStreetMap,False,,
+MEDIUM,Perfect Fried Chicken,chicken,"197, Well Street, London, E5 1, London",E5 1,,,,,,,51.5434481,-0.0477821,OpenStreetMap,False,,
+MEDIUM,Pierrette,cafe,"285, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5444835,-0.055733,OpenStreetMap,False,,
+MEDIUM,Pittagoras,greek,"18, Sidworth Street, E5 1, London",E5 1,,,,,,,51.5392368,-0.0576929,OpenStreetMap,False,,
+MEDIUM,Pivaz,turkish,"34, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8985 2599,https://pivaz.co.uk/,info@pivaz.co.uk,,,,51.5526247,-0.0440704,OpenStreetMap,False,,
+MEDIUM,Pizza GoGo,pizza,"18, Morning Lane, London, E5 1, London",E5 1,+44 20 8533 1377,https://www.pizzagogo.co.uk/stores/hackney,info@pizzagogo.co.uk,,,,51.5459439,-0.0539178,OpenStreetMap,False,,
+MEDIUM,PizzaExpress,pizza,"298, Mare Street, E5 1, London",E5 1,+44 20 8104 0470,https://www.pizzaexpress.com/hackney-mare-street,info@pizzaexpress.com,,,,51.5455202,-0.0550055,OpenStreetMap,False,,
+MEDIUM,Pockets,falafel,"Mentmore Terrace, London, E5 1, London",E5 1,,,,,,,51.5388453,-0.0581571,OpenStreetMap,False,,
+MEDIUM,Pret A Manger,sandwich,"1-3, Amhurst Road, London, E5 1, London",E5 1,,,,,,,51.5472727,-0.0555285,OpenStreetMap,False,,
+MEDIUM,R & B,caribbean,"10, Clarence Road, E5 0, London",E5 0,,,,,,,51.5499645,-0.0548662,OpenStreetMap,False,,
+MEDIUM,Rainboww Cook Out,fast_food,"E5 1, Hackney, London",E5 1,,,,,,,51.5476564,-0.0544871,OpenStreetMap,False,,
+MEDIUM,Romeo's,pizza;burger;sushi,"209, Well Street, E5 1, London",E5 1,+44 20 4501 3613,,,,,,51.5436026,-0.047523,OpenStreetMap,False,,
+MEDIUM,Rumbles Fish Bar,fish_and_chips,"30, Well Street, London, E5 1, London",E5 1,+44 20 8985 0440,,,,,,51.5399197,-0.0545719,OpenStreetMap,False,,
+MEDIUM,Running Late,coffee_shop,"E5 1, Hackney, London",E5 1,,,,,,,51.5425713,-0.0554601,OpenStreetMap,False,,
+MEDIUM,Sea Salt Food & Wine,convenience,"214, Graham Road, London, E5 1, London",E5 1,,,,,,,51.5465311,-0.0566048,OpenStreetMap,False,,
+MEDIUM,Selen Cafe,cafe,"161, Homerton High Street, E5 0, London",E5 0,+44 20 8986 9175,,,,,,51.5489006,-0.0401222,OpenStreetMap,False,,
+MEDIUM,Sons,coffee_shop,"Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5483635,-0.0535333,OpenStreetMap,False,,
+MEDIUM,Souvlakiland,greek,"199A, Homerton High Street, London, E5 0, London",E5 0,+44 20 3581 8240,,,,,,51.5491794,-0.0384826,OpenStreetMap,False,,
+MEDIUM,Stone Bros Cafe,cafe,"73, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5538856,-0.0451346,OpenStreetMap,False,,
+MEDIUM,Sunfood Supermarket,convenience,"403, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5489768,-0.0552877,OpenStreetMap,False,,
+MEDIUM,Sunlight Caribbean,caribbean,"259, Well Street, London, E5 1, London",E5 1,+44 20 8985 5848,https://sunlightcaribbean.co.uk,info@sunlightcaribbean.co.uk,,,,51.5448369,-0.0465989,OpenStreetMap,False,,
+MEDIUM,Sutton and Sons Fish & Chips,fish_and_chips,"218, Graham Road, London, E5 1, London",E5 1,,https://www.suttonandsons.co.uk/,info@suttonandsons.co.uk,,,,51.5465397,-0.0563957,OpenStreetMap,False,,
+MEDIUM,Swift Caribbean Delights,caribbean,"27, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5482001,-0.0476846,OpenStreetMap,False,,
+MEDIUM,Sylvie’s Kitchen,caribbean,"216, Graham Road, London, E5 1, London",E5 1,,,,,,,51.5465367,-0.0564693,OpenStreetMap,False,,
+MEDIUM,T4 Tea For U,bubble_tea,"412, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5494018,-0.0547245,OpenStreetMap,False,,
+MEDIUM,Tad,turkish,"261, Mare Street, London, E5 1, London",E5 1,+44 20 8986 2612,,,,,,51.5432505,-0.0556601,OpenStreetMap,False,,
+MEDIUM,Temple of Seitan,burger;chicken;seitan,"10, Morning Lane, London, E5 1, London",E5 1,,https://www.templeofseitan.co.uk/,info@templeofseitan.co.uk,,,,51.5459134,-0.0541747,OpenStreetMap,False,,
+MEDIUM,The Bagel Bar,cafe,"120B, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5540257,-0.0535585,OpenStreetMap,False,,
+MEDIUM,The Barrel Boulangerie,cafe,"1, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5516527,-0.0440137,OpenStreetMap,False,,
+MEDIUM,The Barrel Boulangerie,cafe,"316, Mare Street, E5 1, London",E5 1,+44 20 8985 3619,,,,,,51.5463802,-0.0548857,OpenStreetMap,False,,
+MEDIUM,The Cafe,cafe,"35, Barnabas Road, London, E5 0, London",E5 0,,,,,,,51.546863,-0.0417954,OpenStreetMap,False,,
+MEDIUM,The Chicken Hatch,chicken,"E5 0, Hackney, London",E5 0,,https://www.thechickenhatch.com/,info@thechickenhatch.com,,,,51.5512856,-0.0434787,OpenStreetMap,False,,
+MEDIUM,The Full English,cafe,"96, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5533448,-0.0530103,OpenStreetMap,False,,
+MEDIUM,The MokaPot House,cafe,"48, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5516221,-0.0515888,OpenStreetMap,False,,
+MEDIUM,Today Bread,cafe,"119, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5523719,-0.05287,OpenStreetMap,False,,
+MEDIUM,Tomi's Kitchen,restaurant,"6, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5458622,-0.0543221,OpenStreetMap,False,,
+MEDIUM,Tonkotsu,ramen,"382, Mare Street, London, E5 1, London",E5 1,+44 20 8533 1840,https://tonkotsu.co.uk/,info@tonkotsu.co.uk,,,,51.5486975,-0.0547824,OpenStreetMap,False,,
+MEDIUM,Tre Viêt,vietnamese,"245, Mare Street, London, E5 1, London",E5 1,+44 20 8986 8885;+44 20 8533 7390,https://www.treviet.co.uk/,info@treviet.co.uk,,,,51.5424759,-0.0554921,OpenStreetMap,False,,
+MEDIUM,Urban Social Coffee,cafe,"334, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5468551,-0.0548168,OpenStreetMap,False,,
+MEDIUM,Venerdi,italian,"9, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8533 1902,https://venerdi.co.uk/,info@venerdi.co.uk,,,,51.5518667,-0.044185,OpenStreetMap,False,,
+MEDIUM,Venetia's Coffee Shop,cafe,"55, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5533189,-0.0450288,OpenStreetMap,False,,
+MEDIUM,Waffle & more,waffle,"101, Lower Clapton Road, London, E5 0, London",E5 0,,https://waffleandmore.com/,info@waffleandmore.com,,,,51.5519412,-0.0524688,OpenStreetMap,False,,
+MEDIUM,We Are Vegan Everything,cake;coffee_shop,"11, Dispensary Lane, London, E5 0, London",E5 0,+44 7734 253401,https://weareveganeverything.com/,info@weareveganeverything.com,,,,51.5488801,-0.0544447,OpenStreetMap,False,,
+MEDIUM,Well Street Fish & Chips,fish_and_chips;burger;chicken,"218, Well Street, London, E5 1, London",E5 1,+44 20 8985 4044,,,,,,51.5444752,-0.0463834,OpenStreetMap,False,,
+MEDIUM,Well Street Kitchen,coffee_shop;salad;burger,"203, Well Street, London, E5 1, London",E5 1,+44 20 8533 6275,https://www.wellstreetkitchen.com/,info@wellstreetkitchen.com,,,,51.5435297,-0.0476498,OpenStreetMap,False,,
+MEDIUM,Well Street Pizza,pizza,"184, Well Street, London, E5 1, London",E5 1,,https://www.wellstreetpizza.com/,info@wellstreetpizza.com,,,,51.5436564,-0.0470341,OpenStreetMap,False,,
+MEDIUM,Yard Sale Pizza,pizza,"105, Lower Clapton Road, London, E5 0, London",E5 0,+44 20 3602 9090,https://yardsalepizza.com/,info@yardsalepizza.com,,,,51.5520142,-0.0525601,OpenStreetMap,False,,
+MEDIUM,You Me Sushi,sushi,"368, Mare Street, E5 1, London",E5 1,,https://youmesushi.com/branches/hackney/,info@youmesushi.com,,,,51.5483475,-0.0549099,OpenStreetMap,False,,
+MEDIUM,Yume Ramen,ramen,"E5 1, Hackney, London",E5 1,,,,,,,51.5392703,-0.057006,OpenStreetMap,False,,
+MEDIUM,hai ha,vietnamese,"206, Mare Street, London, E5 1, London",E5 1,,https://haihaonline.co.uk/,info@haihaonline.co.uk,,,,51.5432586,-0.0550835,OpenStreetMap,False,,
+LOW,AJ's Lounge,pub,"E5 0, Hackney, London",E5 0,,,,,,,51.5557472,-0.0385911,OpenStreetMap,False,,
+LOW,Adonis Supermarket,supermarket,"31-33, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5481652,-0.0475062,OpenStreetMap,False,,
+LOW,Akdeniz International Supermarket,convenience,"245-251, Well Street, London, E5 1, London",E5 1,,,,,,,51.5445445,-0.0468435,OpenStreetMap,False,,
+LOW,Back To Eden Centre,convenience,"E5 0, Hackney, London",E5 0,+44 20 8525 0895,,,,,,51.5541054,-0.053615,OpenStreetMap,False,,
+LOW,Bar 161,bar,"161, Mare Street, London, E5 1, London",E5 1,,https://www.bar161.co.uk/,info@bar161.co.uk,,,,51.5397414,-0.0562876,OpenStreetMap,False,,
+LOW,Bar Bruno,bar,"211a, Victoria Park Road, London, E5 1, London",E5 1,,https://www.bruno-london.com/,info@bruno-london.com,,,,51.5383027,-0.0452739,OpenStreetMap,False,,
+LOW,Baxter's Court,pub,"282, Mare Street, London, E5 1, London",E5 1,+44 20 8525 9010,,,,,,51.5453097,-0.0549162,OpenStreetMap,False,,
+LOW,Behind This Wall,bar,"411, Mare Street, E5 1, London",E5 1,+44 20 8985 3927,https://www.behindthiswall.com/,info@behindthiswall.com,,,,51.54922,-0.0552143,OpenStreetMap,False,,
+LOW,Best Off Licence,convenience,"157A, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5395183,-0.0565068,OpenStreetMap,False,,
+LOW,Biddle Bros.,pub,"88, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5531948,-0.0529057,OpenStreetMap,False,,
+LOW,Bobby's Superstore,convenience,"39, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.5496977,-0.0360707,OpenStreetMap,False,,
+LOW,Bradstock Supermarket,convenience,"31, Bradstock Road, E5 1, London",E5 1,,,,,,,51.5444067,-0.0423403,OpenStreetMap,False,,
+LOW,Brazilian Centre,convenience,"223, Mare Street, London, E5 1, London",E5 1,,https://www.braziliancentre.co.uk/,info@braziliancentre.co.uk,,,,51.5418673,-0.0554811,OpenStreetMap,False,,
+LOW,Brew Club,bar,"7-8, Bohemia Place, London, E5 1, London",E5 1,,https://www.brewclub.uk.com/,info@brewclub.uk.com,,,,51.5472058,-0.0537681,OpenStreetMap,False,,
+LOW,Caribbean Market,convenience,"27, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5524329,-0.0445069,OpenStreetMap,False,,
+LOW,Cass Store,convenience,"142-144, Cassland Road, London, E5 1, London",E5 1,,,,,,,51.5437492,-0.0395877,OpenStreetMap,False,,
+LOW,Central Express,convenience,"341-343, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5473832,-0.0550862,OpenStreetMap,False,,
+LOW,Charlie's Corner Shop,convenience,"185, Powerscroft Road, E5 0, London",E5 0,,,,,,,51.5568856,-0.0467444,OpenStreetMap,False,,
+LOW,Chats Organic,supermarket,"2, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5517374,-0.0435714,OpenStreetMap,False,,
+LOW,Chatsworth Supermarket,convenience,"41-43, Chatsworth Road, London, E5 0, London",E5 0,+44 20 8986 3607,,,,,,51.5529199,-0.0447627,OpenStreetMap,False,,
+LOW,Chesham Arms,pizza,"15, Mehetabel Road, London, E5 0, London",E5 0,+44 20 8986 6717,https://www.cheshamarms.com/,info@cheshamarms.com,,,,51.5476012,-0.0501093,OpenStreetMap,False,,
+LOW,Cock Tavern,pub,"315, Mare Street, London, E5 1, London",E5 1,,https://thecocktavern.co.uk/,info@thecocktavern.co.uk,,,,51.5463204,-0.0553781,OpenStreetMap,False,,
+LOW,Costcutter,convenience,"E5 0, Hackney, London",E5 0,,,,,,,51.5556742,-0.0398201,OpenStreetMap,False,,
+LOW,Dovetail,bar,"11, Chatsworth Road, London, E5 0, London",E5 0,,https://dovetailbars.co.uk/,info@dovetailbars.co.uk,,,,51.5520575,-0.0443262,OpenStreetMap,False,,
+LOW,E9 Fruit & Veg,convenience,"175, Morning Lane, E5 0, London",E5 0,,,,,,,51.546923,-0.0481205,OpenStreetMap,False,,
+LOW,Empire Express,convenience,"301, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5459271,-0.0554888,OpenStreetMap,False,,
+LOW,Erciyes,convenience,"24-28, Well Street, London, E5 1, London",E5 1,+44 20 8986 4392,,,,,,51.5399061,-0.0547023,OpenStreetMap,False,,
+LOW,Expa Local,convenience,"226-228, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5485982,-0.0405896,OpenStreetMap,False,,
+LOW,General Browning Club,pub,"83, Valette Street, London, E5 1, London",E5 1,,,,,,,51.5456965,-0.0545009,OpenStreetMap,False,,
+LOW,Grains & Green,supermarket,"214, Mare Street, E5 1, London",E5 1,,,,,,,51.5435573,-0.0551301,OpenStreetMap,False,,
+LOW,Green Olive & Lemon,convenience,"159, Homerton High Street, E5 0, London",E5 0,,,,,,,51.5488886,-0.0401996,OpenStreetMap,False,,
+LOW,Heart of Hackney,bar,"255, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5428481,-0.0557213,OpenStreetMap,False,,
+LOW,Helgi's,bar,"177, Mare Street, London, E5 1, London",E5 1,,,,,,,51.540155,-0.0559134,OpenStreetMap,False,,
+LOW,Hoxton Fruit,supermarket,"406, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5492408,-0.0547591,OpenStreetMap,False,,
+LOW,Huy Minh Supermarket,convenience,"185-187, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5403929,-0.055753,OpenStreetMap,False,,
+LOW,Ishi Express,convenience,"96a, Glyn Road, London, E5 0, London",E5 0,,,,,,,51.5513921,-0.0403565,OpenStreetMap,False,,
+LOW,Ishi Express,convenience,"15, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5521541,-0.0443351,OpenStreetMap,False,,
+LOW,Ivy's Corner Shop,convenience,"53, Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.551006,-0.0519531,OpenStreetMap,False,,
+LOW,Jeyda's,convenience,"389, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5486754,-0.0553292,OpenStreetMap,False,,
+LOW,Kacey's Off Licence,convenience,"29, Homerton High Street, London, E5 0, London",E5 0,,,,,,,51.5481952,-0.0476195,OpenStreetMap,False,,
+LOW,Ken's Convenience Store,convenience,"172, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5381376,-0.0440946,OpenStreetMap,False,,
+LOW,Kings Meat & Groceries,supermarket,"410, Mare Street, London, E5 0, London",E5 0,,,,,,,51.549358,-0.0547571,OpenStreetMap,False,,
+LOW,L'épicerie,coffee_shop,"56, Chatsworth Road, London, E5 0, London",E5 0,+44 20 7503 8172,https://www.lepicerie56.com/,info@lepicerie56.com,,,,51.5533764,-0.044444,OpenStreetMap,False,,
+LOW,La Camionera,coffee_shop,"243, Well Street, E5 1, London",E5 1,+44 7725 443407,https://lacamionera.com,info@lacamionera.com,,,,51.5444565,-0.0469115,OpenStreetMap,False,,
+LOW,Lauriston Grocers,convenience,"134-136, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5367926,-0.0448596,OpenStreetMap,False,,
+LOW,Lidl,supermarket,"27-37, Well Street, London, E5 1, London",E5 1,,https://www.lidl.co.uk/s/en-GB/store-finder/london/hackney/well-street-27-37/,info@lidl.co.uk,,,,51.5407536,-0.0538609,OpenStreetMap,False,,
+LOW,Local Supermarket,convenience,"115, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5522244,-0.0527871,OpenStreetMap,False,,
+LOW,Londis,convenience,"112-116, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5377924,-0.0450262,OpenStreetMap,False,,
+LOW,London Borough of Jam,deli,"51D, Chatsworth Road, London, E5 0, London",E5 0,,https://www.londonboroughofjam.com/,info@londonboroughofjam.com,,,,51.5530782,-0.0450506,OpenStreetMap,False,,
+LOW,London Fields Roof Garden,bar,"E5 1, Hackney, London",E5 1,,,,,,,51.5427207,-0.0578622,OpenStreetMap,False,,
+LOW,London Starnight,convenience,"199, Mare Street, E5 1, London",E5 1,+44 20 8985 2949,,,,,,51.540964,-0.0553939,OpenStreetMap,False,,
+LOW,Lê-Mi,convenience,"257a, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5430089,-0.0555648,OpenStreetMap,False,,
+LOW,Maan Ka Fook,convenience,"14, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5459238,-0.0540651,OpenStreetMap,False,,
+LOW,Mace,convenience,"E5 1, Hackney, London",E5 1,,,,,,,51.5388639,-0.0565122,OpenStreetMap,False,,
+LOW,Mira Express,convenience,"48, Brooksby's Walk, London, E5 0, London",E5 0,,,,,,,51.5505399,-0.0430264,OpenStreetMap,False,,
+LOW,Morning News Supermarket,convenience,"240-242, Morning Lane, E5 0, London",E5 0,,,,,,,51.5452682,-0.0463754,OpenStreetMap,False,,
+LOW,News-Cons,convenience,"90, Chatsworth Road, London, E5 0, London",E5 0,,,,,,,51.5543054,-0.0448757,OpenStreetMap,False,,
+LOW,Nobody Asked Me,bar,"88, Chatsworth Road, London, E5 0, London",E5 0,,https://www.nobodyaskedme.co.uk/,info@nobodyaskedme.co.uk,,,,51.5542683,-0.0448556,OpenStreetMap,False,,
+LOW,Off Licence Platinum,convenience,"Lower Clapton Road, E5 0, London",E5 0,,,,,,,51.5527819,-0.0527042,OpenStreetMap,False,,
+LOW,Old Ship,burger,"2, Sylvester Path, London, E5 1, London",E5 1,+44 20 8986 2732,https://www.oldshiphackney.com/,info@oldshiphackney.com,,,,51.5459055,-0.0556389,OpenStreetMap,False,,
+LOW,Organico,convenience,"39, Chatsworth Road, London, E5 0, London",E5 0,+44 20 3601 2375,,,,,,51.552842,-0.0447332,OpenStreetMap,False,,
+LOW,Oslo,pizza,"1a, Amhurst Road, London, E5 1, London",E5 1,,https://www.oslohackney.com/,info@oslohackney.com,,,,51.5471622,-0.0556,OpenStreetMap,False,,
+LOW,Planet E9,convenience,"70, Morning Lane, E5 1, London",E5 1,,,,,,,51.5466342,-0.052087,OpenStreetMap,False,,
+LOW,Premier,convenience,"31, Marsh Hill, London, E5 0, London",E5 0,,,,,,,51.5496367,-0.0363628,OpenStreetMap,False,,
+LOW,Pub on the Park,pub,"19, Martello Street, London, E5 1, London",E5 1,+44 20 7923 3398,https://pubonthepark.com/,info@pubonthepark.com,,,,51.5420771,-0.0582953,OpenStreetMap,False,,
+LOW,Rajshree Newsagent,convenience,"7, Terrace Road, E5 1, London",E5 1,,,,,,,51.5432606,-0.0470253,OpenStreetMap,False,,
+LOW,Rasputins,hot_dog,"171, Mare Street, E5 1, London",E5 1,,,,,,,51.540047,-0.05608,OpenStreetMap,False,,
+LOW,Sainsbury's Local,convenience,"11-13, Lower Clapton Road, London, E5 0, London",E5 0,,https://stores.sainsburys.co.uk/4223/hackney-lower-clapton-road-local,info@stores.sainsburys.co.uk,,,,51.5501251,-0.0544215,OpenStreetMap,False,,
+LOW,Sainsbury's Local,convenience,"277, Mare Street, London, E5 1, London",E5 1,,https://stores.sainsburys.co.uk/4279/hackney-town-hall-local,info@stores.sainsburys.co.uk,,,,51.5442483,-0.0557339,OpenStreetMap,False,,
+LOW,Saint Monday,barbecue,"Warburton Street, London, E5 1, London",E5 1,,,,,,,51.5386304,-0.058193,OpenStreetMap,False,,
+LOW,So Local,convenience,"175, Mare Street, E5 1, London",E5 1,,,,,,,51.5401199,-0.056071,OpenStreetMap,False,,
+LOW,Spar,convenience,"64-66, Brooksby's Walk, London, E5 0, London",E5 0,,https://www.spar.co.uk/store-locator/afb15235-spar-hackney/,info@spar.co.uk,,,,51.5512845,-0.0433492,OpenStreetMap,False,,
+LOW,Tesco,supermarket,"55, Morning Lane, London, E5 0, London",E5 0,,,,,,,51.5469169,-0.0527374,OpenStreetMap,False,,
+LOW,Tesco,supermarket,"180, Well Street, London, E5 1, London",E5 1,,,,,,,51.5429708,-0.0477593,OpenStreetMap,False,,
+LOW,Tesco Express,convenience,"144-146, Lower Clapton Road, London, E5 0, London",E5 0,,,,,,,51.5552994,-0.0544014,OpenStreetMap,False,,
+LOW,The Crown,pub,"418, Mare Street, London, E5 0, London",E5 0,,https://www.thecrownhackney.co.uk/,info@thecrownhackney.co.uk,,,,51.5495175,-0.054525,OpenStreetMap,False,,
+LOW,The Deli Downstairs,deli,"211, Victoria Park Road, London, E5 1, London",E5 1,,https://www.thedelidownstairs.co.uk/,info@thedelidownstairs.co.uk,,,,51.5382439,-0.0452358,OpenStreetMap,False,,
+LOW,The Dolphin,pub,"165, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5398797,-0.0561993,OpenStreetMap,False,,
+LOW,The Eagle,pub,"103, Wick Road, London, E5 0, London",E5 0,,,,,,,51.5453942,-0.0414522,OpenStreetMap,False,,
+LOW,The Elderfield,pub,"57, Elderfield Road, London, E5 0, London",E5 0,+44 20 8986 1591,https://www.theelderfield.co.uk/,info@theelderfield.co.uk,,,,51.553441,-0.0469891,OpenStreetMap,False,,
+LOW,The Empress,gastropub,"130a, Lauriston Road, London, E5 1, London",E5 1,+44 20 8533 5123,https://empresse9.co.uk/,info@empresse9.co.uk,,,,51.5369808,-0.04491,OpenStreetMap,False,,
+LOW,The Globe in Morning Lane,pub,"20, Morning Lane, London, E5 1, London",E5 1,,https://www.craftunionpubs.com/globe-inn-hackney,info@craftunionpubs.com,,,,51.5459188,-0.05378,OpenStreetMap,False,,
+LOW,The Grocery Store,convenience,"39, Barnabas Road, London, E5 0, London",E5 0,,,,,,,51.5467786,-0.0417698,OpenStreetMap,False,,
+LOW,The Half Crown,pub,"416, Mare Street, London, E5 0, London",E5 0,,,,,,,51.5494403,-0.0545803,OpenStreetMap,False,,
+LOW,The Hawke,pub,"233-235, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5384155,-0.0439635,OpenStreetMap,False,,
+LOW,The Hemingway,pub,"84, Victoria Park Road, London, E5 1, London",E5 1,,http://www.thehemingway.co.uk,info@thehemingway.co.uk,,,,51.5371819,-0.0489246,OpenStreetMap,False,,
+LOW,The Kenton,pub,"38, Kenton Road, London, E5 1, London",E5 1,+44 20 8533 9492,https://www.kentonpub.co.uk/,info@kentonpub.co.uk,,,,51.5440895,-0.0444155,OpenStreetMap,False,,
+LOW,The Lauriston,pub,"162, Victoria Park Road, London, E5 1, London",E5 1,,https://thelauriston.com/,info@thelauriston.com,,,,51.5378625,-0.0451593,OpenStreetMap,False,,
+LOW,The London Fields,pizza,"137, Mare Street, London, E5 1, London",E5 1,+44 20 3889 6173,https://www.urbanpubsandbars.com/venues/the-london-fields,info@urbanpubsandbars.com,,,,51.5386524,-0.0572924,OpenStreetMap,False,,
+LOW,The Spread Eagle,pub,"224, Homerton High Street, London, E5 0, London",E5 0,+44 20 8985 0400,https://www.thespreadeaglelondon.co.uk/,info@thespreadeaglelondon.co.uk,,,,51.5485949,-0.0407307,OpenStreetMap,False,,
+LOW,The Village Store,convenience,"85, Lauriston Road, London, E5 1, London",E5 1,,,,,,,51.5378865,-0.0445105,OpenStreetMap,False,,
+LOW,Two Palms,pizza;hot_dog;coffee_shop,"E5 1, Hackney, London",E5 1,,https://www.jaguarshoes.com/venues/two-palms/,info@jaguarshoes.com,,,,51.5454758,-0.0554959,OpenStreetMap,False,,
+LOW,V Bar,bar,"255, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5428075,-0.0555962,OpenStreetMap,False,,
+LOW,Victoria Supermarket,convenience,"239, Victoria Park Road, London, E5 1, London",E5 1,,,,,,,51.5384574,-0.0437563,OpenStreetMap,False,,
+LOW,Vietnam Supermarket,vietnamese,"193A, Mare Street, London, E5 1, London",E5 1,,,,,,,51.5406787,-0.0555481,OpenStreetMap,False,,
+LOW,You Call The Shots,bar,"13, Morning Lane, London, E5 1, London",E5 1,,,,,,,51.5461943,-0.0544903,OpenStreetMap,False,,
+LOW,Yuki Bar,bar,"E5 1, Hackney, London",E5 1,,,,,,,51.5444621,-0.0584219,OpenStreetMap,False,,
+LOW,eat17,deli,"64-66, Brooksby's Walk, London, E5 0, London",E5 0,,,,,,,51.5512903,-0.0434391,OpenStreetMap,False,,

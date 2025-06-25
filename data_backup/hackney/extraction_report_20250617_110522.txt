@@ -1,0 +1,23 @@
+Hackney Spice Business Extraction Report - 20250617_110522
+============================================================
+Total businesses extracted: 285
+
+Priority Breakdown:
+  HIGH: 34
+  LOW: 98
+  MEDIUM: 153
+
+Source Breakdown:
+  OpenStreetMap: 285
+
+Top High-Priority Spice Businesses:
+  1. Black Cat Cafe - burger;sandwich;curry;breakfast
+  2. Rose Garden - chinese
+  3. My Neighbour the Dumplings - asian
+  4. Star Kebab & Pizza - kebab;pizza
+  5. Hackney Church Brew Co - indian
+  6. Lucky & Joy - asian
+  7. Karamay - asian
+  8. Too Sweet - west indian
+  9. Golden States - chinese
+  10. Fu Hwa - asian

@@ -57,6 +57,9 @@ function App() {
   const [selectedBusiness, setSelectedBusiness] = useState(null);
   const [businessDetailOpen, setBusinessDetailOpen] = useState(false);
   const [searchSuggestions, setSearchSuggestions] = useState([]);
+  const [contactDialogOpen, setContactDialogOpen] = useState(false);
+  const [contactingBusiness, setContactingBusiness] = useState(null);
+  const [contactNotes, setContactNotes] = useState('');
 
   const COLORS = {
     HIGH: '#ff5252',
@@ -135,6 +138,34 @@ function App() {
             Visit
           </Button>
         ) : null
+      )
+    },
+    { 
+      headerName: "Contact Status", 
+      field: "Contacted", 
+      sortable: true, 
+      filter: true, 
+      resizable: true,
+      width: 130,
+      cellRenderer: params => (
+        <Button
+          variant={params.value ? "contained" : "outlined"}
+          size="small"
+          color={params.value ? "success" : "primary"}
+          onClick={() => {
+            setContactingBusiness(params.data);
+            setContactNotes(params.data['Contact_Notes'] || '');
+            setContactDialogOpen(true);
+          }}
+          sx={{ 
+            textTransform: 'none',
+            fontSize: '0.75rem',
+            minWidth: '100px'
+          }}
+          title={params.data['Contact_Date'] ? `Contacted on ${params.data['Contact_Date']}` : 'Not contacted yet'}
+        >
+          {params.value ? '✅ Contacted' : '📞 Contact'}
+        </Button>
       )
     },
   ];
@@ -235,6 +266,47 @@ function App() {
     if (newValue) {
       setSelectedBusiness(newValue.data);
       setBusinessDetailOpen(true);
+    }
+  };
+
+  const handleContactUpdate = async (contacted) => {
+    if (!contactingBusiness) return;
+    
+    try {
+      const apiUrl = __ENVIRONMENT__ === 'production' ? __PRODUCTION_BACKEND_URL__ : __BACKEND_URL__;
+      
+      const businessName = encodeURIComponent(contactingBusiness['Business Name']);
+      console.log('Updating contact for:', contactingBusiness['Business Name']);
+      
+      await axios.put(`${apiUrl}/api/businesses/${businessName}/contact`, {
+        contacted: contacted,
+        contact_notes: contactNotes.trim() || null
+      });
+      
+      console.log('✅ Contact status updated successfully');
+      
+      // Refresh data
+      console.log('Refreshing business data...');
+      const response = await axios.get(`${apiUrl}/api/businesses`);
+      
+      // Debug: Check if the updated business is in the response
+      const updatedBusiness = response.data.find(b => b['Business Name'] === contactingBusiness['Business Name']);
+      console.log('Updated business data:', updatedBusiness);
+      console.log('Contact status:', updatedBusiness?.Contacted);
+      console.log('Contact notes:', updatedBusiness?.Contact_Notes);
+      
+      setAllData(response.data);
+      setFilteredData(response.data);
+      
+      console.log('✅ Data refreshed, closing dialog');
+      setContactDialogOpen(false);
+      setContactingBusiness(null);
+      setContactNotes('');
+      
+    } catch (err) {
+      console.error("❌ Error updating contact status:", err);
+      console.error("Error details:", err.response?.data || err.message);
+      alert(`Failed to update contact status: ${err.response?.data?.detail || err.message}`);
     }
   };
 
@@ -582,6 +654,7 @@ function App() {
             </Typography>
             <div className="ag-theme-quartz" style={{ height: '70vh', width: '100%' }}>
               <AgGridReact
+                key={`grid-${filteredData.length}-${JSON.stringify(filteredData.slice(0,1))}`}
                 rowData={filteredData}
                 columnDefs={columnDefs}
                 defaultColDef={{
@@ -688,6 +761,63 @@ function App() {
         </DialogContent>
         <DialogActions>
           <Button onClick={() => setBusinessDetailOpen(false)}>Close</Button>
+        </DialogActions>
+      </Dialog>
+
+      {/* Contact Update Dialog */}
+      <Dialog 
+        open={contactDialogOpen} 
+        onClose={() => setContactDialogOpen(false)}
+        maxWidth="sm"
+        fullWidth
+      >
+        <DialogTitle>
+          Update Contact Status - {contactingBusiness?.['Business Name']}
+        </DialogTitle>
+        <DialogContent>
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, pt: 1 }}>
+            <Typography variant="body2" color="text.secondary">
+              <strong>Business:</strong> {contactingBusiness?.['Business Name']}<br/>
+              <strong>Address:</strong> {contactingBusiness?.Address}<br/>
+              <strong>Phone:</strong> {contactingBusiness?.Phone || 'Not available'}
+            </Typography>
+            
+            <Divider />
+            
+            <TextField
+              label="Contact Notes"
+              multiline
+              rows={4}
+              value={contactNotes}
+              onChange={(e) => setContactNotes(e.target.value)}
+              placeholder="Enter details about your conversation, follow-up needed, etc..."
+              variant="outlined"
+              fullWidth
+            />
+            
+            {contactingBusiness?.['Contact_Date'] && (
+              <Typography variant="body2" color="text.secondary" sx={{ fontStyle: 'italic' }}>
+                Previously contacted on: {contactingBusiness['Contact_Date']}
+              </Typography>
+            )}
+          </Box>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setContactDialogOpen(false)}>Cancel</Button>
+          <Button 
+            onClick={() => handleContactUpdate(false)}
+            color="warning"
+            variant="outlined"
+          >
+            Mark as Not Contacted
+          </Button>
+          <Button 
+            onClick={() => handleContactUpdate(true)}
+            color="success"
+            variant="contained"
+          >
+            Mark as Contacted
+          </Button>
         </DialogActions>
       </Dialog>
     </Box>

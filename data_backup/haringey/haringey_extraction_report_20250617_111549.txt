@@ -1,0 +1,43 @@
+Haringey Spice Business Extraction Report - 20250617_111549
+============================================================
+Total businesses extracted: 312
+
+Haringey Postcode Districts Covered:
+  N2 – East Finchley (part)
+  N4 – Finsbury Park / Harringay (part)
+  N6 – Highgate (shared with Camden and Islington)
+  N8 – Hornsey / Crouch End / Harringay (part)
+  N10 – Muswell Hill (part)
+  N11 – New Southgate (part)
+  N15 – South Tottenham / Seven Sisters
+  N17 – Tottenham
+  N22 – Wood Green / Turnpike Lane / Bowes Park (part)
+
+Priority Breakdown:
+  HIGH: 55
+  LOW: 92
+  MEDIUM: 165
+
+Source Breakdown:
+  OpenStreetMap: 312
+
+Businesses by Postcode District:
+  N2: 168
+  N4: 144
+
+Top High-Priority Spice Businesses in Haringey:
+  1. Indian Rasoi (N2) - indian
+  2. Hing Takeaway (N2) - chinese
+  3. bund (N2) - asian
+  4. Giggling Squid (N2) - thai
+  5. Paramount (N2) - indian
+  6. New Capital Kebab (N2) - kebab
+  7. The Turkish Kebab (N2) - turkish
+  8. Tarshish (N2) - turkish
+  9. Jashan (N2) - indian
+  10. Paradise Kitchen (N2) - kebab
+  11. Salim Spice (N2) - kebab
+  12. Salims Restaurant (N2) - kebab
+  13. Zeera Indian Takeaway (N2) - indian
+  14. Praan Sweets (N2) - indian
+  15. Biryani House (N2) - indian
