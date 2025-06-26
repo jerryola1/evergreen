@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a data extraction pipeline for an evergreen company focusing on spice production.
 
 Currently, two official plugins are available:
 

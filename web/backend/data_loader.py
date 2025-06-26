@@ -16,6 +16,25 @@ def load_and_clean_data() -> List[dict]:
     if not all_files:
         return []
 
+    def get_borough_from_path(file_path: Path) -> str:
+        """Extract borough name from file path dynamically."""
+        # Get the parent folder name (borough folder)
+        borough_folder = file_path.parent.name
+        
+        # Convert folder name to display name
+        # Replace underscores with spaces and title case
+        borough_name = borough_folder.replace('_', ' ').title()
+        
+        # Handle special cases for better display
+        if 'hammersmith' in borough_folder.lower():
+            return 'Hammersmith & Fulham'
+        elif 'richmond' in borough_folder.lower():
+            return 'Richmond upon Thames'
+        elif 'kingston' in borough_folder.lower():
+            return 'Kingston upon Thames'
+        
+        return borough_name
+
     for file in all_files:
         try:
             df = pd.read_csv(file)
@@ -33,11 +52,9 @@ def load_and_clean_data() -> List[dict]:
                 elif 'Oil Priority' in df.columns: df.rename(columns={'Oil Priority': 'Priority'}, inplace=True)
                 elif 'Priority' not in df.columns: df['Priority'] = 'LOW'
 
-            # Standardize Borough column
+            # Dynamically set Borough from folder path
             if 'Borough' not in df.columns:
-                if 'hackney' in str(file).lower(): df['Borough'] = 'Hackney'
-                elif 'haringey' in str(file).lower(): df['Borough'] = 'Haringey'
-                else: df['Borough'] = 'Other'
+                df['Borough'] = get_borough_from_path(file)
             
             data_frames.append(df)
         except Exception:
@@ -48,37 +65,72 @@ def load_and_clean_data() -> List[dict]:
 
     combined_df = pd.concat(data_frames, ignore_index=True)
 
-    # --- Professional Deduplication ---
-    def normalize_key_text(text):
-        return re.sub(r'[^a-z0-9]', '', str(text).lower())
+    # --- Improved Deduplication ---
+    def normalize_business_name(text):
+        # Remove common business suffixes and normalize
+        text = str(text).lower().strip()
+        # Remove common endings
+        for suffix in [' ltd', ' limited', ' restaurant', ' cafe', ' takeaway', ' kitchen', ' grill']:
+            if text.endswith(suffix):
+                text = text[:-len(suffix)].strip()
+        # Remove all non-alphanumeric except spaces
+        text = re.sub(r'[^a-z0-9\s]', '', text)
+        # Remove extra spaces
+        text = re.sub(r'\s+', '', text)
+        return text
 
-    combined_df['normalized_name'] = combined_df['Business Name'].apply(normalize_key_text)
-    combined_df['address_key'] = combined_df['Address'].str.split(',').str[0].apply(normalize_key_text)
-    combined_df['dedupe_key'] = combined_df['normalized_name'] + '_' + combined_df['address_key']
+    def extract_street_name(address):
+        # Extract just the street name/number for better matching
+        if pd.isna(address):
+            return ''
+        address = str(address).lower()
+        # Take first part before first comma and normalize
+        street_part = address.split(',')[0].strip()
+        # Remove numbers and normalize to just street name
+        street_part = re.sub(r'\d+[a-z]*\s*', '', street_part)  # Remove numbers
+        street_part = re.sub(r'[^a-z\s]', '', street_part)  # Keep only letters and spaces
+        street_part = re.sub(r'\s+', '', street_part)  # Remove spaces
+        return street_part
 
-    combined_df['info_score'] = combined_df['Phone'].notna().astype(int) + \
-                                combined_df['Website'].notna().astype(int) + \
-                                (combined_df['Priority'] == 'HIGH').astype(int)
+    # Create better deduplication keys
+    combined_df['normalized_name'] = combined_df['Business Name'].apply(normalize_business_name)
+    combined_df['street_key'] = combined_df['Address'].apply(extract_street_name)
+    combined_df['dedupe_key'] = combined_df['normalized_name'] + '_' + combined_df['street_key']
 
-    combined_df.sort_values('info_score', ascending=False, inplace=True)
-    combined_df.drop_duplicates(subset=['dedupe_key'], keep='first', inplace=True)
+    # Add scoring to keep the best record for each duplicate
+    combined_df['info_score'] = (
+        combined_df['Phone'].notna().astype(int) + 
+        combined_df['Website'].notna().astype(int) + 
+        combined_df['Email'].notna().astype(int) + 
+        (combined_df['Priority'] == 'HIGH').astype(int) * 2 +
+        (combined_df['Priority'] == 'MEDIUM').astype(int)
+    )
+
+    # Sort by score (best first) and deduplicate
+    combined_df.sort_values(['info_score', 'Business Name'], ascending=[False, True], inplace=True)
+    
+    # More aggressive deduplication - also dedupe by name only if very similar
+    combined_df_deduped = combined_df.drop_duplicates(subset=['dedupe_key'], keep='first')
+    
+    # Additional pass: remove businesses with identical names (regardless of address)
+    combined_df_deduped = combined_df_deduped.drop_duplicates(subset=['normalized_name'], keep='first')
     
     # Add contact tracking columns if they don't exist
-    if 'Contacted' not in combined_df.columns:
-        combined_df['Contacted'] = False
-    if 'Contact_Date' not in combined_df.columns:
-        combined_df['Contact_Date'] = ''
-    if 'Contact_Notes' not in combined_df.columns:
-        combined_df['Contact_Notes'] = ''
+    if 'Contacted' not in combined_df_deduped.columns:
+        combined_df_deduped['Contacted'] = False
+    if 'Contact_Date' not in combined_df_deduped.columns:
+        combined_df_deduped['Contact_Date'] = ''
+    if 'Contact_Notes' not in combined_df_deduped.columns:
+        combined_df_deduped['Contact_Notes'] = ''
     
     # Clean up and prepare for JSON
-    combined_df = combined_df.drop(columns=['normalized_name', 'address_key', 'dedupe_key', 'info_score'])
-    combined_df['Postcode'] = combined_df['Postcode'].str.split().str[0]
+    combined_df_deduped = combined_df_deduped.drop(columns=['normalized_name', 'street_key', 'dedupe_key', 'info_score'])
+    combined_df_deduped['Postcode'] = combined_df_deduped['Postcode'].str.split().str[0]
     
     # Convert NaN to None for proper JSON representation
-    combined_df = combined_df.where(pd.notnull(combined_df), None)
+    combined_df_deduped = combined_df_deduped.where(pd.notnull(combined_df_deduped), None)
 
-    return combined_df.to_dict('records')
+    return combined_df_deduped.to_dict('records')
 
 
 def update_contact_status(business_name: str, contacted: bool, contact_notes: Optional[str] = None) -> bool:

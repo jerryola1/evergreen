@@ -254,6 +254,15 @@ function App() {
     return [...new Set(allData.map(item => item[field]))].filter(Boolean).sort();
   };
 
+  const getFilteredPostcodes = () => {
+    if (selectedBorough === 'All') {
+      return getUniqueValues('Postcode');
+    }
+    // Filter postcodes by selected borough
+    const boroughBusinesses = allData.filter(item => item.Borough === selectedBorough);
+    return [...new Set(boroughBusinesses.map(item => item.Postcode))].filter(Boolean).sort();
+  };
+
   const clearFilters = () => {
     setSearchTerm('');
     setSelectedBorough('All');
@@ -577,7 +586,10 @@ function App() {
                   <InputLabel>Borough</InputLabel>
                   <Select
                     value={selectedBorough}
-                    onChange={(e) => setSelectedBorough(e.target.value)}
+                    onChange={(e) => {
+                      setSelectedBorough(e.target.value);
+                      setSelectedPostcode('All'); // Reset postcode when borough changes
+                    }}
                     label="Borough"
                   >
                     <MenuItem value="All">All</MenuItem>
@@ -596,7 +608,7 @@ function App() {
                     label="Postcode"
                   >
                     <MenuItem value="All">All</MenuItem>
-                    {getUniqueValues('Postcode').map(postcode => (
+                    {getFilteredPostcodes().map(postcode => (
                       <MenuItem key={postcode} value={postcode}>{postcode}</MenuItem>
                     ))}
                   </Select>

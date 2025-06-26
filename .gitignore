@@ -26,3 +26,6 @@ dist-ssr
 docs/
 .env
 venv/
+
+start-dev.sh
+start-dev.bat

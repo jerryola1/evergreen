@@ -107,7 +107,7 @@ MEDIUM,Fasta,pasta,"82, Fortis Green Road, London, N2 0, London",N2 0,+44 20 815
 MEDIUM,Finsbury Breakfast,cafe,"194, Stroud Green Road, N4 0, London",N4 0,,,,,,,51.5705589,-0.1145325,OpenStreetMap,False,,
 MEDIUM,Finsbury Park Cafe,coffee_shop,"Endymion Road, London, N4 4, London",N4 4,,https://www.finsburyparkcafe.co.uk/,,,,,51.570018,-0.1034404,OpenStreetMap,False,,
 MEDIUM,Finsbury Park Cafe,coffee_shop,"Endymion Road, London, N4 4, London",N4 4,,,,,,,51.5701492,-0.1036468,OpenStreetMap,False,,
-MEDIUM,Firezza,pizza,"10, Ferme Park Road, London, N4 0, London",N4 0,+44 20 8341 0099,https://www.firezza.com/,,,,,51.5740924,-0.112427,OpenStreetMap,False,,
+MEDIUM,Firezza,pizza,"10, Ferme Park Road, London, N4 0, London",N4 0,+44 20 8341 0099,https://www.firezza.com/,,,,,51.5740924,-0.112427,OpenStreetMap,True,2025-06-25,we spoke
 MEDIUM,Five Guys,burger,"N2 8, Haringey, London",N2 8,,https://restaurants.fiveguys.co.uk/greater-london/unit-12,,,,,51.5946692,-0.1085206,OpenStreetMap,False,,
 MEDIUM,Flame n Taste,fast_food,"N4 0, Haringey, London",N4 0,,,,,,,51.5706432,-0.116114,OpenStreetMap,False,,
 MEDIUM,Food Hall,convenience,"22-24, Turnpike Lane, London, N2 8, London",N2 8,+44 2088 892 264,,,,,,51.5900614,-0.1049941,OpenStreetMap,False,,
