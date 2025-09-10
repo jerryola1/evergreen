@@ -25,7 +25,17 @@ dist-ssr
 
 docs/
 .env
+.env.local
 venv/
 
 start-dev.sh
 start-dev.bat
+
+# Unused Python backend (migrated to Supabase)
+web/
+london_borough_extractor.py
+migrate-data.js
+data/
+data_backup/
+render.yaml
+temp/

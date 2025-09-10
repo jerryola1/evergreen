@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { AgGridReact } from 'ag-grid-react';
 import { ModuleRegistry, AllCommunityModule } from 'ag-grid-community';
-import axios from 'axios';
+import { useBusinessData } from './hooks/useBusinessData';
+import { useAuth } from './contexts/AuthContext';
+import Auth from './components/Auth';
 import {
   Container,
   Grid,
@@ -46,14 +48,15 @@ L.Icon.Default.mergeOptions({
 ModuleRegistry.registerModules([AllCommunityModule]);
 
 function App() {
-  const [allData, setAllData] = useState([]);
+  const { user, loading: authLoading, signOut } = useAuth();
+  const { allData, loading, error, updateContactStatus } = useBusinessData();
   const [filteredData, setFilteredData] = useState([]);
-  const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedBorough, setSelectedBorough] = useState('All');
   const [selectedPostcode, setSelectedPostcode] = useState('All');
   const [selectedLeadType, setSelectedLeadType] = useState('All');
   const [selectedPriority, setSelectedPriority] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedBusiness, setSelectedBusiness] = useState(null);
   const [businessDetailOpen, setBusinessDetailOpen] = useState(false);
   const [searchSuggestions, setSearchSuggestions] = useState([]);
@@ -171,29 +174,12 @@ function App() {
   ];
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        // Use environment-specific API URL
-        const apiUrl = __ENVIRONMENT__ === 'production' ? __PRODUCTION_BACKEND_URL__ : __BACKEND_URL__;
-        console.log('Environment:', __ENVIRONMENT__);
-        console.log('Backend URL:', __BACKEND_URL__);
-        console.log('Production Backend URL:', __PRODUCTION_BACKEND_URL__);
-        console.log('Using API URL:', apiUrl);
-        const response = await axios.get(`${apiUrl}/api/businesses`);
-        setAllData(response.data);
-        setFilteredData(response.data);
-        // Initialize search suggestions
-        setSearchSuggestions(response.data.map(business => ({
-          label: business['Business Name'],
-          data: business
-        })));
-      } catch (err) {
-        console.error("Error fetching data:", err);
-        setError("Failed to connect to the backend. Please ensure the backend server is running.");
-      }
-    };
-    fetchData();
-  }, []);
+    //initialize search suggestions when data loads
+    setSearchSuggestions(allData.map(business => ({
+      label: business['Business Name'],
+      data: business
+    })));
+  }, [allData]);
 
   useEffect(() => {
     let filtered = allData;
@@ -221,8 +207,12 @@ function App() {
       filtered = filtered.filter(business => business.Priority === selectedPriority);
     }
 
+    if (selectedCategory !== 'All') {
+      filtered = filtered.filter(business => business.business_category === selectedCategory);
+    }
+
     setFilteredData(filtered);
-  }, [allData, searchTerm, selectedBorough, selectedPostcode, selectedLeadType, selectedPriority]);
+  }, [allData, searchTerm, selectedBorough, selectedPostcode, selectedLeadType, selectedPriority, selectedCategory]);
 
   const getMetrics = () => {
     const total = filteredData.length;
@@ -232,7 +222,13 @@ function App() {
     const withPhone = filteredData.filter(b => b.Phone).length;
     const withWebsite = filteredData.filter(b => b.Website).length;
     
-    return { total, highPriority, mediumPriority, lowPriority, withPhone, withWebsite };
+    const eateryJoints = filteredData.filter(b => b.business_category === 'Eatery Joints').length;
+    const retailWholesale = filteredData.filter(b => b.business_category === 'Retail and Wholesale Shops').length;
+    const healthCare = filteredData.filter(b => b.business_category === 'Health Care').length;
+    const education = filteredData.filter(b => b.business_category === 'Education').length;
+    const cooperative = filteredData.filter(b => b.business_category === 'Cooperative and Municipal Organization').length;
+    
+    return { total, highPriority, mediumPriority, lowPriority, withPhone, withWebsite, eateryJoints, retailWholesale, healthCare, education, cooperative };
   };
 
   const getChartData = () => {
@@ -269,6 +265,7 @@ function App() {
     setSelectedPostcode('All');
     setSelectedLeadType('All');
     setSelectedPriority('All');
+    setSelectedCategory('All');
   };
 
   const handleBusinessSelect = (event, newValue) => {
@@ -282,40 +279,19 @@ function App() {
     if (!contactingBusiness) return;
     
     try {
-      const apiUrl = __ENVIRONMENT__ === 'production' ? __PRODUCTION_BACKEND_URL__ : __BACKEND_URL__;
+      await updateContactStatus(
+        contactingBusiness['Business Name'],
+        contacted,
+        contactNotes.trim() || null
+      );
       
-      const businessName = encodeURIComponent(contactingBusiness['Business Name']);
-      console.log('Updating contact for:', contactingBusiness['Business Name']);
-      
-      await axios.put(`${apiUrl}/api/businesses/${businessName}/contact`, {
-        contacted: contacted,
-        contact_notes: contactNotes.trim() || null
-      });
-      
-      console.log('✅ Contact status updated successfully');
-      
-      // Refresh data
-      console.log('Refreshing business data...');
-      const response = await axios.get(`${apiUrl}/api/businesses`);
-      
-      // Debug: Check if the updated business is in the response
-      const updatedBusiness = response.data.find(b => b['Business Name'] === contactingBusiness['Business Name']);
-      console.log('Updated business data:', updatedBusiness);
-      console.log('Contact status:', updatedBusiness?.Contacted);
-      console.log('Contact notes:', updatedBusiness?.Contact_Notes);
-      
-      setAllData(response.data);
-      setFilteredData(response.data);
-      
-      console.log('✅ Data refreshed, closing dialog');
       setContactDialogOpen(false);
       setContactingBusiness(null);
       setContactNotes('');
       
     } catch (err) {
-      console.error("❌ Error updating contact status:", err);
-      console.error("Error details:", err.response?.data || err.message);
-      alert(`Failed to update contact status: ${err.response?.data?.detail || err.message}`);
+      console.error("Error updating contact status:", err);
+      alert(`Failed to update contact status: ${err.message}`);
     }
   };
 
@@ -326,6 +302,32 @@ function App() {
 
   const metrics = getMetrics();
   const chartData = getChartData();
+
+  //show loading while auth is initializing
+  if (authLoading) {
+    return (
+      <Container maxWidth="lg" sx={{ mt: 4 }}>
+        <Paper elevation={3} sx={{ p: 3, textAlign: 'center' }}>
+          <Typography variant="h6">Loading...</Typography>
+        </Paper>
+      </Container>
+    );
+  }
+
+  //show login if not authenticated
+  if (!user) {
+    return <Auth />
+  }
+
+  if (loading) {
+    return (
+      <Container maxWidth="lg" sx={{ mt: 4 }}>
+        <Paper elevation={3} sx={{ p: 3, textAlign: 'center' }}>
+          <Typography variant="h6">Loading business data...</Typography>
+        </Paper>
+      </Container>
+    );
+  }
 
   if (error) {
     return (
@@ -338,22 +340,52 @@ function App() {
   }
 
   return (
-    <Box sx={{ flexGrow: 1, bgcolor: '#f5f7fa', minHeight: '100vh' }}>
+    <Box sx={{ 
+      flexGrow: 1, 
+      bgcolor: '#f5f7fa', 
+      minHeight: '100vh',
+      width: '100vw',
+      overflow: 'hidden'
+    }}>
       <AppBar position="static" elevation={0} sx={{ bgcolor: '#1976d2' }}>
         <Toolbar>
-          <Typography variant="h5" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
-            🌿 Evergreen Business Leads Dashboard
+          <Typography 
+            variant="h5" 
+            component="div" 
+            sx={{ 
+              flexGrow: 1, 
+              fontWeight: 'bold',
+              fontSize: { xs: '1.2rem', sm: '1.5rem', md: '1.8rem', lg: '2rem' }
+            }}
+          >
+            Evergreen Business Leads Dashboard
           </Typography>
+          <Typography variant="body2" sx={{ mr: 2 }}>
+            {user?.email}
+          </Typography>
+          <Button 
+            color="inherit" 
+            onClick={signOut}
+            variant="outlined"
+            size="small"
+          >
+            Logout
+          </Button>
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="xl" sx={{ py: 3 }}>
+      <Box sx={{ 
+        py: { xs: 3, lg: 2 }, 
+        px: { xs: 2, sm: 2, md: 2, lg: 1.5, xl: 1.5 },
+        width: '100%',
+        boxSizing: 'border-box'
+      }}>
         {/* Business Search Section */}
-        <Card elevation={2} sx={{ mb: 3 }}>
+        <Card elevation={2} sx={{ mb: { xs: 3, lg: 2 } }}>
           <CardContent>
             <Typography variant="h6" gutterBottom>Find Specific Business</Typography>
             <Grid container spacing={2}>
-              <Grid size={{ xs: 12, md: 6 }}>
+              <Grid size={{ xs: 12, md: 6, lg: 5, xl: 4 }}>
                 <Autocomplete
                   options={searchSuggestions}
                   getOptionLabel={(option) => option.label}
@@ -366,8 +398,10 @@ function App() {
                       fullWidth
                     />
                   )}
-                  renderOption={(props, option) => (
-                    <Box component="li" {...props}>
+                  renderOption={(props, option) => {
+                    const { key, ...otherProps } = props;
+                    return (
+                      <Box component="li" key={key} {...otherProps}>
                       <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
                         <Avatar 
                           sx={{ 
@@ -389,13 +423,14 @@ function App() {
                           </Typography>
                         </Box>
                       </Box>
-                    </Box>
-                  )}
+                      </Box>
+                    );
+                  }}
                 />
               </Grid>
-              <Grid size={{ xs: 12, md: 6 }}>
+              <Grid size={{ xs: 12, md: 6, lg: 7, xl: 8 }}>
                 <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
-                  💡 Start typing to see suggestions, then click on any business to view details and location on map.
+                  Start typing to see suggestions, then click on any business to view details and location on map.
                 </Typography>
               </Grid>
             </Grid>
@@ -412,10 +447,10 @@ function App() {
               Business priorities are automatically assigned based on keywords in the business name and cuisine type to identify the most valuable prospects for each product category.
             </Typography>
             <Grid container spacing={3}>
-              <Grid size={{ xs: 12, md: 6 }}>
+              <Grid size={{ xs: 12, md: 6, lg: 6, xl: 6 }}>
                 <Paper elevation={1} sx={{ p: 2, bgcolor: 'white' }}>
                   <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
-                    🌶️ Spice Products
+                    Spice Products
                   </Typography>
                   <Box sx={{ mb: 1 }}>
                     <Chip label="HIGH" size="small" sx={{ bgcolor: COLORS.HIGH, color: 'white', mr: 1, mb: 1 }} />
@@ -437,10 +472,10 @@ function App() {
                   </Box>
                 </Paper>
               </Grid>
-              <Grid size={{ xs: 12, md: 6 }}>
+              <Grid size={{ xs: 12, md: 6, lg: 6, xl: 6 }}>
                 <Paper elevation={1} sx={{ p: 2, bgcolor: 'white' }}>
                   <Typography variant="subtitle1" fontWeight="bold" gutterBottom>
-                    🍟 Cooking Oil Products
+                    Cooking Oil Products
                   </Typography>
                   <Box sx={{ mb: 1 }}>
                     <Chip label="HIGH" size="small" sx={{ bgcolor: COLORS.HIGH, color: 'white', mr: 1, mb: 1 }} />
@@ -470,8 +505,8 @@ function App() {
         </Card>
 
         {/* Key Metrics */}
-        <Grid container spacing={2} sx={{ mb: 3 }}>
-          <Grid size={{ xs: 6, sm: 4, md: 2 }}>
+        <Grid container spacing={{ xs: 2, lg: 1.5 }} sx={{ mb: { xs: 3, lg: 2 } }}>
+          <Grid size={{ xs: 6, sm: 4, md: 2, lg: 2, xl: 2 }}>
             <Card elevation={2}>
               <CardContent sx={{ textAlign: 'center', py: 2 }}>
                 <Typography variant="h4" color="primary" fontWeight="bold">{metrics.total}</Typography>
@@ -479,7 +514,7 @@ function App() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid size={{ xs: 6, sm: 4, md: 2 }}>
+          <Grid size={{ xs: 6, sm: 4, md: 2, lg: 2, xl: 2 }}>
             <Card elevation={2}>
               <CardContent sx={{ textAlign: 'center', py: 2 }}>
                 <Typography variant="h4" sx={{ color: COLORS.HIGH, fontWeight: 'bold' }}>{metrics.highPriority}</Typography>
@@ -487,7 +522,7 @@ function App() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid size={{ xs: 6, sm: 4, md: 2 }}>
+          <Grid size={{ xs: 6, sm: 4, md: 2, lg: 2, xl: 2 }}>
             <Card elevation={2}>
               <CardContent sx={{ textAlign: 'center', py: 2 }}>
                 <Typography variant="h4" sx={{ color: COLORS.MEDIUM, fontWeight: 'bold' }}>{metrics.mediumPriority}</Typography>
@@ -495,7 +530,7 @@ function App() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid size={{ xs: 6, sm: 4, md: 2 }}>
+          <Grid size={{ xs: 6, sm: 4, md: 2, lg: 2, xl: 2 }}>
             <Card elevation={2}>
               <CardContent sx={{ textAlign: 'center', py: 2 }}>
                 <Typography variant="h4" sx={{ color: COLORS.LOW, fontWeight: 'bold' }}>{metrics.lowPriority}</Typography>
@@ -503,7 +538,7 @@ function App() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid size={{ xs: 6, sm: 4, md: 2 }}>
+          <Grid size={{ xs: 6, sm: 4, md: 2, lg: 2, xl: 2 }}>
             <Card elevation={2}>
               <CardContent sx={{ textAlign: 'center', py: 2 }}>
                 <Typography variant="h4" color="success.main" fontWeight="bold">{metrics.withPhone}</Typography>
@@ -511,7 +546,7 @@ function App() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid size={{ xs: 6, sm: 4, md: 2 }}>
+          <Grid size={{ xs: 6, sm: 4, md: 2, lg: 2, xl: 2 }}>
             <Card elevation={2}>
               <CardContent sx={{ textAlign: 'center', py: 2 }}>
                 <Typography variant="h4" color="info.main" fontWeight="bold">{metrics.withWebsite}</Typography>
@@ -521,9 +556,58 @@ function App() {
           </Grid>
         </Grid>
 
+        {/* Category Metrics */}
+        <Grid container spacing={{ xs: 2, lg: 1.5 }} sx={{ mb: { xs: 3, lg: 2 } }}>
+          <Grid size={{ xs: 12 }}>
+            <Typography variant="h6" gutterBottom color="text.secondary" sx={{ mb: 2 }}>
+              Business Categories
+            </Typography>
+          </Grid>
+          <Grid size={{ xs: 6, sm: 4, md: 2.4, lg: 2.4, xl: 2.4 }}>
+            <Card elevation={2}>
+              <CardContent sx={{ textAlign: 'center', py: 2 }}>
+                <Typography variant="h4" color="primary" fontWeight="bold">{metrics.eateryJoints}</Typography>
+                <Typography variant="body2" color="text.secondary">Eatery Joints</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid size={{ xs: 6, sm: 4, md: 2.4, lg: 2.4, xl: 2.4 }}>
+            <Card elevation={2}>
+              <CardContent sx={{ textAlign: 'center', py: 2 }}>
+                <Typography variant="h4" color="secondary" fontWeight="bold">{metrics.retailWholesale}</Typography>
+                <Typography variant="body2" color="text.secondary">Retail & Wholesale</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid size={{ xs: 6, sm: 4, md: 2.4, lg: 2.4, xl: 2.4 }}>
+            <Card elevation={2}>
+              <CardContent sx={{ textAlign: 'center', py: 2 }}>
+                <Typography variant="h4" color="success.main" fontWeight="bold">{metrics.healthCare}</Typography>
+                <Typography variant="body2" color="text.secondary">Health Care</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid size={{ xs: 6, sm: 4, md: 2.4, lg: 2.4, xl: 2.4 }}>
+            <Card elevation={2}>
+              <CardContent sx={{ textAlign: 'center', py: 2 }}>
+                <Typography variant="h4" color="info.main" fontWeight="bold">{metrics.education}</Typography>
+                <Typography variant="body2" color="text.secondary">Education</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid size={{ xs: 6, sm: 4, md: 2.4, lg: 2.4, xl: 2.4 }}>
+            <Card elevation={2}>
+              <CardContent sx={{ textAlign: 'center', py: 2 }}>
+                <Typography variant="h4" color="warning.main" fontWeight="bold">{metrics.cooperative}</Typography>
+                <Typography variant="body2" color="text.secondary">Cooperative & Municipal</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
+
         {/* Charts */}
-        <Grid container spacing={3} sx={{ mb: 3 }}>
-          <Grid size={{ xs: 12, lg: 6 }}>
+        <Grid container spacing={{ xs: 3, lg: 2 }} sx={{ mb: { xs: 3, lg: 2 } }}>
+          <Grid size={{ xs: 12, md: 6, xl: 6 }}>
             <Card elevation={2}>
               <CardContent>
                 <Typography variant="h6" gutterBottom>Priority Distribution</Typography>
@@ -548,7 +632,7 @@ function App() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid size={{ xs: 12, lg: 6 }}>
+          <Grid size={{ xs: 12, md: 6, xl: 6 }}>
             <Card elevation={2}>
               <CardContent>
                 <Typography variant="h6" gutterBottom>Businesses by Borough</Typography>
@@ -567,11 +651,11 @@ function App() {
         </Grid>
 
         {/* Filters */}
-        <Card elevation={2} sx={{ mb: 3 }}>
+        <Card elevation={2} sx={{ mb: { xs: 3, lg: 2 } }}>
           <CardContent>
             <Typography variant="h6" gutterBottom>Filters & Search</Typography>
             <Grid container spacing={2} alignItems="center">
-              <Grid size={{ xs: 12, lg: 3 }}>
+              <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 2.5 }}>
                 <TextField
                   fullWidth
                   label="Search Business or Address"
@@ -581,7 +665,7 @@ function App() {
                   size="small"
                 />
               </Grid>
-              <Grid size={{ xs: 6, sm: 3, lg: 2 }}>
+              <Grid size={{ xs: 6, sm: 3, md: 2, lg: 1.8, xl: 1.8 }}>
                 <FormControl fullWidth size="small">
                   <InputLabel>Borough</InputLabel>
                   <Select
@@ -599,7 +683,7 @@ function App() {
                   </Select>
                 </FormControl>
               </Grid>
-              <Grid size={{ xs: 6, sm: 3, lg: 2 }}>
+              <Grid size={{ xs: 6, sm: 3, md: 2, lg: 1.8, xl: 1.8 }}>
                 <FormControl fullWidth size="small">
                   <InputLabel>Postcode</InputLabel>
                   <Select
@@ -614,7 +698,7 @@ function App() {
                   </Select>
                 </FormControl>
               </Grid>
-              <Grid size={{ xs: 6, sm: 3, lg: 2 }}>
+              <Grid size={{ xs: 6, sm: 3, md: 2, lg: 1.8, xl: 1.8 }}>
                 <FormControl fullWidth size="small">
                   <InputLabel>Lead Type</InputLabel>
                   <Select
@@ -629,7 +713,7 @@ function App() {
                   </Select>
                 </FormControl>
               </Grid>
-              <Grid size={{ xs: 6, sm: 3, lg: 2 }}>
+              <Grid size={{ xs: 6, sm: 3, md: 2, lg: 1.8, xl: 1.8 }}>
                 <FormControl fullWidth size="small">
                   <InputLabel>Priority</InputLabel>
                   <Select
@@ -644,7 +728,24 @@ function App() {
                   </Select>
                 </FormControl>
               </Grid>
-              <Grid size={{ xs: 12, sm: 3, lg: 1 }}>
+              <Grid size={{ xs: 6, sm: 3, md: 2, lg: 1.8, xl: 1.8 }}>
+                <FormControl fullWidth size="small">
+                  <InputLabel>Category</InputLabel>
+                  <Select
+                    value={selectedCategory}
+                    onChange={(e) => setSelectedCategory(e.target.value)}
+                    label="Category"
+                  >
+                    <MenuItem value="All">All</MenuItem>
+                    <MenuItem value="Eatery Joints">Eatery Joints</MenuItem>
+                    <MenuItem value="Retail and Wholesale Shops">Retail & Wholesale</MenuItem>
+                    <MenuItem value="Health Care">Health Care</MenuItem>
+                    <MenuItem value="Education">Education</MenuItem>
+                    <MenuItem value="Cooperative and Municipal Organization">Cooperative & Municipal</MenuItem>
+                  </Select>
+                </FormControl>
+              </Grid>
+              <Grid size={{ xs: 12, sm: 3, md: 2, lg: 1.4, xl: 1.2 }}>
                 <Button 
                   variant="outlined" 
                   onClick={clearFilters}
@@ -664,7 +765,14 @@ function App() {
             <Typography variant="h6" gutterBottom>
               Business Directory ({filteredData.length} results)
             </Typography>
-            <div className="ag-theme-quartz" style={{ height: '70vh', width: '100%' }}>
+            <div 
+              className="ag-theme-quartz" 
+              style={{ 
+                height: '70vh', 
+                width: '100%',
+                fontSize: 'clamp(12px, 1.5vw, 14px)' 
+              }}
+            >
               <AgGridReact
                 key={`grid-${filteredData.length}-${JSON.stringify(filteredData.slice(0,1))}`}
                 rowData={filteredData}
@@ -686,7 +794,7 @@ function App() {
       </div>
           </CardContent>
         </Card>
-      </Container>
+      </Box>
 
       {/* Business Detail Dialog */}
       <Dialog 
