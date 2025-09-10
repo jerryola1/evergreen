@@ -142,7 +142,7 @@ export default function Auth() {
                 {loading ? 'Loading...' : (isSignUp ? 'Sign Up' : 'Sign In')}
               </Button>
 
-              <Button
+              {/* <Button
                 type="button"
                 fullWidth
                 variant="text"
@@ -150,7 +150,7 @@ export default function Auth() {
                 sx={{ mt: 1 }}
               >
                 {isSignUp ? 'Already have an account? Sign In' : 'Need an account? Sign Up'}
-              </Button>
+              </Button> */}
             </Box>
           </CardContent>
         </Card>
