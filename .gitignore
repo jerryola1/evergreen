@@ -39,3 +39,4 @@ data/
 data_backup/
 render.yaml
 temp/
+start-dev.sh
