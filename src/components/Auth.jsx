@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   Container,
   Paper,
@@ -10,7 +10,9 @@ import {
   Card,
   CardContent,
   AppBar,
-  Toolbar
+  Toolbar,
+  Checkbox,
+  FormControlLabel
 } from '@mui/material'
 import { useAuth } from '../contexts/AuthContext'
 
@@ -21,8 +23,23 @@ export default function Auth() {
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
   const [error, setError] = useState('')
+  const [rememberMe, setRememberMe] = useState(() => {
+    try {
+      return Boolean(localStorage.getItem('evergreen.rememberEmail'))
+    } catch (_) {
+      return false
+    }
+  })
 
   const { signIn, signUp } = useAuth()
+
+  // Initialize email from storage if available
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('evergreen.rememberEmail')
+      if (saved) setEmail(saved)
+    } catch (_) {}
+  }, [])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -46,6 +63,15 @@ export default function Auth() {
         setError(error.message)
       } else if (isSignUp) {
         setMessage('Check your email for verification link')
+      } else {
+        // Save or clear remembered email based on preference
+        try {
+          if (rememberMe) {
+            localStorage.setItem('evergreen.rememberEmail', email)
+          } else {
+            localStorage.removeItem('evergreen.rememberEmail')
+          }
+        } catch (_) {}
       }
     } catch (err) {
       setError('An unexpected error occurred')
@@ -102,22 +128,38 @@ export default function Auth() {
                 fullWidth
                 label="Email"
                 type="email"
+                id="email"
+                name="username"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 margin="normal"
                 required
-                autoComplete="email"
+                autoComplete="username"
               />
               
               <TextField
                 fullWidth
                 label="Password"
                 type="password"
+                id="password"
+                name="current-password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 margin="normal"
                 required
                 autoComplete={isSignUp ? 'new-password' : 'current-password'}
+              />
+
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    checked={rememberMe}
+                    onChange={(e) => setRememberMe(e.target.checked)}
+                    inputProps={{ 'aria-label': 'Remember me' }}
+                  />
+                }
+                label="Remember me"
+                sx={{ mt: 1 }}
               />
 
               {error && (
