@@ -18,7 +18,6 @@ def load_and_clean_data() -> List[dict]:
 
     def get_borough_from_path(file_path: Path) -> str:
         """Extract borough name from file path dynamically."""
-        # Get the parent folder name (borough folder)
         borough_folder = file_path.parent.name
         
         # Convert folder name to display name
@@ -52,7 +51,7 @@ def load_and_clean_data() -> List[dict]:
                 elif 'Oil Priority' in df.columns: df.rename(columns={'Oil Priority': 'Priority'}, inplace=True)
                 elif 'Priority' not in df.columns: df['Priority'] = 'LOW'
 
-            # Dynamically set Borough from folder path
+            
             if 'Borough' not in df.columns:
                 df['Borough'] = get_borough_from_path(file)
             
@@ -80,7 +79,6 @@ def load_and_clean_data() -> List[dict]:
         return text
 
     def extract_street_name(address):
-        # Extract just the street name/number for better matching
         if pd.isna(address):
             return ''
         address = str(address).lower()
