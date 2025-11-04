@@ -20,8 +20,7 @@ def load_and_clean_data() -> List[dict]:
         """Extract borough name from file path dynamically."""
         borough_folder = file_path.parent.name
         
-        # Convert folder name to display name
-        # Replace underscores with spaces and title case
+        
         borough_name = borough_folder.replace('_', ' ').title()
         
         # Handle special cases for better display
@@ -95,7 +94,7 @@ def load_and_clean_data() -> List[dict]:
     combined_df['street_key'] = combined_df['Address'].apply(extract_street_name)
     combined_df['dedupe_key'] = combined_df['normalized_name'] + '_' + combined_df['street_key']
 
-    # Add scoring to keep the best record for each duplicate
+    #add scoring to keep the best record for each duplicate
     combined_df['info_score'] = (
         combined_df['Phone'].notna().astype(int) + 
         combined_df['Website'].notna().astype(int) + 
@@ -110,7 +109,7 @@ def load_and_clean_data() -> List[dict]:
     # More aggressive deduplication - also dedupe by name only if very similar
     combined_df_deduped = combined_df.drop_duplicates(subset=['dedupe_key'], keep='first')
     
-    # Additional pass: remove businesses with identical names (regardless of address)
+    # Additional pass: remove businesses with identical names 
     combined_df_deduped = combined_df_deduped.drop_duplicates(subset=['normalized_name'], keep='first')
     
     # Add contact tracking columns if they don't exist
