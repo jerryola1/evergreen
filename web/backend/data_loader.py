@@ -167,7 +167,7 @@ def update_contact_status(business_name: str, contacted: bool, contact_notes: Op
                 # Save back to CSV with new columns
                 df.to_csv(file, index=False)
                 business_updated = True
-                print(f"✅ Updated {business_name} in {file.name}")
+                print(f"Updated {business_name} in {file.name}")
                 # Don't break - continue to update ALL files that contain this business
                 
         except Exception as e:
