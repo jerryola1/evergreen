@@ -105,11 +105,9 @@ def load_and_clean_data() -> List[dict]:
 
     # Sort by score (best first) and deduplicate
     combined_df.sort_values(['info_score', 'Business Name'], ascending=[False, True], inplace=True)
-    
-    # More aggressive deduplication - also dedupe by name only if very similar
+
     combined_df_deduped = combined_df.drop_duplicates(subset=['dedupe_key'], keep='first')
     
-    # Additional pass: remove businesses with identical names 
     combined_df_deduped = combined_df_deduped.drop_duplicates(subset=['normalized_name'], keep='first')
     
     # Add contact tracking columns if they don't exist
