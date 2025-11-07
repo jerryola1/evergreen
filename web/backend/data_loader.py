@@ -65,7 +65,7 @@ def load_and_clean_data() -> List[dict]:
 
     # --- Improved Deduplication ---
     def normalize_business_name(text):
-        # Remove common business suffixes and normalize
+        # remove common business suffix
         text = str(text).lower().strip()
         # Remove common endings
         for suffix in [' ltd', ' limited', ' restaurant', ' cafe', ' takeaway', ' kitchen', ' grill']:
