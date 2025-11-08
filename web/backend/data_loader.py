@@ -71,7 +71,7 @@ def load_and_clean_data() -> List[dict]:
         for suffix in [' ltd', ' limited', ' restaurant', ' cafe', ' takeaway', ' kitchen', ' grill']:
             if text.endswith(suffix):
                 text = text[:-len(suffix)].strip()
-        # Remove all non-alphanumeric except spaces
+        #remove all non 
         text = re.sub(r'[^a-z0-9\s]', '', text)
         # Remove extra spaces
         text = re.sub(r'\s+', '', text)
