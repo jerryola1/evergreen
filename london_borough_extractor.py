@@ -85,7 +85,7 @@ class LondonBoroughExtractor:
             self.logger.error(f"No postcodes defined for {self.borough_name}")
             return []
             
-        # Expand to include district codes
+       
         expanded_postcodes = []
         for base in base_postcodes:
             for i in range(10):
