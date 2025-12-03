@@ -29,8 +29,8 @@ class BusinessData:
     longitude: Optional[float] = None
     postcode: Optional[str] = None
     source: str = "unknown"
-    priority: str = "low"  # high, medium, low
-    lead_type: str = "general"  # cooking_oil, spice, general
+    priority: str = "low" 
+    lead_type: str = "general"  
 
 class LondonBoroughExtractor:
     def __init__(self, borough_name: str):
@@ -139,7 +139,7 @@ class LondonBoroughExtractor:
         except Exception as e:
             self.logger.error(f"Overpass API error for {postcode}: {str(e)}")
             
-        time.sleep(1)  # Rate limiting
+        time.sleep(1)
         return businesses
 
     def _parse_overpass_data(self, data: Dict, postcode: str) -> List[BusinessData]:
@@ -185,7 +185,7 @@ class LondonBoroughExtractor:
         """Calculate priority and lead type (cooking oil priority)."""
         text_to_check = f"{name} {cuisine} {amenity} {shop}".lower()
         
-        # COOKING OIL (PRIORITY) - High oil consumption businesses
+        # COOKING OIL
         high_oil_keywords = [
             'fish and chips', 'fried', 'chicken', 'kebab', 'fast_food', 'takeaway', 
             'burger', 'pizza', 'friteur', 'chippy', 'wings', 'kfc', 'mcdonald'
