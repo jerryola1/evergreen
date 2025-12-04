@@ -78,12 +78,12 @@ h1 {
   }
   
   /* Hide less important columns on mobile */
-  .ag-theme-quartz .ag-header-cell[aria-colindex="5"], /* Address */
+  .ag-theme-quartz .ag-header-cell[aria-colindex="5"], 
   .ag-theme-quartz .ag-cell[aria-colindex="5"] {
     display: none !important;
   }
   
-  .ag-theme-quartz .ag-header-cell[aria-colindex="7"], /* Phone */
+  .ag-theme-quartz .ag-header-cell[aria-colindex="7"], 
   .ag-theme-quartz .ag-cell[aria-colindex="7"] {
     display: none !important;
   }
